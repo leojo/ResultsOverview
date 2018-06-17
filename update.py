@@ -132,3 +132,5 @@ for exp_dir in exp_dirs:
 
 	with open(post_path_template.format(date_string, exp_num), "w") as post:
 		post.write(post_template.format(exp_num, date_string, overview))
+
+os.system("git add -A && git commit -m \"Updating Overview\" && git pull origin master --no-edit && git push origin master")

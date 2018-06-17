@@ -1,0 +1,60 @@
+---
+layout: post
+title:  "Experiment 136"
+date:   2018-06-17 +0200
+categories: result
+---
+Experiment 136
+Exp 4 and extra_mult 20 did not cause nan (but same config with extra mult 2 did - strange) so I am trying that again wiht a larger extra mult = 100
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+nan | nan | 1635300851797.6577 | 0% | 0/100 | 00:20 | ? | ?it/s]Averag
+
+Separation scores:
+
+Loss|validation
+nan|nan
+
+Sample batch:
+
+![sample_7.png]({{"/results/0136/sample_7.png"| absolute_url}}){:width="1000px"}
+
+![sample_1.png]({{"/results/0136/sample_1.png"| absolute_url}}){:width="1000px"}
+
+![sample_10.png]({{"/results/0136/sample_10.png"| absolute_url}}){:width="1000px"}
+
+![sample_2.png]({{"/results/0136/sample_2.png"| absolute_url}}){:width="1000px"}
+
+![sample_3.png]({{"/results/0136/sample_3.png"| absolute_url}}){:width="1000px"}
+
+![sample_4.png]({{"/results/0136/sample_4.png"| absolute_url}}){:width="1000px"}
+
+![sample_5.png]({{"/results/0136/sample_5.png"| absolute_url}}){:width="1000px"}
+
+![sample_6.png]({{"/results/0136/sample_6.png"| absolute_url}}){:width="1000px"}
+
+![sample_8.png]({{"/results/0136/sample_8.png"| absolute_url}}){:width="1000px"}
+
+![sample_9.png]({{"/results/0136/sample_9.png"| absolute_url}}){:width="1000px"}
+
+Validation batch:
+
+![validation_1.png]({{"/results/0136/validation_1.png"| absolute_url}}){:width="1000px"}
+
+![validation_10.png]({{"/results/0136/validation_10.png"| absolute_url}}){:width="1000px"}
+
+![validation_2.png]({{"/results/0136/validation_2.png"| absolute_url}}){:width="1000px"}
+
+![validation_3.png]({{"/results/0136/validation_3.png"| absolute_url}}){:width="1000px"}
+
+![validation_4.png]({{"/results/0136/validation_4.png"| absolute_url}}){:width="1000px"}
+
+![validation_5.png]({{"/results/0136/validation_5.png"| absolute_url}}){:width="1000px"}
+
+![validation_6.png]({{"/results/0136/validation_6.png"| absolute_url}}){:width="1000px"}
+
+![validation_7.png]({{"/results/0136/validation_7.png"| absolute_url}}){:width="1000px"}
+
+![validation_8.png]({{"/results/0136/validation_8.png"| absolute_url}}){:width="1000px"}
+
+![validation_9.png]({{"/results/0136/validation_9.png"| absolute_url}}){:width="1000px"}
