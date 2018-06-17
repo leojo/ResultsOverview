@@ -4,7 +4,9 @@ import sys
 import glob
 from datetime import datetime
 import locale
-locale.setlocale(locale.LC_TIME, "en_US.utf8")
+print("Synchronizing results directories. This may take a while...")
+os.system("rsync -avz --delete ../sandbox/results results")
+print("Updating markdowns")
 
 def process(string):
 	match = re.search("[0-9]:", string)
@@ -50,15 +52,15 @@ exp_dirs = sorted(glob.glob("results/[0-9]*"))
 post_files = glob.glob("_posts/*-experiment-*.markdown")
 post_path_template = "_posts/{}-experiment-{}.markdown"
 
-posted_experiments = [int(x.split("-")[-1].split(".")[0]) for x in post_files]
+#posted_experiments = [int(x.split("-")[-1].split(".")[0]) for x in post_files]
 
 #for path in exp_dirs:
 #	exp_num = int(os.path.basename(path))
 #	if exp_num not in posted_experiments:
 #		print "Experiment {}".format(exp_num)
 
-for exp_dir in exp_dirs:
-	print "Creating blogpost for {}".format(exp_dir)
+for exp_dir in exp_dirs[-2:-1]:
+	print "Creating markdown for {}".format(exp_dir)
 	overview = ""
 	exp_num = int(os.path.basename(exp_dir))
 	desciption_path = os.path.join(exp_dir, "description.txt")
@@ -110,6 +112,7 @@ for exp_dir in exp_dirs:
 		overview += "\n\nSample batch:\n\n"
 		images = []
 		for img_path in sample_img_paths:
+			print img_path
 			img_description = os.path.basename(img_path)
 			image_entry = img_embed_template\
 				.replace("$D",img_description)\
