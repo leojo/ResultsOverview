@@ -1,0 +1,60 @@
+Sender: LSF System <lsfadmin@lo-s4-036>
+Subject: Job 450583: <python myMain.py results/0111> in cluster <leonhard> Exited
+
+Job <python myMain.py results/0111> was submitted from host <lo-login-02> by user <leoj> in cluster <leonhard> at Wed Jun 13 23:16:57 2018
+Job was executed on host(s) <4*lo-s4-036>, in queue <gpu.4h>, as user <leoj> in cluster <leonhard> at Thu Jun 14 05:15:07 2018
+</cluster/home/leoj> was used as the home directory.
+</cluster/home/leoj/sandbox> was used as the working directory.
+Started at Thu Jun 14 05:15:07 2018
+Terminated at Thu Jun 14 07:45:14 2018
+Results reported at Thu Jun 14 07:45:14 2018
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python myMain.py results/0111
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   897.68 sec.
+    Max Memory :                                 16000 MB
+    Average Memory :                             14651.59 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               0.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                27
+    Run time :                                   9032 sec.
+    Turnaround time :                            30497 sec.
+
+The output (if any) follows:
+
+WARNING:tensorflow:From /cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+WARNING:tensorflow:From /cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/python/util/deprecation.py:497: calling conv1d (from tensorflow.python.ops.nn_ops) with data_format=NHWC is deprecated and will be removed in a future version.
+Instructions for updating:
+`NHWC` for data_format is deprecated, use `NWC` instead
+2018-06-14 05:15:13.559733: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-06-14 05:15:14.043740: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1344] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:07:00.0
+totalMemory: 10.91GiB freeMemory: 10.75GiB
+2018-06-14 05:15:14.043785: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0
+2018-06-14 05:15:14.372201: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-06-14 05:15:14.372471: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 
+2018-06-14 05:15:14.372482: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N 
+2018-06-14 05:15:14.373078: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:07:00.0, compute capability: 6.1)
+  0%|          | 0/100 [00:00<?, ?it/s]Loss: 0.3188, Reconstruction: 0.0988, KL: 22006.1696:   0%|          | 0/100 [08:27<?, ?it/s]Loss: 0.3188, Reconstruction: 0.0988, KL: 22006.1696:   1%|1         | 1/100 [08:27<13:58:11, 508.00s/it]Loss: 0.2382, Reconstruction: 0.0974, KL: 14080.0072:   1%|1         | 1/100 [16:03<26:29:11, 963.15s/it]Loss: 0.2382, Reconstruction: 0.0974, KL: 14080.0072:   2%|2         | 2/100 [16:03<13:06:34, 481.57s/it]Loss: 0.2084, Reconstruction: 0.0982, KL: 11018.4801:   2%|2         | 2/100 [22:52<18:41:02, 686.36s/it]Loss: 0.2084, Reconstruction: 0.0982, KL: 11018.4801:   3%|3         | 3/100 [22:52<12:19:44, 457.57s/it]Loss: 0.1853, Reconstruction: 0.0983, KL: 8702.8904:   3%|3         | 3/100 [28:58<15:36:36, 579.34s/it] Loss: 0.1853, Reconstruction: 0.0983, KL: 8702.8904:   4%|4         | 4/100 [28:58<11:35:12, 434.51s/it]Loss: 0.1676, Reconstruction: 0.0981, KL: 6952.7551:   4%|4         | 4/100 [34:43<13:53:29, 520.93s/it]Loss: 0.1676, Reconstruction: 0.0981, KL: 6952.7551:   5%|5         | 5/100 [34:43<10:59:50, 416.74s/it]Loss: 0.1543, Reconstruction: 0.0981, KL: 5617.4167:   5%|5         | 5/100 [40:29<12:49:12, 485.82s/it]Loss: 0.1543, Reconstruction: 0.0981, KL: 5617.4167:   6%|6         | 6/100 [40:29<10:34:15, 404.85s/it]Loss: 0.1440, Reconstruction: 0.0982, KL: 4586.2464:   6%|6         | 6/100 [46:14<12:04:19, 462.34s/it]Loss: 0.1440, Reconstruction: 0.0982, KL: 4586.2464:   7%|7         | 7/100 [46:14<10:14:14, 396.29s/it]Loss: 0.1364, Reconstruction: 0.0986, KL: 3780.2107:   7%|7         | 7/100 [52:00<11:30:51, 445.72s/it]Loss: 0.1364, Reconstruction: 0.0986, KL: 3780.2107:   8%|8         | 8/100 [52:00<9:58:00, 390.00s/it] Loss: 0.1291, Reconstruction: 0.0977, KL: 3142.7954:   8%|8         | 8/100 [57:50<11:05:05, 433.76s/it]Loss: 0.1291, Reconstruction: 0.0977, KL: 3142.7954:   9%|9         | 9/100 [57:50<9:44:46, 385.56s/it] Loss: 0.1247, Reconstruction: 0.0983, KL: 2633.2433:   9%|9         | 9/100 [1:03:36<10:43:12, 424.10s/it]Loss: 0.1247, Reconstruction: 0.0983, KL: 2633.2433:  10%|#         | 10/100 [1:03:36<9:32:31, 381.69s/it]Loss: 0.1203, Reconstruction: 0.0981, KL: 2221.7948:  10%|#         | 10/100 [1:09:22<10:24:18, 416.21s/it]Loss: 0.1203, Reconstruction: 0.0981, KL: 2221.7948:  11%|#1        | 11/100 [1:09:22<9:21:15, 378.37s/it] Loss: 0.1173, Reconstruction: 0.0984, KL: 1886.5592:  11%|#1        | 11/100 [1:15:15<10:08:57, 410.53s/it]Loss: 0.1173, Reconstruction: 0.0984, KL: 1886.5592:  12%|#2        | 12/100 [1:15:15<9:11:56, 376.32s/it] Loss: 0.1142, Reconstruction: 0.0980, KL: 1611.1030:  12%|#2        | 12/100 [1:21:12<9:55:33, 406.07s/it]Loss: 0.1142, Reconstruction: 0.0980, KL: 1611.1030:  13%|#3        | 13/100 [1:21:12<9:03:30, 374.83s/it]Loss: 0.1118, Reconstruction: 0.0980, KL: 1383.0526:  13%|#3        | 13/100 [1:27:04<9:42:46, 401.92s/it]Loss: 0.1118, Reconstruction: 0.0980, KL: 1383.0526:  14%|#4        | 14/100 [1:27:04<8:54:55, 373.21s/it]Loss: 0.1090, Reconstruction: 0.0971, KL: 1192.9276:  14%|#4        | 14/100 [1:32:55<9:30:49, 398.25s/it]Loss: 0.1090, Reconstruction: 0.0971, KL: 1192.9276:  15%|#5        | 15/100 [1:32:55<8:46:34, 371.70s/it]Loss: 0.1083, Reconstruction: 0.0980, KL: 1033.3970:  15%|#5        | 15/100 [1:38:47<9:19:51, 395.19s/it]Loss: 0.1083, Reconstruction: 0.0980, KL: 1033.3970:  16%|#6        | 16/100 [1:38:47<8:38:41, 370.49s/it]Loss: 0.1070, Reconstruction: 0.0980, KL: 898.7476:  16%|#6        | 16/100 [1:44:41<9:09:39, 392.61s/it] Loss: 0.1070, Reconstruction: 0.0980, KL: 898.7476:  17%|#7        | 17/100 [1:44:41<8:31:10, 369.52s/it]Loss: 0.1064, Reconstruction: 0.0985, KL: 784.4797:  17%|#7        | 17/100 [1:50:37<9:00:08, 390.47s/it]Loss: 0.1064, Reconstruction: 0.0985, KL: 784.4797:  18%|#8        | 18/100 [1:50:37<8:23:59, 368.78s/it]Loss: 0.1045, Reconstruction: 0.0977, KL: 687.0267:  18%|#8        | 18/100 [1:56:30<8:50:44, 388.35s/it]Loss: 0.1045, Reconstruction: 0.0977, KL: 687.0267:  19%|#9        | 19/100 [1:56:30<8:16:40, 367.91s/it]Loss: 0.1040, Reconstruction: 0.0979, KL: 603.5313:  19%|#9        | 19/100 [2:02:31<8:42:19, 386.90s/it]Loss: 0.1040, Reconstruction: 0.0979, KL: 603.5313:  20%|##        | 20/100 [2:02:31<8:10:04, 367.56s/it]Loss: 0.1028, Reconstruction: 0.0975, KL: 531.6857:  20%|##        | 20/100 [2:08:37<8:34:31, 385.89s/it]Loss: 0.1028, Reconstruction: 0.0975, KL: 531.6857:  21%|##1       | 21/100 [2:08:37<8:03:53, 367.51s/it]Loss: 0.1031, Reconstruction: 0.0984, KL: 469.6176:  21%|##1       | 21/100 [2:14:41<8:26:43, 384.85s/it]Loss: 0.1031, Reconstruction: 0.0984, KL: 469.6176:  22%|##2       | 22/100 [2:14:41<7:57:33, 367.36s/it]Loss: 0.1022, Reconstruction: 0.0981, KL: 415.8011:  22%|##2       | 22/100 [2:20:36<8:18:31, 383.48s/it]Loss: 0.1022, Reconstruction: 0.0981, KL: 415.8011:  23%|##3       | 23/100 [2:20:36<7:50:44, 366.81s/it]Loss: 0.1016, Reconstruction: 0.0979, KL: 368.9758:  23%|##3       | 23/100 [2:26:32<8:10:34, 382.27s/it]Loss: 0.1016, Reconstruction: 0.0979, KL: 368.9758:  24%|##4       | 24/100 [2:26:32<7:44:01, 366.34s/it]Traceback (most recent call last):
+  File "myMain.py", line 40, in <module>
+    x, x_org = config.get_training_batch()
+  File "/cluster/home/leoj/sandbox/results/0111/config.py", line 80, in get_training_batch
+    samples = np.asarray(samples)
+  File "/cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/numpy/core/numeric.py", line 492, in asarray
+    return array(a, dtype, copy=False, order=order)
+KeyboardInterrupt

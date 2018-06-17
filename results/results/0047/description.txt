@@ -1,0 +1,2 @@
+Experiment 47
+Rerunning experiment 41 with use_square = True

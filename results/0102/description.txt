@@ -1,0 +1,3 @@
+Experiment 102
+Trying 100 latent dim with kl_extra_exponent = 2, learning_rate = 1e-3 and kl_multiplier = 1e-3 for cello data.
+Also trying bigger filters, increased filter size by 2 both for conv and deconv

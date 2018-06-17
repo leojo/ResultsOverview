@@ -1,0 +1,2 @@
+Experiment 53
+Flute data only with latent dim 5, proper normalization and recontruction_mult=16000

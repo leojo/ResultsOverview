@@ -1,0 +1,2 @@
+Experiment 101
+Trying 10 latent dim with kl_extra_exponent = 4, learning_rate = 1e-4 and kl_multiplier = 1e-3 for cello data

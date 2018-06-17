@@ -1,0 +1,44 @@
+Sender: LSF System <lsfadmin@lo-s4-037>
+Subject: Job 399250: <python myMain.py results/0010> in cluster <leonhard> Exited
+
+Job <python myMain.py results/0010> was submitted from host <lo-login-02> by user <leoj> in cluster <leonhard> at Sat May 12 14:43:40 2018.
+Job was executed on host(s) <4*lo-s4-037>, in queue <gpu.4h>, as user <leoj> in cluster <leonhard> at Sat May 12 14:43:59 2018.
+</cluster/home/leoj> was used as the home directory.
+</cluster/home/leoj/sandbox> was used as the working directory.
+Started at Sat May 12 14:43:59 2018.
+Terminated at Sat May 12 14:44:05 2018.
+Results reported at Sat May 12 14:44:05 2018.
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python myMain.py results/0010
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   2.12 sec.
+    Max Memory :                                 641 MB
+    Average Memory :                             266.00 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               15359.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   26 sec.
+    Turnaround time :                            25 sec.
+
+The output (if any) follows:
+
+WARNING:tensorflow:From /cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+Traceback (most recent call last):
+  File "myMain.py", line 16, in <module>
+    val_data, val_originals = config.get_validation_data()
+  File "/cluster/home/leoj/sandbox/config.py", line 56, in get_validation_data
+    data.append(self._val_data[idx])
+IndexError: index 10 is out of bounds for axis 0 with size 10

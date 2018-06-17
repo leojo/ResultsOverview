@@ -1,0 +1,2 @@
+Experiment 120
+Trying kl_mult=1e-4 and kl_extra_mult=50 on cello + sax-baritone data loaded in the more eficient manner

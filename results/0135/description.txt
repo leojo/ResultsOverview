@@ -1,0 +1,2 @@
+Experiment 135
+If exp 4 caused nan, trying with use_square = True and extra_mult = 100

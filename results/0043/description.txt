@@ -1,0 +1,2 @@
+Experiment 43
+Rerunning experiment 33 with clarinet instead of flute, because flute causes nan (need to investigate why)

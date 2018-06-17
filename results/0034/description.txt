@@ -1,0 +1,3 @@
+Experiment 34
+Rerunning experiment 31 with only proper pairs of waves.
+Accidentally had all combinations of i and j instead of only i,j where j>i.

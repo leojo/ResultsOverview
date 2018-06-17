@@ -1,0 +1,2 @@
+Experiment 99
+Trying same configs as exp 98 except with latent dim 10 instead of 100

@@ -1,0 +1,2 @@
+Experiment 35
+Chello only, 100 epochs, 10x kl mult

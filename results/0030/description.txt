@@ -1,0 +1,2 @@
+Experiment 30
+Config like that of experiment 29 except using 2 instruments instead of 1

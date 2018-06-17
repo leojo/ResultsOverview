@@ -1,0 +1,73 @@
+Sender: LSF System <lsfadmin@lo-s4-035>
+Subject: Job 433220: <python myMain.py results/0041> in cluster <leonhard> Exited
+
+Job <python myMain.py results/0041> was submitted from host <lo-login-02> by user <leoj> in cluster <leonhard> at Sun Jun  3 20:58:17 2018.
+Job was executed on host(s) <4*lo-s4-035>, in queue <gpu.4h>, as user <leoj> in cluster <leonhard> at Sun Jun  3 20:58:30 2018.
+</cluster/home/leoj> was used as the home directory.
+</cluster/home/leoj/sandbox> was used as the working directory.
+Started at Sun Jun  3 20:58:30 2018.
+Terminated at Sun Jun  3 21:00:52 2018.
+Results reported at Sun Jun  3 21:00:52 2018.
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python myMain.py results/0041
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   132.34 sec.
+    Max Memory :                                 15941 MB
+    Average Memory :                             11462.20 MB
+    Total Requested Memory :                     16000.00 MB
+    Delta Memory :                               59.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                27
+    Run time :                                   166 sec.
+    Turnaround time :                            155 sec.
+
+The output (if any) follows:
+
+WARNING:tensorflow:From /cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+WARNING:tensorflow:From /cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/python/util/deprecation.py:497: calling conv1d (from tensorflow.python.ops.nn_ops) with data_format=NHWC is deprecated and will be removed in a future version.
+Instructions for updating:
+`NHWC` for data_format is deprecated, use `NWC` instead
+2018-06-03 20:59:21.996219: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-06-03 20:59:22.474012: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1344] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:08:00.0
+totalMemory: 10.91GiB freeMemory: 10.75GiB
+2018-06-03 20:59:22.474055: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0
+2018-06-03 20:59:23.435819: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-06-03 20:59:23.435880: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 
+2018-06-03 20:59:23.435889: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N 
+2018-06-03 20:59:23.436413: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:08:00.0, compute capability: 6.1)
+  0%|          | 0/100 [00:00<?, ?it/s]Loss: nan, Reconstruction: nan, KL: 1840000022854.0178:   0%|          | 0/100 [00:18<?, ?it/s]Loss: nan, Reconstruction: nan, KL: 1840000022854.0178:   1%|1         | 1/100 [00:18<31:15, 18.95s/it]Loss: nan, Reconstruction: nan, KL: 2000000000000.0000:   1%|1         | 1/100 [00:36<1:00:11, 36.48s/it]Loss: nan, Reconstruction: nan, KL: 2000000000000.0000:   2%|2         | 2/100 [00:36<29:47, 18.24s/it]  Loss: nan, Reconstruction: nan, KL: 2000000000000.0000:   2%|2         | 2/100 [00:54<44:06, 27.00s/it]Loss: nan, Reconstruction: nan, KL: 2000000000000.0000:   3%|3         | 3/100 [00:54<29:06, 18.00s/it]Loss: nan, Reconstruction: nan, KL: 2000000000000.0000:   3%|3         | 3/100 [01:11<38:33, 23.86s/it]Loss: nan, Reconstruction: nan, KL: 2000000000000.0000:   4%|4         | 4/100 [01:11<28:37, 17.89s/it]Tensor("vae/decoder0/conv-final-decoder/BiasAdd:0", shape=(128, 16000, 1), dtype=float32)
+Tensor("vae/decoder1/conv-final-decoder/BiasAdd:0", shape=(128, 16000, 1), dtype=float32)
+(41895, 16000, 1)
+Traceback (most recent call last):
+  File "myMain.py", line 48, in <module>
+    loss, loss1, loss2 = vae.update(x, kl_loss_mult)
+  File "/cluster/home/leoj/sandbox/vae.py", line 200, in update
+    feed_dict={self.x: x, self.kl_loss_mult: kl_loss_mult})
+  File "/cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 905, in run
+    run_metadata_ptr)
+  File "/cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1140, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1321, in _do_run
+    run_metadata)
+  File "/cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1327, in _do_call
+    return fn(*args)
+  File "/cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1312, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1420, in _call_tf_sessionrun
+    status, run_metadata)
+KeyboardInterrupt
