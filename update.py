@@ -5,7 +5,7 @@ import glob
 from datetime import datetime
 import locale
 print("Synchronizing results directories. This may take a while...")
-os.system("rsync -avz --delete ../sandbox/results results")
+os.system("rsync -avz --delete ../sandbox/results .")
 print("Updating markdowns")
 
 def process(string):
@@ -59,7 +59,7 @@ post_path_template = "_posts/{}-experiment-{}.markdown"
 #	if exp_num not in posted_experiments:
 #		print "Experiment {}".format(exp_num)
 
-for exp_dir in exp_dirs[-2:-1]:
+for exp_dir in exp_dirs:
 	print "Creating markdown for {}".format(exp_dir)
 	overview = ""
 	exp_num = int(os.path.basename(exp_dir))
@@ -112,7 +112,6 @@ for exp_dir in exp_dirs[-2:-1]:
 		overview += "\n\nSample batch:\n\n"
 		images = []
 		for img_path in sample_img_paths:
-			print img_path
 			img_description = os.path.basename(img_path)
 			image_entry = img_embed_template\
 				.replace("$D",img_description)\

@@ -15,8 +15,6 @@ nan | nan | 2000000000000.0000 | 100% | 100/100 | 2:20:12 | 00:00 | 84.13s/it
 
 Sample batch:
 
-![sample_7.png]({{"/results/0104/sample_7.png"| absolute_url}}){:width="1000px"}
-
 ![sample_1.png]({{"/results/0104/sample_1.png"| absolute_url}}){:width="1000px"}
 
 ![sample_10.png]({{"/results/0104/sample_10.png"| absolute_url}}){:width="1000px"}
@@ -30,6 +28,8 @@ Sample batch:
 ![sample_5.png]({{"/results/0104/sample_5.png"| absolute_url}}){:width="1000px"}
 
 ![sample_6.png]({{"/results/0104/sample_6.png"| absolute_url}}){:width="1000px"}
+
+![sample_7.png]({{"/results/0104/sample_7.png"| absolute_url}}){:width="1000px"}
 
 ![sample_8.png]({{"/results/0104/sample_8.png"| absolute_url}}){:width="1000px"}
 

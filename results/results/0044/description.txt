@@ -1,3 +1,0 @@
-Experiment 44
-Based on experiment 34
-400 epochs, 10x kl mult and 50x kl extra mult.

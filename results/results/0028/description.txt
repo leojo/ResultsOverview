@@ -1,3 +1,0 @@
-Experiment 28
-Testing the run specific configs.
-Should have 70 epochs

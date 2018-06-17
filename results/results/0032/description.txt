@@ -1,2 +1,0 @@
-Experiment 32
-Still only chello and latent dimension 100. Now with 10x kl multiplier.

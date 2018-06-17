@@ -1,2 +1,0 @@
-Experiment 112
-Trying cello and sax-baritone, with kl_extra_mult = 20, larger filter and single core

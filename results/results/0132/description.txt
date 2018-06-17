@@ -1,2 +1,0 @@
-Experiment 132
-Checking to see if exponent 4 causes nan

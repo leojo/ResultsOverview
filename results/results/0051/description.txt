@@ -1,2 +1,0 @@
-Experiment 51
-Flute data with linalg normalization of batches, 100 latent dim, standard kl constants, 2 second audio at 8000 samples per second.

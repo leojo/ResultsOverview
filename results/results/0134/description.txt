@@ -1,2 +1,0 @@
-Experiment 134
-exp 4 caused nan, trying with use_square = True and extra_mult = 20

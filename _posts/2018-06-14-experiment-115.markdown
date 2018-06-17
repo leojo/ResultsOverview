@@ -39,11 +39,11 @@ Sample batch:
 
 Validation batch:
 
-![validation_2.png]({{"/results/0115/validation_2.png"| absolute_url}}){:width="1000px"}
-
 ![validation_1.png]({{"/results/0115/validation_1.png"| absolute_url}}){:width="1000px"}
 
 ![validation_10.png]({{"/results/0115/validation_10.png"| absolute_url}}){:width="1000px"}
+
+![validation_2.png]({{"/results/0115/validation_2.png"| absolute_url}}){:width="1000px"}
 
 ![validation_3.png]({{"/results/0115/validation_3.png"| absolute_url}}){:width="1000px"}
 

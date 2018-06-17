@@ -1,2 +1,0 @@
-Experiment 29
-Rerunning experiment 25 after the automation changes as a sanity check after tests 26-28 confirmed the efficacy of the change.

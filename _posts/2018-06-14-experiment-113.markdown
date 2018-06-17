@@ -18,8 +18,6 @@ samples|validation
 
 Sample batch:
 
-![sample_7.png]({{"/results/0113/sample_7.png"| absolute_url}}){:width="1000px"}
-
 ![sample_1.png]({{"/results/0113/sample_1.png"| absolute_url}}){:width="1000px"}
 
 ![sample_10.png]({{"/results/0113/sample_10.png"| absolute_url}}){:width="1000px"}
@@ -33,6 +31,8 @@ Sample batch:
 ![sample_5.png]({{"/results/0113/sample_5.png"| absolute_url}}){:width="1000px"}
 
 ![sample_6.png]({{"/results/0113/sample_6.png"| absolute_url}}){:width="1000px"}
+
+![sample_7.png]({{"/results/0113/sample_7.png"| absolute_url}}){:width="1000px"}
 
 ![sample_8.png]({{"/results/0113/sample_8.png"| absolute_url}}){:width="1000px"}
 
