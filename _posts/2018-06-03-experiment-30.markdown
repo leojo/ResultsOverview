@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Experiment 30"
+date:   2018-06-03 +0200
+categories: result
+---
+Experiment 30
+Config like that of experiment 29 except using 2 instruments instead of 1
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0018 | 0.0008 | 3217.9204 | 100% | 400/400 | 2:20:05 | 00:00 | 21.01s/it
+
+
+
+Sample batch:
+
+![sample_plots.png]({{"/results/0030/sample_plots.png"| absolute_url}}){:width="1000px"}
+
+Validation batch:
+
+![validation_plots.png]({{"/results/0030/validation_plots.png"| absolute_url}}){:width="1000px"}

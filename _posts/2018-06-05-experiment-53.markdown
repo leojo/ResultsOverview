@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Experiment 53"
+date:   2018-06-05 +0200
+categories: result
+---
+Experiment 53
+Flute data only with latent dim 5, proper normalization and recontruction_mult=16000
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0062 | 0.0000 | 1431.9712 | 100% | 100/100 | 34:22 | 00:00 | 20.63s/it
+
+
+
+Sample batch:
+
+![sample_plots.png]({{"/results/0053/sample_plots.png"| absolute_url}}){:width="1000px"}
+
+Validation batch:
+
+![validation_plots.png]({{"/results/0053/validation_plots.png"| absolute_url}}){:width="1000px"}

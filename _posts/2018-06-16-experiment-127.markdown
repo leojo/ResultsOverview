@@ -1,0 +1,61 @@
+---
+layout: post
+title:  "Experiment 127"
+date:   2018-06-16 +0200
+categories: result
+---
+Experiment 127
+Experiment 126 did not have a great sample score and an even worse validation score.
+Trying to train for 200 epochs to see if that makes a difference, since this is much more data
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0045 | 0.0021 | 238.1623 | 100% | 200/200 | 1:09:47 | 00:00 | 20.94s/it
+
+Separation scores:
+
+samples|validation
+32.7891176081|102.312932428
+
+Sample batch:
+
+![sample_7.png]({{"/results/0127/sample_7.png"| absolute_url}}){:width="1000px"}
+
+![sample_1.png]({{"/results/0127/sample_1.png"| absolute_url}}){:width="1000px"}
+
+![sample_10.png]({{"/results/0127/sample_10.png"| absolute_url}}){:width="1000px"}
+
+![sample_2.png]({{"/results/0127/sample_2.png"| absolute_url}}){:width="1000px"}
+
+![sample_3.png]({{"/results/0127/sample_3.png"| absolute_url}}){:width="1000px"}
+
+![sample_4.png]({{"/results/0127/sample_4.png"| absolute_url}}){:width="1000px"}
+
+![sample_5.png]({{"/results/0127/sample_5.png"| absolute_url}}){:width="1000px"}
+
+![sample_6.png]({{"/results/0127/sample_6.png"| absolute_url}}){:width="1000px"}
+
+![sample_8.png]({{"/results/0127/sample_8.png"| absolute_url}}){:width="1000px"}
+
+![sample_9.png]({{"/results/0127/sample_9.png"| absolute_url}}){:width="1000px"}
+
+Validation batch:
+
+![validation_1.png]({{"/results/0127/validation_1.png"| absolute_url}}){:width="1000px"}
+
+![validation_10.png]({{"/results/0127/validation_10.png"| absolute_url}}){:width="1000px"}
+
+![validation_2.png]({{"/results/0127/validation_2.png"| absolute_url}}){:width="1000px"}
+
+![validation_3.png]({{"/results/0127/validation_3.png"| absolute_url}}){:width="1000px"}
+
+![validation_4.png]({{"/results/0127/validation_4.png"| absolute_url}}){:width="1000px"}
+
+![validation_5.png]({{"/results/0127/validation_5.png"| absolute_url}}){:width="1000px"}
+
+![validation_6.png]({{"/results/0127/validation_6.png"| absolute_url}}){:width="1000px"}
+
+![validation_7.png]({{"/results/0127/validation_7.png"| absolute_url}}){:width="1000px"}
+
+![validation_8.png]({{"/results/0127/validation_8.png"| absolute_url}}){:width="1000px"}
+
+![validation_9.png]({{"/results/0127/validation_9.png"| absolute_url}}){:width="1000px"}

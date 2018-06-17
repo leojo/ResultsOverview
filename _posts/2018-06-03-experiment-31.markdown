@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Experiment 31"
+date:   2018-06-03 +0200
+categories: result
+---
+Experiment 31
+Only chello but with latent dimension 100. No other changes
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0001 | 0.0001 | 219.1667 | 100% | 400/400 | 2:19:38 | 00:00 | 20.95s/it
+
+
+
+Sample batch:
+
+![sample_plots.png]({{"/results/0031/sample_plots.png"| absolute_url}}){:width="1000px"}
+
+Validation batch:
+
+![validation_plots.png]({{"/results/0031/validation_plots.png"| absolute_url}}){:width="1000px"}

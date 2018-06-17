@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "Experiment 116"
+date:   2018-06-15 +0200
+categories: result
+---
+Experiment 116
+Trying to load model 0103 and plot some images
+
+Failed to complete!
+
+Separation scores:
+
+samples|validation
+18.4178251697|10.8239787779
+
+Validation batch:
+
+![validation_1.png]({{"/results/0116/validation_1.png"| absolute_url}}){:width="1000px"}
+
+![validation_10.png]({{"/results/0116/validation_10.png"| absolute_url}}){:width="1000px"}
+
+![validation_2.png]({{"/results/0116/validation_2.png"| absolute_url}}){:width="1000px"}
+
+![validation_3.png]({{"/results/0116/validation_3.png"| absolute_url}}){:width="1000px"}
+
+![validation_4.png]({{"/results/0116/validation_4.png"| absolute_url}}){:width="1000px"}
+
+![validation_5.png]({{"/results/0116/validation_5.png"| absolute_url}}){:width="1000px"}
+
+![validation_6.png]({{"/results/0116/validation_6.png"| absolute_url}}){:width="1000px"}
+
+![validation_7.png]({{"/results/0116/validation_7.png"| absolute_url}}){:width="1000px"}
+
+![validation_8.png]({{"/results/0116/validation_8.png"| absolute_url}}){:width="1000px"}
+
+![validation_9.png]({{"/results/0116/validation_9.png"| absolute_url}}){:width="1000px"}

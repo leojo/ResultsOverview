@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Experiment 46"
+date:   2018-06-04 +0200
+categories: result
+---
+Experiment 46
+Rerunning experiment 33 with use_square = True
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0130 | 0.0123 | 2092.2980 | 100% | 100/100 | 35:01 | 00:00 | 21.02s/it
+
+
+
+Sample batch:
+
+![sample_plots.png]({{"/results/0046/sample_plots.png"| absolute_url}}){:width="1000px"}
+
+Validation batch:
+
+![validation_plots.png]({{"/results/0046/validation_plots.png"| absolute_url}}){:width="1000px"}

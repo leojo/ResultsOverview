@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Experiment 37"
+date:   2018-06-03 +0200
+categories: result
+---
+Experiment 37
+Chello only, 50% larger kl extra mult (compared to exp 34)
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0003 | 0.0002 | 545.2756 | 100% | 100/100 | 34:08 | 00:00 | 20.48s/it
+
+
+
+Sample batch:
+
+![sample_plots.png]({{"/results/0037/sample_plots.png"| absolute_url}}){:width="1000px"}
+
+Validation batch:
+
+![validation_plots.png]({{"/results/0037/validation_plots.png"| absolute_url}}){:width="1000px"}

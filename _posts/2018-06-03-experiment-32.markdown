@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Experiment 32"
+date:   2018-06-03 +0200
+categories: result
+---
+Experiment 32
+Still only chello and latent dimension 100. Now with 10x kl multiplier.
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0004 | 0.0002 | 77.1439 | 100% | 400/400 | 2:18:51 | 00:00 | 20.83s/it
+
+
+
+Sample batch:
+
+![sample_plots.png]({{"/results/0032/sample_plots.png"| absolute_url}}){:width="1000px"}
+
+Validation batch:
+
+![validation_plots.png]({{"/results/0032/validation_plots.png"| absolute_url}}){:width="1000px"}

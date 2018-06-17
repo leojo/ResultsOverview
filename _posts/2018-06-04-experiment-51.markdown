@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Experiment 51"
+date:   2018-06-04 +0200
+categories: result
+---
+Experiment 51
+Flute data with linalg normalization of batches, 100 latent dim, standard kl constants, 2 second audio at 8000 samples per second.
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0000 | 0.0000 | 2.0000 | 100% | 100/100 | 34:09 | 00:00 | 20.50s/it
+
+
+
+Sample batch:
+
+![sample_plots.png]({{"/results/0051/sample_plots.png"| absolute_url}}){:width="1000px"}
+
+Validation batch:
+
+![validation_plots.png]({{"/results/0051/validation_plots.png"| absolute_url}}){:width="1000px"}

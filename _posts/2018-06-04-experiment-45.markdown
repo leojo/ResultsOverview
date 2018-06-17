@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Experiment 45"
+date:   2018-06-04 +0200
+categories: result
+---
+Experiment 45
+Same as experiment 44 but with kl extra exp = 4
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0012 | 0.0007 | 150.6366 | 100% | 400/400 | 2:19:11 | 00:00 | 20.88s/it
+
+
+
+Sample batch:
+
+![sample_plots.png]({{"/results/0045/sample_plots.png"| absolute_url}}){:width="1000px"}
+
+Validation batch:
+
+![validation_plots.png]({{"/results/0045/validation_plots.png"| absolute_url}}){:width="1000px"}

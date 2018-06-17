@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Experiment 43"
+date:   2018-06-03 +0200
+categories: result
+---
+Experiment 43
+Rerunning experiment 33 with clarinet instead of flute, because flute causes nan (need to investigate why)
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+nan | nan | 2000000000000.0000 | 100% | 100/100 | 29:42 | 00:00 | 17.83s/it
+
+
+
+Sample batch:
+
+![sample_plots.png]({{"/results/0043/sample_plots.png"| absolute_url}}){:width="1000px"}
+
+Validation batch:
+
+![validation_plots.png]({{"/results/0043/validation_plots.png"| absolute_url}}){:width="1000px"}

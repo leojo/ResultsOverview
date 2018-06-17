@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Experiment 26"
+date:   2018-06-02 +0200
+categories: result
+---
+Experiment 26
+Testing the run specific configs.
+Should have 50 epochs
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0046 | 0.0036 | 3344.4785 | 100% | 50/50 | 17:19 | 00:00 | 20.80s/it
+
+
+
+Sample batch:
+
+![sample_plots.png]({{"/results/0026/sample_plots.png"| absolute_url}}){:width="1000px"}
+
+Validation batch:
+
+![validation_plots.png]({{"/results/0026/validation_plots.png"| absolute_url}}){:width="1000px"}

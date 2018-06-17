@@ -1,0 +1,61 @@
+---
+layout: post
+title:  "Experiment 123"
+date:   2018-06-15 +0200
+categories: result
+---
+Experiment 123
+After some testing it has become clear that the good validation results of experiment 106 were in fact the result of improper validation set creation, the combinations were never used for training but the individual parts more than likely were.
+In light of this I am resuming my search for the correct parameters where I left of in experiment 121. To try and combat overfitting I will be using clarinet data and cello_bad data.
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0110 | 0.0064 | 466.7146 | 100% | 100/100 | 35:06 | 00:00 | 21.06s/it
+
+Separation scores:
+
+samples|validation
+41.8625288589|101.771893889
+
+Sample batch:
+
+![sample_7.png]({{"/results/0123/sample_7.png"| absolute_url}}){:width="1000px"}
+
+![sample_1.png]({{"/results/0123/sample_1.png"| absolute_url}}){:width="1000px"}
+
+![sample_10.png]({{"/results/0123/sample_10.png"| absolute_url}}){:width="1000px"}
+
+![sample_2.png]({{"/results/0123/sample_2.png"| absolute_url}}){:width="1000px"}
+
+![sample_3.png]({{"/results/0123/sample_3.png"| absolute_url}}){:width="1000px"}
+
+![sample_4.png]({{"/results/0123/sample_4.png"| absolute_url}}){:width="1000px"}
+
+![sample_5.png]({{"/results/0123/sample_5.png"| absolute_url}}){:width="1000px"}
+
+![sample_6.png]({{"/results/0123/sample_6.png"| absolute_url}}){:width="1000px"}
+
+![sample_8.png]({{"/results/0123/sample_8.png"| absolute_url}}){:width="1000px"}
+
+![sample_9.png]({{"/results/0123/sample_9.png"| absolute_url}}){:width="1000px"}
+
+Validation batch:
+
+![validation_1.png]({{"/results/0123/validation_1.png"| absolute_url}}){:width="1000px"}
+
+![validation_10.png]({{"/results/0123/validation_10.png"| absolute_url}}){:width="1000px"}
+
+![validation_2.png]({{"/results/0123/validation_2.png"| absolute_url}}){:width="1000px"}
+
+![validation_3.png]({{"/results/0123/validation_3.png"| absolute_url}}){:width="1000px"}
+
+![validation_4.png]({{"/results/0123/validation_4.png"| absolute_url}}){:width="1000px"}
+
+![validation_5.png]({{"/results/0123/validation_5.png"| absolute_url}}){:width="1000px"}
+
+![validation_6.png]({{"/results/0123/validation_6.png"| absolute_url}}){:width="1000px"}
+
+![validation_7.png]({{"/results/0123/validation_7.png"| absolute_url}}){:width="1000px"}
+
+![validation_8.png]({{"/results/0123/validation_8.png"| absolute_url}}){:width="1000px"}
+
+![validation_9.png]({{"/results/0123/validation_9.png"| absolute_url}}){:width="1000px"}

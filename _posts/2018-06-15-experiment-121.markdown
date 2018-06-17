@@ -1,0 +1,60 @@
+---
+layout: post
+title:  "Experiment 121"
+date:   2018-06-15 +0200
+categories: result
+---
+Experiment 121
+Trying kl_mult=5e-4 and kl_extra_mult=100 on cello + sax-baritone data loaded in the more eficient manner
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0057 | 0.0026 | 619.9761 | 100% | 100/100 | 35:21 | 00:00 | 21.22s/it
+
+Separation scores:
+
+samples|validation
+28.4789177967|79.3821652728
+
+Sample batch:
+
+![sample_7.png]({{"/results/0121/sample_7.png"| absolute_url}}){:width="1000px"}
+
+![sample_1.png]({{"/results/0121/sample_1.png"| absolute_url}}){:width="1000px"}
+
+![sample_10.png]({{"/results/0121/sample_10.png"| absolute_url}}){:width="1000px"}
+
+![sample_2.png]({{"/results/0121/sample_2.png"| absolute_url}}){:width="1000px"}
+
+![sample_3.png]({{"/results/0121/sample_3.png"| absolute_url}}){:width="1000px"}
+
+![sample_4.png]({{"/results/0121/sample_4.png"| absolute_url}}){:width="1000px"}
+
+![sample_5.png]({{"/results/0121/sample_5.png"| absolute_url}}){:width="1000px"}
+
+![sample_6.png]({{"/results/0121/sample_6.png"| absolute_url}}){:width="1000px"}
+
+![sample_8.png]({{"/results/0121/sample_8.png"| absolute_url}}){:width="1000px"}
+
+![sample_9.png]({{"/results/0121/sample_9.png"| absolute_url}}){:width="1000px"}
+
+Validation batch:
+
+![validation_1.png]({{"/results/0121/validation_1.png"| absolute_url}}){:width="1000px"}
+
+![validation_10.png]({{"/results/0121/validation_10.png"| absolute_url}}){:width="1000px"}
+
+![validation_2.png]({{"/results/0121/validation_2.png"| absolute_url}}){:width="1000px"}
+
+![validation_3.png]({{"/results/0121/validation_3.png"| absolute_url}}){:width="1000px"}
+
+![validation_4.png]({{"/results/0121/validation_4.png"| absolute_url}}){:width="1000px"}
+
+![validation_5.png]({{"/results/0121/validation_5.png"| absolute_url}}){:width="1000px"}
+
+![validation_6.png]({{"/results/0121/validation_6.png"| absolute_url}}){:width="1000px"}
+
+![validation_7.png]({{"/results/0121/validation_7.png"| absolute_url}}){:width="1000px"}
+
+![validation_8.png]({{"/results/0121/validation_8.png"| absolute_url}}){:width="1000px"}
+
+![validation_9.png]({{"/results/0121/validation_9.png"| absolute_url}}){:width="1000px"}

@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Experiment 35"
+date:   2018-06-03 +0200
+categories: result
+---
+Experiment 35
+Chello only, 100 epochs, 10x kl mult
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0007 | 0.0003 | 126.6624 | 100% | 100/100 | 34:51 | 00:00 | 20.92s/it
+
+
+
+Sample batch:
+
+![sample_plots.png]({{"/results/0035/sample_plots.png"| absolute_url}}){:width="1000px"}
+
+Validation batch:
+
+![validation_plots.png]({{"/results/0035/validation_plots.png"| absolute_url}}){:width="1000px"}

@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Experiment 34"
+date:   2018-06-03 +0200
+categories: result
+---
+Experiment 34
+Rerunning experiment 31 with only proper pairs of waves.
+Accidentally had all combinations of i and j instead of only i,j where j>i.
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0003 | 0.0002 | 471.5023 | 100% | 100/100 | 34:36 | 00:00 | 20.76s/it
+
+
+
+Sample batch:
+
+![sample_plots.png]({{"/results/0034/sample_plots.png"| absolute_url}}){:width="1000px"}
+
+Validation batch:
+
+![validation_plots.png]({{"/results/0034/validation_plots.png"| absolute_url}}){:width="1000px"}

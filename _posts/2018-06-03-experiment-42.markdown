@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Experiment 42"
+date:   2018-06-03 +0200
+categories: result
+---
+Experiment 42
+Rerunning experiment 41 with clarinet since flute caused NaN
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0069 | 0.0060 | 2843.4795 | 100% | 100/100 | 36:00 | 00:00 | 21.61s/it
+
+
+
+Sample batch:
+
+![sample_plots.png]({{"/results/0042/sample_plots.png"| absolute_url}}){:width="1000px"}
+
+Validation batch:
+
+![validation_plots.png]({{"/results/0042/validation_plots.png"| absolute_url}}){:width="1000px"}

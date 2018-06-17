@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Experiment 57"
+date:   2018-06-05 +0200
+categories: result
+---
+Experiment 57
+This was run as part of a gridsearch endeavor to see if any combination of the searched parameters would give good results for latent space 100.
+For this run the parameters were as follows:
+learning_rate = 1e-3
+kl_loss_mult = 1e-6
+kl_extra_mult = 2
+kl_extra_exponent = 4
+use_square = False
+data_source = ["chello"]
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0001 | 0.0001 | 4445.7946 | 100% | 100/100 | 33:36 | 00:00 | 20.16s/it
+
+
+
+Sample batch:
+
+![sample_plots.png]({{"/results/0057/sample_plots.png"| absolute_url}}){:width="1000px"}
+
+Validation batch:
+
+![validation_plots.png]({{"/results/0057/validation_plots.png"| absolute_url}}){:width="1000px"}

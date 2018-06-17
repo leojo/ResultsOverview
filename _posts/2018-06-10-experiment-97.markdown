@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Experiment 97"
+date:   2018-06-10 +0200
+categories: result
+---
+Experiment 97
+Trying out the new memmaps with improved output, configs are semi irrelivant byt they should be the same as for experiment 96
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0012 | 0.0005 | 63.4822 | 100% | 100/100 | 2:08:47 | 00:00 | 77.27s/it
+
+
+
+Validation batch:
+
+![validation_1.png]({{"/results/0097/validation_1.png"| absolute_url}}){:width="1000px"}
+
+![validation_10.png]({{"/results/0097/validation_10.png"| absolute_url}}){:width="1000px"}
+
+![validation_2.png]({{"/results/0097/validation_2.png"| absolute_url}}){:width="1000px"}
+
+![validation_3.png]({{"/results/0097/validation_3.png"| absolute_url}}){:width="1000px"}
+
+![validation_4.png]({{"/results/0097/validation_4.png"| absolute_url}}){:width="1000px"}
+
+![validation_5.png]({{"/results/0097/validation_5.png"| absolute_url}}){:width="1000px"}
+
+![validation_6.png]({{"/results/0097/validation_6.png"| absolute_url}}){:width="1000px"}
+
+![validation_7.png]({{"/results/0097/validation_7.png"| absolute_url}}){:width="1000px"}
+
+![validation_8.png]({{"/results/0097/validation_8.png"| absolute_url}}){:width="1000px"}
+
+![validation_9.png]({{"/results/0097/validation_9.png"| absolute_url}}){:width="1000px"}

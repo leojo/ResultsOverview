@@ -1,0 +1,68 @@
+---
+layout: post
+title:  "Experiment 81"
+date:   2018-06-06 +0200
+categories: result
+---
+Experiment 81
+This was run as part of a gridsearch endeavor to see if any combination of the searched parameters would give good results for latent space 100.
+For this run the parameters were as follows:
+learning_rate = 1e-3
+kl_loss_mult = 1e-4
+kl_extra_mult = 2
+kl_extra_exponent = 2
+use_square = False
+data_source = ["chello"]
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0005 | 0.0002 | 232.1077 | 100% | 100/100 | 33:39 | 00:00 | 20.20s/it
+
+
+
+Sample batch:
+
+![sample_10_replotted.png]({{"/results/0081/sample_10_replotted.png"| absolute_url}}){:width="1000px"}
+
+![sample_1_replotted.png]({{"/results/0081/sample_1_replotted.png"| absolute_url}}){:width="1000px"}
+
+![sample_2_replotted.png]({{"/results/0081/sample_2_replotted.png"| absolute_url}}){:width="1000px"}
+
+![sample_3_replotted.png]({{"/results/0081/sample_3_replotted.png"| absolute_url}}){:width="1000px"}
+
+![sample_4_replotted.png]({{"/results/0081/sample_4_replotted.png"| absolute_url}}){:width="1000px"}
+
+![sample_5_replotted.png]({{"/results/0081/sample_5_replotted.png"| absolute_url}}){:width="1000px"}
+
+![sample_6_replotted.png]({{"/results/0081/sample_6_replotted.png"| absolute_url}}){:width="1000px"}
+
+![sample_7_replotted.png]({{"/results/0081/sample_7_replotted.png"| absolute_url}}){:width="1000px"}
+
+![sample_8_replotted.png]({{"/results/0081/sample_8_replotted.png"| absolute_url}}){:width="1000px"}
+
+![sample_9_replotted.png]({{"/results/0081/sample_9_replotted.png"| absolute_url}}){:width="1000px"}
+
+![sample_plots.png]({{"/results/0081/sample_plots.png"| absolute_url}}){:width="1000px"}
+
+Validation batch:
+
+![validation_10_replotted.png]({{"/results/0081/validation_10_replotted.png"| absolute_url}}){:width="1000px"}
+
+![validation_1_replotted.png]({{"/results/0081/validation_1_replotted.png"| absolute_url}}){:width="1000px"}
+
+![validation_2_replotted.png]({{"/results/0081/validation_2_replotted.png"| absolute_url}}){:width="1000px"}
+
+![validation_3_replotted.png]({{"/results/0081/validation_3_replotted.png"| absolute_url}}){:width="1000px"}
+
+![validation_4_replotted.png]({{"/results/0081/validation_4_replotted.png"| absolute_url}}){:width="1000px"}
+
+![validation_5_replotted.png]({{"/results/0081/validation_5_replotted.png"| absolute_url}}){:width="1000px"}
+
+![validation_6_replotted.png]({{"/results/0081/validation_6_replotted.png"| absolute_url}}){:width="1000px"}
+
+![validation_7_replotted.png]({{"/results/0081/validation_7_replotted.png"| absolute_url}}){:width="1000px"}
+
+![validation_8_replotted.png]({{"/results/0081/validation_8_replotted.png"| absolute_url}}){:width="1000px"}
+
+![validation_9_replotted.png]({{"/results/0081/validation_9_replotted.png"| absolute_url}}){:width="1000px"}
+
+![validation_plots.png]({{"/results/0081/validation_plots.png"| absolute_url}}){:width="1000px"}

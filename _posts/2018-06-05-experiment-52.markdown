@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Experiment 52"
+date:   2018-06-05 +0200
+categories: result
+---
+Experiment 52
+Standard parameters, latent dim 5, chello and flute data, proper normalization
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0000 | 0.0000 | 2.0000 | 100% | 100/100 | 34:44 | 00:00 | 20.84s/it
+
+
+
+Sample batch:
+
+![sample_plots.png]({{"/results/0052/sample_plots.png"| absolute_url}}){:width="1000px"}
+
+Validation batch:
+
+![validation_plots.png]({{"/results/0052/validation_plots.png"| absolute_url}}){:width="1000px"}

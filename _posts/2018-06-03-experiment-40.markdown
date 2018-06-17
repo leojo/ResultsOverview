@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Experiment 40"
+date:   2018-06-03 +0200
+categories: result
+---
+Experiment 40
+Chello only, 100% larger kl extra exponent (compared to exp 34)
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0003 | 0.0002 | 354.6807 | 100% | 100/100 | 34:06 | 00:00 | 20.47s/it
+
+
+
+Sample batch:
+
+![sample_plots.png]({{"/results/0040/sample_plots.png"| absolute_url}}){:width="1000px"}
+
+Validation batch:
+
+![validation_plots.png]({{"/results/0040/validation_plots.png"| absolute_url}}){:width="1000px"}

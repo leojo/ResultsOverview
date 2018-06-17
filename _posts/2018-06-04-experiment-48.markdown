@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Experiment 48"
+date:   2018-06-04 +0200
+categories: result
+---
+Experiment 48
+Rerunning experiment 43 with use_square = True
+
+Failed to complete!
+
+

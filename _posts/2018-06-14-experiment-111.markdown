@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Experiment 111"
+date:   2018-06-14 +0200
+categories: result
+---
+Experiment 111
+Testing the combined effects of kl_mult = 1e-3 and kl_extra_mult=200 on precomputed clarinet data with regular window
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.1016 | 0.0979 | 368.9758 | 24% | 24/100 | 2:26:32 | 7:44:01 | 366.34s/it]Tracebac
+
+

@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Experiment 50"
+date:   2018-06-04 +0200
+categories: result
+---
+Experiment 50
+Rerunning 48 with more memory
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0234 | 0.0232 | 710.4036 | 100% | 100/100 | 35:35 | 00:00 | 21.35s/it
+
+
+
+Sample batch:
+
+![sample_plots.png]({{"/results/0050/sample_plots.png"| absolute_url}}){:width="1000px"}
+
+Validation batch:
+
+![validation_plots.png]({{"/results/0050/validation_plots.png"| absolute_url}}){:width="1000px"}

@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Experiment 21"
+date:   2018-05-21 +0200
+categories: result
+---
+Experiment 21
+
+No description file found.
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0019 | 0.0009 | 3370.3346 | 100% | 400/400 | 1:11:10 | 00:00 | 10.68s/it
+
+
+
+Sample batch:
+
+![sample_plots.png]({{"/results/0021/sample_plots.png"| absolute_url}}){:width="1000px"}
+
+Validation batch:
+
+![validation_plots.png]({{"/results/0021/validation_plots.png"| absolute_url}}){:width="1000px"}

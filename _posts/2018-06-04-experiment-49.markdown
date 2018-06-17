@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Experiment 49"
+date:   2018-06-04 +0200
+categories: result
+---
+Experiment 49
+Rerunning experiment 44 with use_square = True and 100 epochs
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0057 | 0.0042 | 494.6903 | 100% | 100/100 | 34:48 | 00:00 | 20.88s/it
+
+
+
+Sample batch:
+
+![sample_plots.png]({{"/results/0049/sample_plots.png"| absolute_url}}){:width="1000px"}
+
+Validation batch:
+
+![validation_plots.png]({{"/results/0049/validation_plots.png"| absolute_url}}){:width="1000px"}
