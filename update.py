@@ -38,6 +38,13 @@ def process(string):
 	value_line = " | ".join(values)
 	return header_line+"\n"+value_line
 
+def natural_sort(l): 
+    convert = lambda text: int(text) if text.isdigit() else text.lower() 
+    alphanum_key = lambda key: [ convert(c) for c in re.split('([0-9]+)', key) ] 
+    return sorted(l, key = alphanum_key)
+
+
+
 post_template = \
 """---
 layout: post
@@ -110,8 +117,7 @@ for exp_dir in [exp_dirs[2],exp_dirs[-1]]:
 	audio_embed_template = "<audio src=\"/ResultsOverview/{}\" controls preload></audio>"
 	for prefix in ["Sample", "Validation"]:
 		glob_string = os.path.join(exp_dir,"{}_*.png".format(prefix.lower()))
-		print glob_string
-		sample_img_paths = glob.glob(glob_string)
+		sample_img_paths = natural_sort(glob.glob(glob_string))
 		if len(sample_img_paths) > 0:
 			overview += "\n\n## **{} batch**:\n".format(prefix)
 			if len(sample_img_paths) > 1:
@@ -129,7 +135,8 @@ for exp_dir in [exp_dirs[2],exp_dirs[-1]]:
 					images.append(image_entry)
 				overview += "\n\n".join(images)
 			else:
-				sample_audio_paths = glob.glob(os.path.join(exp_dir,"{}_*.wav".format(prefix.lower())))
+				glob_string = os.path.join(exp_dir,"{}_*.wav".format(prefix.lower()))
+				sample_audio_paths = natural_sort(glob.glob(glob_string))
 				img_path = sample_img_paths[0]
 				img_description = os.path.basename(img_path)[:-4]
 				image_entry = img_embed_template\
