@@ -108,20 +108,23 @@ for exp_dir in exp_dirs:
 	img_width = 1000
 	sample_img_paths = glob.glob(os.path.join(exp_dir,"sample_*.png"))
 	img_embed_template = "![$D]({{\"/$P\"| absolute_url}}){:width=\"$Wpx\"}"
+	audio_embed_template = "<audio src=\"/ResultsOverview/{}\" controls preload></audio>"
 	if len(sample_img_paths) > 0:
-		overview += "\n\nSample batch:\n\n"
+		overview += "\n\n## **Sample batch**:\n\n"
 		images = []
 		for img_path in sample_img_paths:
 			img_description = os.path.basename(img_path)
+			img_description = img_description[:-(len(img_description.split(".")[-1])+1)]
 			image_entry = img_embed_template\
 				.replace("$D",img_description)\
 				.replace("$P",img_path)\
 				.replace("$W",str(img_width))
+			image_entry = "_"+img_description.replace("_", " ")+"_:"+image_entry
 			images.append(image_entry)
 		overview += "\n\n".join(images)
 	sample_img_paths = glob.glob(os.path.join(exp_dir,"validation_*.png"))
 	if len(sample_img_paths) > 0:
-		overview += "\n\nValidation batch:\n\n"
+		overview += "\n\n## **Validation batch**:\n\n"
 		images = []
 		for img_path in sample_img_paths:
 			img_description = os.path.basename(img_path)

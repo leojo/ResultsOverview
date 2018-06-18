@@ -14,7 +14,7 @@ Separation scores:
 samples|validation
 18.4178251697|10.8239787779
 
-Validation batch:
+## **Validation batch**:
 
 ![validation_1.png]({{"/results/0116/validation_1.png"| absolute_url}}){:width="1000px"}
 

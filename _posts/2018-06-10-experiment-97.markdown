@@ -12,7 +12,7 @@ Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 
 
 
-Validation batch:
+## **Validation batch**:
 
 ![validation_1.png]({{"/results/0097/validation_1.png"| absolute_url}}){:width="1000px"}
 
