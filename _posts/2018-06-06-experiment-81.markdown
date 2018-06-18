@@ -20,49 +20,69 @@ Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 
 
 ## **Sample batch**:
+_sample 1 replotted_:
+![sample_1_replotted]({{"/results/0081/sample_1_replotted.png"| absolute_url}}){:width="1000px"}
 
-_sample 10 replotted_:![sample_10_replotted]({{"/results/0081/sample_10_replotted.png"| absolute_url}}){:width="1000px"}
+_sample 2 replotted_:
+![sample_2_replotted]({{"/results/0081/sample_2_replotted.png"| absolute_url}}){:width="1000px"}
 
-_sample 1 replotted_:![sample_1_replotted]({{"/results/0081/sample_1_replotted.png"| absolute_url}}){:width="1000px"}
+_sample 3 replotted_:
+![sample_3_replotted]({{"/results/0081/sample_3_replotted.png"| absolute_url}}){:width="1000px"}
 
-_sample 2 replotted_:![sample_2_replotted]({{"/results/0081/sample_2_replotted.png"| absolute_url}}){:width="1000px"}
+_sample 4 replotted_:
+![sample_4_replotted]({{"/results/0081/sample_4_replotted.png"| absolute_url}}){:width="1000px"}
 
-_sample 3 replotted_:![sample_3_replotted]({{"/results/0081/sample_3_replotted.png"| absolute_url}}){:width="1000px"}
+_sample 5 replotted_:
+![sample_5_replotted]({{"/results/0081/sample_5_replotted.png"| absolute_url}}){:width="1000px"}
 
-_sample 4 replotted_:![sample_4_replotted]({{"/results/0081/sample_4_replotted.png"| absolute_url}}){:width="1000px"}
+_sample 6 replotted_:
+![sample_6_replotted]({{"/results/0081/sample_6_replotted.png"| absolute_url}}){:width="1000px"}
 
-_sample 5 replotted_:![sample_5_replotted]({{"/results/0081/sample_5_replotted.png"| absolute_url}}){:width="1000px"}
+_sample 7 replotted_:
+![sample_7_replotted]({{"/results/0081/sample_7_replotted.png"| absolute_url}}){:width="1000px"}
 
-_sample 6 replotted_:![sample_6_replotted]({{"/results/0081/sample_6_replotted.png"| absolute_url}}){:width="1000px"}
+_sample 8 replotted_:
+![sample_8_replotted]({{"/results/0081/sample_8_replotted.png"| absolute_url}}){:width="1000px"}
 
-_sample 7 replotted_:![sample_7_replotted]({{"/results/0081/sample_7_replotted.png"| absolute_url}}){:width="1000px"}
+_sample 9 replotted_:
+![sample_9_replotted]({{"/results/0081/sample_9_replotted.png"| absolute_url}}){:width="1000px"}
 
-_sample 8 replotted_:![sample_8_replotted]({{"/results/0081/sample_8_replotted.png"| absolute_url}}){:width="1000px"}
+_sample 10 replotted_:
+![sample_10_replotted]({{"/results/0081/sample_10_replotted.png"| absolute_url}}){:width="1000px"}
 
-_sample 9 replotted_:![sample_9_replotted]({{"/results/0081/sample_9_replotted.png"| absolute_url}}){:width="1000px"}
-
-_sample plots_:![sample_plots]({{"/results/0081/sample_plots.png"| absolute_url}}){:width="1000px"}
+_sample plots_:
+![sample_plots]({{"/results/0081/sample_plots.png"| absolute_url}}){:width="1000px"}
 
 ## **Validation batch**:
+_validation 1 replotted_:
+![validation_1_replotted]({{"/results/0081/validation_1_replotted.png"| absolute_url}}){:width="1000px"}
 
-![validation_10_replotted.png]({{"/results/0081/validation_10_replotted.png"| absolute_url}}){:width="1000px"}
+_validation 2 replotted_:
+![validation_2_replotted]({{"/results/0081/validation_2_replotted.png"| absolute_url}}){:width="1000px"}
 
-![validation_1_replotted.png]({{"/results/0081/validation_1_replotted.png"| absolute_url}}){:width="1000px"}
+_validation 3 replotted_:
+![validation_3_replotted]({{"/results/0081/validation_3_replotted.png"| absolute_url}}){:width="1000px"}
 
-![validation_2_replotted.png]({{"/results/0081/validation_2_replotted.png"| absolute_url}}){:width="1000px"}
+_validation 4 replotted_:
+![validation_4_replotted]({{"/results/0081/validation_4_replotted.png"| absolute_url}}){:width="1000px"}
 
-![validation_3_replotted.png]({{"/results/0081/validation_3_replotted.png"| absolute_url}}){:width="1000px"}
+_validation 5 replotted_:
+![validation_5_replotted]({{"/results/0081/validation_5_replotted.png"| absolute_url}}){:width="1000px"}
 
-![validation_4_replotted.png]({{"/results/0081/validation_4_replotted.png"| absolute_url}}){:width="1000px"}
+_validation 6 replotted_:
+![validation_6_replotted]({{"/results/0081/validation_6_replotted.png"| absolute_url}}){:width="1000px"}
 
-![validation_5_replotted.png]({{"/results/0081/validation_5_replotted.png"| absolute_url}}){:width="1000px"}
+_validation 7 replotted_:
+![validation_7_replotted]({{"/results/0081/validation_7_replotted.png"| absolute_url}}){:width="1000px"}
 
-![validation_6_replotted.png]({{"/results/0081/validation_6_replotted.png"| absolute_url}}){:width="1000px"}
+_validation 8 replotted_:
+![validation_8_replotted]({{"/results/0081/validation_8_replotted.png"| absolute_url}}){:width="1000px"}
 
-![validation_7_replotted.png]({{"/results/0081/validation_7_replotted.png"| absolute_url}}){:width="1000px"}
+_validation 9 replotted_:
+![validation_9_replotted]({{"/results/0081/validation_9_replotted.png"| absolute_url}}){:width="1000px"}
 
-![validation_8_replotted.png]({{"/results/0081/validation_8_replotted.png"| absolute_url}}){:width="1000px"}
+_validation 10 replotted_:
+![validation_10_replotted]({{"/results/0081/validation_10_replotted.png"| absolute_url}}){:width="1000px"}
 
-![validation_9_replotted.png]({{"/results/0081/validation_9_replotted.png"| absolute_url}}){:width="1000px"}
-
-![validation_plots.png]({{"/results/0081/validation_plots.png"| absolute_url}}){:width="1000px"}
+_validation plots_:
+![validation_plots]({{"/results/0081/validation_plots.png"| absolute_url}}){:width="1000px"}

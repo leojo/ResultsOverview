@@ -13,45 +13,83 @@ Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 
 
 ## **Sample batch**:
+_sample 1_:
+<audio src="/ResultsOverview/results/0101/sample_1.wav" controls preload></audio>
+![sample_1]({{"/results/0101/sample_1.png"| absolute_url}}){:width="1000px"}
 
-_sample 1_:![sample_1]({{"/results/0101/sample_1.png"| absolute_url}}){:width="1000px"}
+_sample 2_:
+<audio src="/ResultsOverview/results/0101/sample_2.wav" controls preload></audio>
+![sample_2]({{"/results/0101/sample_2.png"| absolute_url}}){:width="1000px"}
 
-_sample 10_:![sample_10]({{"/results/0101/sample_10.png"| absolute_url}}){:width="1000px"}
+_sample 3_:
+<audio src="/ResultsOverview/results/0101/sample_3.wav" controls preload></audio>
+![sample_3]({{"/results/0101/sample_3.png"| absolute_url}}){:width="1000px"}
 
-_sample 2_:![sample_2]({{"/results/0101/sample_2.png"| absolute_url}}){:width="1000px"}
+_sample 4_:
+<audio src="/ResultsOverview/results/0101/sample_4.wav" controls preload></audio>
+![sample_4]({{"/results/0101/sample_4.png"| absolute_url}}){:width="1000px"}
 
-_sample 3_:![sample_3]({{"/results/0101/sample_3.png"| absolute_url}}){:width="1000px"}
+_sample 5_:
+<audio src="/ResultsOverview/results/0101/sample_5.wav" controls preload></audio>
+![sample_5]({{"/results/0101/sample_5.png"| absolute_url}}){:width="1000px"}
 
-_sample 4_:![sample_4]({{"/results/0101/sample_4.png"| absolute_url}}){:width="1000px"}
+_sample 6_:
+<audio src="/ResultsOverview/results/0101/sample_6.wav" controls preload></audio>
+![sample_6]({{"/results/0101/sample_6.png"| absolute_url}}){:width="1000px"}
 
-_sample 5_:![sample_5]({{"/results/0101/sample_5.png"| absolute_url}}){:width="1000px"}
+_sample 7_:
+<audio src="/ResultsOverview/results/0101/sample_7.wav" controls preload></audio>
+![sample_7]({{"/results/0101/sample_7.png"| absolute_url}}){:width="1000px"}
 
-_sample 6_:![sample_6]({{"/results/0101/sample_6.png"| absolute_url}}){:width="1000px"}
+_sample 8_:
+<audio src="/ResultsOverview/results/0101/sample_8.wav" controls preload></audio>
+![sample_8]({{"/results/0101/sample_8.png"| absolute_url}}){:width="1000px"}
 
-_sample 7_:![sample_7]({{"/results/0101/sample_7.png"| absolute_url}}){:width="1000px"}
+_sample 9_:
+<audio src="/ResultsOverview/results/0101/sample_9.wav" controls preload></audio>
+![sample_9]({{"/results/0101/sample_9.png"| absolute_url}}){:width="1000px"}
 
-_sample 8_:![sample_8]({{"/results/0101/sample_8.png"| absolute_url}}){:width="1000px"}
-
-_sample 9_:![sample_9]({{"/results/0101/sample_9.png"| absolute_url}}){:width="1000px"}
+_sample 10_:
+<audio src="/ResultsOverview/results/0101/sample_10.wav" controls preload></audio>
+![sample_10]({{"/results/0101/sample_10.png"| absolute_url}}){:width="1000px"}
 
 ## **Validation batch**:
+_validation 1_:
+<audio src="/ResultsOverview/results/0101/validation_1.wav" controls preload></audio>
+![validation_1]({{"/results/0101/validation_1.png"| absolute_url}}){:width="1000px"}
 
-![validation_1.png]({{"/results/0101/validation_1.png"| absolute_url}}){:width="1000px"}
+_validation 2_:
+<audio src="/ResultsOverview/results/0101/validation_2.wav" controls preload></audio>
+![validation_2]({{"/results/0101/validation_2.png"| absolute_url}}){:width="1000px"}
 
-![validation_10.png]({{"/results/0101/validation_10.png"| absolute_url}}){:width="1000px"}
+_validation 3_:
+<audio src="/ResultsOverview/results/0101/validation_3.wav" controls preload></audio>
+![validation_3]({{"/results/0101/validation_3.png"| absolute_url}}){:width="1000px"}
 
-![validation_2.png]({{"/results/0101/validation_2.png"| absolute_url}}){:width="1000px"}
+_validation 4_:
+<audio src="/ResultsOverview/results/0101/validation_4.wav" controls preload></audio>
+![validation_4]({{"/results/0101/validation_4.png"| absolute_url}}){:width="1000px"}
 
-![validation_3.png]({{"/results/0101/validation_3.png"| absolute_url}}){:width="1000px"}
+_validation 5_:
+<audio src="/ResultsOverview/results/0101/validation_5.wav" controls preload></audio>
+![validation_5]({{"/results/0101/validation_5.png"| absolute_url}}){:width="1000px"}
 
-![validation_4.png]({{"/results/0101/validation_4.png"| absolute_url}}){:width="1000px"}
+_validation 6_:
+<audio src="/ResultsOverview/results/0101/validation_6.wav" controls preload></audio>
+![validation_6]({{"/results/0101/validation_6.png"| absolute_url}}){:width="1000px"}
 
-![validation_5.png]({{"/results/0101/validation_5.png"| absolute_url}}){:width="1000px"}
+_validation 7_:
+<audio src="/ResultsOverview/results/0101/validation_7.wav" controls preload></audio>
+![validation_7]({{"/results/0101/validation_7.png"| absolute_url}}){:width="1000px"}
 
-![validation_6.png]({{"/results/0101/validation_6.png"| absolute_url}}){:width="1000px"}
+_validation 8_:
+<audio src="/ResultsOverview/results/0101/validation_8.wav" controls preload></audio>
+![validation_8]({{"/results/0101/validation_8.png"| absolute_url}}){:width="1000px"}
 
-![validation_7.png]({{"/results/0101/validation_7.png"| absolute_url}}){:width="1000px"}
+_validation 9_:
+<audio src="/ResultsOverview/results/0101/validation_9.wav" controls preload></audio>
+![validation_9]({{"/results/0101/validation_9.png"| absolute_url}}){:width="1000px"}
 
-![validation_8.png]({{"/results/0101/validation_8.png"| absolute_url}}){:width="1000px"}
-
-![validation_9.png]({{"/results/0101/validation_9.png"| absolute_url}}){:width="1000px"}
+_validation 10_:
+<audio src="/ResultsOverview/results/0101/validation_10.wav" controls preload></audio>
+![validation_10]({{"/results/0101/validation_10.png"| absolute_url}}){:width="1000px"}

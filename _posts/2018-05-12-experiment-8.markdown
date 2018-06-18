@@ -14,5 +14,5 @@ Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 
 
 ## **Sample batch**:
-
 _sample plots_:![sample_plots]({{"/results/0008/sample_plots.png"| absolute_url}}){:width="1000px"}
+
