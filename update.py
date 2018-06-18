@@ -109,7 +109,7 @@ for exp_dir in [exp_dirs[24]]:
 		if os.path.exists(wav_sep_score_path):
 			with open(os.path.join(exp_dir,"wav_sep_scores.txt")) as o:
 				lines = o.readlines()
-				score_headers = lines[0].split("|")
+				score_headers = lines[0].strip().split("|")
 				scores = lines[1].split("|")
 	if date is None:
 		print("Unable to parse date for {}".format(exp_dir))

@@ -14,7 +14,6 @@ Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 Separation scores:
 
 sample|validation
-
 45.158609576276994|31.029060039146223
 
 ## **Sample batch**:
