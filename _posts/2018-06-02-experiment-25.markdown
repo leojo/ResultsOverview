@@ -11,7 +11,11 @@ Everything had broken during recent changes now stored on a separate branch and 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0017 | 0.0007 | 3153.4493 | 100% | 400/400 | 2:18:23 | 00:00 | 20.76s/it
 
+Separation scores:
 
+sample|validation
+
+45.158609576276994|31.029060039146223
 
 ## **Sample batch**:
 _sample 1_:

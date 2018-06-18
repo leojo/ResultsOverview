@@ -66,7 +66,7 @@ post_path_template = "_posts/{}-experiment-{}.markdown"
 #	if exp_num not in posted_experiments:
 #		print "Experiment {}".format(exp_num)
 
-for exp_dir in exp_dirs:
+for exp_dir in [exp_dirs[24]]:
 	print "Creating markdown for {}".format(exp_dir)
 	overview = ""
 	exp_num = int(os.path.basename(exp_dir))
@@ -83,29 +83,36 @@ for exp_dir in exp_dirs:
 	date = None
 	if not os.path.exists(output_path):
 		continue
+	with open(output_path) as o:
+		loss_line = None
+		lines = o.read().replace("\r","\n").split("\n")
+		for line in lines:
+			if "Results reported" in line:
+				date_line = line.strip().split("at")[-1].strip()
+				if date_line[-1] == ".":
+					date_line = date_line[:-1]
+				try:
+					date = datetime.strptime(date_line, "%a %b %d %H:%M:%S %Y")
+				except Exception, e:
+					date = datetime.strptime(date_line, "%b %d %H:%M:%S %Y")
+			if "Loss:" in line:
+				loss_line = line.split("\r")[-1].strip()
+			if "Average separation score" in line:
+				score_headers.append(line.split(":")[-2].split()[-1])
+				scores.append(line.split()[-1])
+	if loss_line is None:
+		loss_line = "Failed to complete!"
 	else:
-		with open(output_path) as o:
-			loss_line = None
-			lines = o.read().replace("\r","\n").split("\n")
-			for line in lines:
-				if "Results reported" in line:
-					date_line = line.strip().split("at")[-1].strip()
-					if date_line[-1] == ".":
-						date_line = date_line[:-1]
-					try:
-						date = datetime.strptime(date_line, "%a %b %d %H:%M:%S %Y")
-					except Exception, e:
-						date = datetime.strptime(date_line, "%b %d %H:%M:%S %Y")
-				if "Loss:" in line:
-					loss_line = line.split("\r")[-1].strip()
-				if "Average separation score" in line:
-					score_headers.append(line.split(":")[-2].split()[-1])
-					scores.append(line.split()[-1])
-		if loss_line is None:
-			loss_line = "Failed to complete!"
-		else:
-			loss_line = process(loss_line)
+		loss_line = process(loss_line)
+	if len(score_headers) == 0 or len(scores) == 0:
+		wav_sep_score_path = os.path.join(exp_dir,"wav_sep_scores.txt")
+		if os.path.exists(wav_sep_score_path):
+			with open(os.path.join(exp_dir,"wav_sep_scores.txt")) as o:
+				lines = o.readlines()
+				score_headers = lines[0].split("|")
+				scores = lines[1].split("|")
 	if date is None:
+		print("Unable to parse date for {}".format(exp_dir))
 		continue
 	date_string = date.strftime("%Y-%m-%d")
 	score_line = ""
