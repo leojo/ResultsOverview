@@ -66,7 +66,7 @@ post_path_template = "_posts/{}-experiment-{}.markdown"
 #	if exp_num not in posted_experiments:
 #		print "Experiment {}".format(exp_num)
 
-for exp_dir in [exp_dirs[24]]:
+for exp_dir in [exp_dirs[24],exp_dirs[-1]]:
 	print "Creating markdown for {}".format(exp_dir)
 	overview = ""
 	exp_num = int(os.path.basename(exp_dir))
