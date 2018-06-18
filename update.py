@@ -109,7 +109,9 @@ for exp_dir in [exp_dirs[2],exp_dirs[-1]]:
 	img_embed_template = "![$D]({{\"/$P\"| absolute_url}}){:width=\"$Wpx\"}"
 	audio_embed_template = "<audio src=\"/ResultsOverview/{}\" controls preload></audio>"
 	for prefix in ["Sample", "Validation"]:
-		sample_img_paths = glob.glob(os.path.join(exp_dir,"{}_*.png".format(prefix.lower)))
+		glob_string = os.path.join(exp_dir,"{}_*.png".format(prefix.lower))
+		print glob_string
+		sample_img_paths = glob.glob(glob_string)
 		if len(sample_img_paths) > 0:
 			overview += "\n\n## **{} batch**:\n".format(prefix)
 			if len(sample_img_paths) > 1:
