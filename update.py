@@ -104,6 +104,7 @@ for exp_dir in [exp_dirs[24]]:
 		loss_line = "Failed to complete!"
 	else:
 		loss_line = process(loss_line)
+	scores_from_wav = False
 	if len(score_headers) == 0 or len(scores) == 0:
 		wav_sep_score_path = os.path.join(exp_dir,"wav_sep_scores.txt")
 		if os.path.exists(wav_sep_score_path):
@@ -111,13 +112,14 @@ for exp_dir in [exp_dirs[24]]:
 				lines = o.readlines()
 				score_headers = lines[0].strip().split("|")
 				scores = lines[1].split("|")
+				scores_from_wav = True
 	if date is None:
 		print("Unable to parse date for {}".format(exp_dir))
 		continue
 	date_string = date.strftime("%Y-%m-%d")
 	score_line = ""
 	if len(scores) > 0:
-		score_line = "Separation scores:\n\n"+"|".join(score_headers)+"\n"+"|".join(scores)
+		score_line = "Separation scores{}:\n\n".format(" (reconstructed)" if scores_from_wav else "")+"|".join(score_headers)+"\n"+"|".join(scores)
 	overview = "{}\n\n{}\n\n{}".format(desciption, loss_line, score_line)
 	img_width = 1000
 	img_embed_template = "![$D]({{\"/$P\"| absolute_url}}){:width=\"$Wpx\"}"
