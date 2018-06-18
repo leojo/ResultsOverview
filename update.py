@@ -143,13 +143,13 @@ for exp_dir in exp_dirs:
 					.replace("$D",img_description)\
 					.replace("$P",img_path)\
 					.replace("$W",str(img_width))
-				image_entry = "_"+img_description.replace("_", " ")+"_:"+image_entry
+				image_entry = "_"+img_description.replace("_", " ")+"_:\n"+image_entry
 				overview += image_entry+"\n"
 				audios = []
 				for audio_path in sample_audio_paths:
 					audio_description = os.path.basename(audio_path)[:-4]
 					audio_entry = audio_embed_template.format(audio_path)
-					audio_entry = "_"+audio_description.replace("_", " ")+"_:"+audio_entry
+					audio_entry = "_"+audio_description.replace("_", " ")+"_:\n"+audio_entry
 					audios.append(audio_entry)
 				overview += "\n\n".join(audios)
 
