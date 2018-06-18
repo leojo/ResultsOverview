@@ -122,9 +122,10 @@ for exp_dir in [exp_dirs[2],exp_dirs[-1]]:
 						.replace("$D",img_description)\
 						.replace("$P",img_path)\
 						.replace("$W",str(img_width))
-					if os.path.exists(img_description+".wav"):
-						image_entry = audio_embed_template.format(img_path[:-4]+".wav")+"\n"+image_entry
-					image_entry = "_"+img_description.replace("_", " ")+"_:"+image_entry
+					audio_path = img_path[:-4]+".wav"
+					if os.path.exists(audio_path):
+						image_entry = audio_embed_template.format(audio_path)+"\n"+image_entry
+					image_entry = "_"+img_description.replace("_", " ")+"_:\n"+image_entry
 					images.append(image_entry)
 				overview += "\n\n".join(images)
 			else:
