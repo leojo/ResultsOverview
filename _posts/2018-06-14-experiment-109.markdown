@@ -12,7 +12,7 @@ nan | nan | 243647529406.1503 | 0% | 0/100 | 09:18 | ? | ?it/s]Averag
 
 Separation scores:
 
-Loss|samples
+samples|samples
 nan|nan
 
 ## **Sample batch**:

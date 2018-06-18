@@ -99,7 +99,7 @@ for exp_dir in exp_dirs:
 				if "Loss:" in line:
 					loss_line = line.split("\r")[-1].strip()
 				if "Average separation score" in line:
-					score_headers.append(line.split(":")[0].split()[-1])
+					score_headers.append(line.split(":")[-2].split()[-1])
 					scores.append(line.split()[-1])
 		if loss_line is None:
 			loss_line = "Failed to complete!"
