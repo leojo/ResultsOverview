@@ -8,8 +8,8 @@ excerpt_separator: <!-- more -->
 Separation scores:
 
 samples|validation
-18.4178251697|10.8239787779
-<!-- more -->
+18.4178251697|10.8239787779<!-- more -->
+
 Experiment 116
 Trying to load model 0103 and plot some images
 

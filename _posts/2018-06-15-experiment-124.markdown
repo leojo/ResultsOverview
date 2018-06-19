@@ -8,8 +8,8 @@ excerpt_separator: <!-- more -->
 Separation scores:
 
 samples|validation
-nan|nan
-<!-- more -->
+nan|nan<!-- more -->
+
 Experiment 124
 Trying to increase kl_extra_mult to 100 to see if that helps with the separation
 

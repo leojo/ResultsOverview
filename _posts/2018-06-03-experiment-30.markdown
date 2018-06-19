@@ -8,8 +8,8 @@ excerpt_separator: <!-- more -->
 Separation scores (reconstructed):
 
 sample|validation
-23.747091320439942|37.22730426923003
-<!-- more -->
+23.747091320439942|37.22730426923003<!-- more -->
+
 Experiment 30
 Config like that of experiment 29 except using 2 instruments instead of 1
 

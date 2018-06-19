@@ -8,8 +8,8 @@ excerpt_separator: <!-- more -->
 Separation scores (reconstructed):
 
 sample|validation
-48.1941183740103|29.973295513311086
-<!-- more -->
+48.1941183740103|29.973295513311086<!-- more -->
+
 Experiment 35
 Chello only, 100 epochs, 10x kl mult
 

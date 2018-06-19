@@ -8,8 +8,8 @@ excerpt_separator: <!-- more -->
 Separation scores (reconstructed):
 
 sample|validation
-18.477397415074673|36.00116150256693
-<!-- more -->
+18.477397415074673|36.00116150256693<!-- more -->
+
 Experiment 38
 Chello only, 100% larger kl extra mult (compared to exp 34)
 

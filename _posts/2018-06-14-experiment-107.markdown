@@ -8,8 +8,8 @@ excerpt_separator: <!-- more -->
 Separation scores:
 
 samples|samples
-36.2856561929|38.5685238449
-<!-- more -->
+36.2856561929|38.5685238449<!-- more -->
+
 Experiment 107
 Testing precomputed combination memmap, filtersize increased by 2, kl_extra_mult=20
 

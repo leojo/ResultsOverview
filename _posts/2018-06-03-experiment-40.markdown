@@ -8,8 +8,8 @@ excerpt_separator: <!-- more -->
 Separation scores (reconstructed):
 
 sample|validation
-57.284079066613344|59.2032085727667
-<!-- more -->
+57.284079066613344|59.2032085727667<!-- more -->
+
 Experiment 40
 Chello only, 100% larger kl extra exponent (compared to exp 34)
 

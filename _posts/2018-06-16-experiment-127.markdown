@@ -8,8 +8,8 @@ excerpt_separator: <!-- more -->
 Separation scores:
 
 samples|validation
-32.7891176081|102.312932428
-<!-- more -->
+32.7891176081|102.312932428<!-- more -->
+
 Experiment 127
 Experiment 126 did not have a great sample score and an even worse validation score.
 Trying to train for 200 epochs to see if that makes a difference, since this is much more data

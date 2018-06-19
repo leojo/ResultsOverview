@@ -5,8 +5,8 @@ date:   2018-06-03 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-
 <!-- more -->
+
 Experiment 33
 Rerunning experiment 30 for 100 epochs with chello and flute.
 Accidentally had chello and chello in experiment 30.

@@ -8,8 +8,8 @@ excerpt_separator: <!-- more -->
 Separation scores (reconstructed):
 
 sample|validation
-45.55660095142724|44.04734187219632
-<!-- more -->
+45.55660095142724|44.04734187219632<!-- more -->
+
 Experiment 24
 
 No description file found.

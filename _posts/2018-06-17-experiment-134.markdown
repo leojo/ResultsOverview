@@ -8,8 +8,8 @@ excerpt_separator: <!-- more -->
 Separation scores:
 
 samples|validation
-92.4398624031|96.2135118759
-<!-- more -->
+92.4398624031|96.2135118759<!-- more -->
+
 Experiment 134
 exp 4 caused nan, trying with use_square = True and extra_mult = 20
 

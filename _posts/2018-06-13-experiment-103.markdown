@@ -8,8 +8,8 @@ excerpt_separator: <!-- more -->
 Separation scores (reconstructed):
 
 sample|validation
-73.91803471070578|10.42803281947371
-<!-- more -->
+73.91803471070578|10.42803281947371<!-- more -->
+
 Experiment 103
 Trying 100 latent dim with kl_extra_exponent = 2, learning_rate = 1e-3 and kl_multiplier = 1e-3 for cello and sax-baritone data.
 Also trying bigger filters, increased filter size by 2 both for conv and deconv

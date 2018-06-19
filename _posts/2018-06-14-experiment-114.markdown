@@ -8,8 +8,8 @@ excerpt_separator: <!-- more -->
 Separation scores:
 
 samples|validation
-14.5011136164|81.8890564933
-<!-- more -->
+14.5011136164|81.8890564933<!-- more -->
+
 Experiment 114
 Trying cello and sax-baritone, with kl_extra_mult = 2, larger filter and quad core
 

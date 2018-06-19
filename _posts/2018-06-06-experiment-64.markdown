@@ -8,8 +8,8 @@ excerpt_separator: <!-- more -->
 Separation scores (reconstructed):
 
 sample|validation
-25.345552103859532|58.46764592751077
-<!-- more -->
+25.345552103859532|58.46764592751077<!-- more -->
+
 Experiment 64
 This was run as part of a gridsearch endeavor to see if any combination of the searched parameters would give good results for latent space 100.
 For this run the parameters were as follows:

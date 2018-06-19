@@ -121,7 +121,7 @@ for exp_dir in exp_dirs:
 	score_line = ""
 	if len(scores) > 0:
 		score_line = "Separation scores{}:\n\n".format(" (reconstructed)" if scores_from_wav else "")+"|".join(score_headers)+"\n"+"|".join(scores)
-	overview = "{}\n<!-- more -->\n{}\n\n{}".format(score_line, desciption, loss_line)
+	overview = "{}<!-- more -->\n\n{}\n\n{}".format(score_line, desciption, loss_line)
 	img_width = 1000
 	img_embed_template = "![$D]({{\"/$P\"| absolute_url}}){:width=\"$Wpx\"}"
 	audio_embed_template = "<audio src=\"/ResultsOverview/{}\" controls preload></audio>"

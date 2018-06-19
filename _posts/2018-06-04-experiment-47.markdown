@@ -8,8 +8,8 @@ excerpt_separator: <!-- more -->
 Separation scores (reconstructed):
 
 sample|validation
-239.3870710858283|234.53895158492182
-<!-- more -->
+239.3870710858283|234.53895158492182<!-- more -->
+
 Experiment 47
 Rerunning experiment 41 with use_square = True
 

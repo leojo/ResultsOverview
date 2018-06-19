@@ -8,8 +8,8 @@ excerpt_separator: <!-- more -->
 Separation scores:
 
 samples|validation
-19.1793525022|96.2391580455
-<!-- more -->
+19.1793525022|96.2391580455<!-- more -->
+
 Experiment 133
 If exponent 4 did not cause nan then trying with exp 4 and exp_mult 20
 

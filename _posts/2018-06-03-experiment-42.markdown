@@ -8,8 +8,8 @@ excerpt_separator: <!-- more -->
 Separation scores (reconstructed):
 
 sample|validation
-101.35365200952474|105.08673175963034
-<!-- more -->
+101.35365200952474|105.08673175963034<!-- more -->
+
 Experiment 42
 Rerunning experiment 41 with clarinet since flute caused NaN
 

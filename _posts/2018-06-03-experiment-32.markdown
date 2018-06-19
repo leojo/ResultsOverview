@@ -8,8 +8,8 @@ excerpt_separator: <!-- more -->
 Separation scores (reconstructed):
 
 sample|validation
-37.467904208317215|74.95200254504526
-<!-- more -->
+37.467904208317215|74.95200254504526<!-- more -->
+
 Experiment 32
 Still only chello and latent dimension 100. Now with 10x kl multiplier.
 

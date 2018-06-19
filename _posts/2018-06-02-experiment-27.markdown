@@ -8,8 +8,8 @@ excerpt_separator: <!-- more -->
 Separation scores (reconstructed):
 
 sample|validation
-76.2673847642524|54.356865174491496
-<!-- more -->
+76.2673847642524|54.356865174491496<!-- more -->
+
 Experiment 27
 Testing the run specific configs.
 Should have 60 epochs

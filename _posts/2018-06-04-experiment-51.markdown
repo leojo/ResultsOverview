@@ -8,8 +8,8 @@ excerpt_separator: <!-- more -->
 Separation scores (reconstructed):
 
 sample|validation
-115.82008021543243|114.45459459847174
-<!-- more -->
+115.82008021543243|114.45459459847174<!-- more -->
+
 Experiment 51
 Flute data with linalg normalization of batches, 100 latent dim, standard kl constants, 2 second audio at 8000 samples per second.
 

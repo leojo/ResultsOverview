@@ -8,8 +8,8 @@ excerpt_separator: <!-- more -->
 Separation scores (reconstructed):
 
 sample|validation
-36.40491657703541|28.819875556132416
-<!-- more -->
+36.40491657703541|28.819875556132416<!-- more -->
+
 Experiment 29
 Rerunning experiment 25 after the automation changes as a sanity check after tests 26-28 confirmed the efficacy of the change.
 

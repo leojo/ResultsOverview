@@ -8,8 +8,8 @@ excerpt_separator: <!-- more -->
 Separation scores:
 
 samples|validation
-19.6883870455|14.2958871277
-<!-- more -->
+19.6883870455|14.2958871277<!-- more -->
+
 Experiment 117
 Trying to load model 0103 and plot some images again, last time all the images were called validation_x.png
 

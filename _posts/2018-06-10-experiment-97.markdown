@@ -8,8 +8,8 @@ excerpt_separator: <!-- more -->
 Separation scores (reconstructed):
 
 sample|validation
-86.68100586620808|-
-<!-- more -->
+86.68100586620808|-<!-- more -->
+
 Experiment 97
 Trying out the new memmaps with improved output, configs are semi irrelivant byt they should be the same as for experiment 96
 
