@@ -57,9 +57,6 @@ _sample 10_:
 <audio src="/ResultsOverview/results/0025/sample_10.wav" controls preload></audio>
 ![sample_10]({{"/results/0025/sample_10.png"| absolute_url}}){:width="1000px"}
 
-_sample plots_:
-![sample_plots]({{"/results/0025/sample_plots.png"| absolute_url}}){:width="1000px"}
-
 ## **Validation batch**:
 _validation 1_:
 <audio src="/ResultsOverview/results/0025/validation_1.wav" controls preload></audio>
@@ -100,6 +97,3 @@ _validation 9_:
 _validation 10_:
 <audio src="/ResultsOverview/results/0025/validation_10.wav" controls preload></audio>
 ![validation_10]({{"/results/0025/validation_10.png"| absolute_url}}){:width="1000px"}
-
-_validation plots_:
-![validation_plots]({{"/results/0025/validation_plots.png"| absolute_url}}){:width="1000px"}
