@@ -10,7 +10,10 @@ Trying 10 latent dim with kl_extra_exponent = 2 and kl_multiplier = 1e-3 for cel
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0110 | 0.0047 | 629.7574 | 100% | 100/100 | 2:07:54 | 00:00 | 76.74s/it
 
+Separation scores (reconstructed):
 
+sample|validation
+97.07116754636922|29.671740626619318
 
 ## **Sample batch**:
 _sample 1_:

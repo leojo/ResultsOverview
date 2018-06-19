@@ -10,7 +10,10 @@ Trying out the new memmaps with improved output, configs are semi irrelivant byt
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0012 | 0.0005 | 63.4822 | 100% | 100/100 | 2:08:47 | 00:00 | 77.27s/it
 
+Separation scores (reconstructed):
 
+sample|validation
+86.68100586620808|-
 
 ## **Validation batch**:
 _validation 1_:

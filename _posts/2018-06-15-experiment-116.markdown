@@ -14,6 +14,47 @@ Separation scores:
 samples|validation
 18.4178251697|10.8239787779
 
+## **Sample batch**:
+_sample 1_:
+<audio src="/ResultsOverview/results/0116/sample_1.wav" controls preload></audio>
+![sample_1]({{"/results/0116/sample_1.png"| absolute_url}}){:width="1000px"}
+
+_sample 2_:
+<audio src="/ResultsOverview/results/0116/sample_2.wav" controls preload></audio>
+![sample_2]({{"/results/0116/sample_2.png"| absolute_url}}){:width="1000px"}
+
+_sample 3_:
+<audio src="/ResultsOverview/results/0116/sample_3.wav" controls preload></audio>
+![sample_3]({{"/results/0116/sample_3.png"| absolute_url}}){:width="1000px"}
+
+_sample 4_:
+<audio src="/ResultsOverview/results/0116/sample_4.wav" controls preload></audio>
+![sample_4]({{"/results/0116/sample_4.png"| absolute_url}}){:width="1000px"}
+
+_sample 5_:
+<audio src="/ResultsOverview/results/0116/sample_5.wav" controls preload></audio>
+![sample_5]({{"/results/0116/sample_5.png"| absolute_url}}){:width="1000px"}
+
+_sample 6_:
+<audio src="/ResultsOverview/results/0116/sample_6.wav" controls preload></audio>
+![sample_6]({{"/results/0116/sample_6.png"| absolute_url}}){:width="1000px"}
+
+_sample 7_:
+<audio src="/ResultsOverview/results/0116/sample_7.wav" controls preload></audio>
+![sample_7]({{"/results/0116/sample_7.png"| absolute_url}}){:width="1000px"}
+
+_sample 8_:
+<audio src="/ResultsOverview/results/0116/sample_8.wav" controls preload></audio>
+![sample_8]({{"/results/0116/sample_8.png"| absolute_url}}){:width="1000px"}
+
+_sample 9_:
+<audio src="/ResultsOverview/results/0116/sample_9.wav" controls preload></audio>
+![sample_9]({{"/results/0116/sample_9.png"| absolute_url}}){:width="1000px"}
+
+_sample 10_:
+<audio src="/ResultsOverview/results/0116/sample_10.wav" controls preload></audio>
+![sample_10]({{"/results/0116/sample_10.png"| absolute_url}}){:width="1000px"}
+
 ## **Validation batch**:
 _validation 1_:
 <audio src="/ResultsOverview/results/0116/validation_1.wav" controls preload></audio>

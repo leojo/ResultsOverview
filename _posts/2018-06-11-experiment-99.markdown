@@ -10,7 +10,10 @@ Trying same configs as exp 98 except with latent dim 10 instead of 100
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 nan | nan | 2000000000000.0000 | 100% | 100/100 | 2:00:50 | 00:00 | 72.50s/it
 
+Separation scores (reconstructed):
 
+sample|validation
+266.9009686861365|267.94962622964965
 
 ## **Sample batch**:
 _sample 1_:

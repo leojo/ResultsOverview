@@ -11,7 +11,10 @@ Now with really high kl_extra_mult, in addition to the larger filter
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 nan | nan | 2000000000000.0000 | 100% | 100/100 | 2:20:12 | 00:00 | 84.13s/it
 
+Separation scores (reconstructed):
 
+sample|validation
+263.07190613265436|268.2596562725388
 
 ## **Sample batch**:
 _sample 1_:

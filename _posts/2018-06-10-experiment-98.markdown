@@ -10,7 +10,10 @@ Experiment 97 resulted in a low reconstruction loss but horrible plots, checking
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0011 | 0.0005 | 60.1789 | 100% | 100/100 | 2:21:52 | 00:00 | 85.12s/it
 
+Separation scores (reconstructed):
 
+sample|validation
+85.07860793158227|46.66701202642458
 
 ## **Sample batch**:
 _sample 1_:

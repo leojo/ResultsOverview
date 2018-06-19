@@ -11,7 +11,10 @@ Also trying bigger filters, increased filter size by 2 both for conv and deconv
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0011 | 0.0004 | 71.1919 | 100% | 100/100 | 2:14:13 | 00:00 | 80.53s/it
 
+Separation scores (reconstructed):
 
+sample|validation
+73.91803471070578|10.42803281947371
 
 ## **Sample batch**:
 _sample 1_:
