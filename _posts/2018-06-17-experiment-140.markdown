@@ -237,5 +237,5 @@ class config(object):
 	def conv_channel_num(self, i):
 		return 2 ** (i + 4)
 
-{% endraw %}{% endhighlight %}
-
+{% endraw %}
+{% endhighlight %}

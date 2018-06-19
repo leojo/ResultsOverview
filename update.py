@@ -167,7 +167,7 @@ for exp_dir in exp_dirs[-1:]:
 				overview += "\n\n".join(audios)
 	with open(os.path.join(exp_dir,"config.py")) as o:
 		config = o.read()
-		config = "{% highlight python %}\n{% raw %}\n"+config+"\n{% endraw %}{% endhighlight %}\n"
+		config = "{% highlight python %}\n{% raw %}\n"+config+"\n{% endraw %}\n{% endhighlight %}"
 	with open(post_path_template.format(date_string, exp_num), "w") as post:
 		post.write(post_template.format(exp_num, date_string, overview, config))
 
