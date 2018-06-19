@@ -3,18 +3,19 @@ layout: post
 title:  "Experiment 126"
 date:   2018-06-16 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores:
+
+samples|validation
+34.461131761|99.9447868466
+<!-- more -->
 Experiment 126
 Trying to recreate the results of 118 with more data to avoid overfitting.
 kl_extra_mult = 2, kl_loss_mult = 1e-3, learning_rate = 1e-3, filtersize+=2
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0060 | 0.0032 | 284.6867 | 100% | 100/100 | 34:53 | 00:00 | 20.93s/it
-
-Separation scores:
-
-samples|validation
-34.461131761|99.9447868466
 
 ## **Sample batch**:
 _sample 1_:

@@ -3,17 +3,18 @@ layout: post
 title:  "Experiment 101"
 date:   2018-06-13 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores (reconstructed):
+
+sample|validation
+77.93397029310225|70.78581316793638
+<!-- more -->
 Experiment 101
 Trying 10 latent dim with kl_extra_exponent = 4, learning_rate = 1e-4 and kl_multiplier = 1e-3 for cello data
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0439 | 0.0382 | 566.1694 | 100% | 100/100 | 2:04:41 | 00:00 | 74.81s/it
-
-Separation scores (reconstructed):
-
-sample|validation
-77.93397029310225|70.78581316793638
 
 ## **Sample batch**:
 _sample 1_:

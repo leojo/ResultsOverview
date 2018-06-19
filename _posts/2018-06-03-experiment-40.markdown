@@ -3,17 +3,18 @@ layout: post
 title:  "Experiment 40"
 date:   2018-06-03 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores (reconstructed):
+
+sample|validation
+57.284079066613344|59.2032085727667
+<!-- more -->
 Experiment 40
 Chello only, 100% larger kl extra exponent (compared to exp 34)
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0003 | 0.0002 | 354.6807 | 100% | 100/100 | 34:06 | 00:00 | 20.47s/it
-
-Separation scores (reconstructed):
-
-sample|validation
-57.284079066613344|59.2032085727667
 
 ## **Sample batch**:
 _sample 1_:

@@ -3,17 +3,18 @@ layout: post
 title:  "Experiment 105"
 date:   2018-06-13 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores (reconstructed):
+
+sample|validation
+85.57198270867036|83.27110924927744
+<!-- more -->
 Experiment 105
 Small test to see if new config works better
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0447 | 0.0397 | 493.6621 | 100% | 10/10 | 01:04 | 00:00 | 6.45s/it
-
-Separation scores (reconstructed):
-
-sample|validation
-85.57198270867036|83.27110924927744
 
 ## **Sample batch**:
 _sample 1_:

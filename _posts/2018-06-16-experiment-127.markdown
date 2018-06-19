@@ -3,18 +3,19 @@ layout: post
 title:  "Experiment 127"
 date:   2018-06-16 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores:
+
+samples|validation
+32.7891176081|102.312932428
+<!-- more -->
 Experiment 127
 Experiment 126 did not have a great sample score and an even worse validation score.
 Trying to train for 200 epochs to see if that makes a difference, since this is much more data
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0045 | 0.0021 | 238.1623 | 100% | 200/200 | 1:09:47 | 00:00 | 20.94s/it
-
-Separation scores:
-
-samples|validation
-32.7891176081|102.312932428
 
 ## **Sample batch**:
 _sample 1_:

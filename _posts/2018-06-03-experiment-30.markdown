@@ -3,17 +3,18 @@ layout: post
 title:  "Experiment 30"
 date:   2018-06-03 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores (reconstructed):
+
+sample|validation
+23.747091320439942|37.22730426923003
+<!-- more -->
 Experiment 30
 Config like that of experiment 29 except using 2 instruments instead of 1
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0018 | 0.0008 | 3217.9204 | 100% | 400/400 | 2:20:05 | 00:00 | 21.01s/it
-
-Separation scores (reconstructed):
-
-sample|validation
-23.747091320439942|37.22730426923003
 
 ## **Sample batch**:
 _sample 1_:

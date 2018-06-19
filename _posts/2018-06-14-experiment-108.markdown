@@ -3,17 +3,18 @@ layout: post
 title:  "Experiment 108"
 date:   2018-06-14 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores:
+
+samples|samples
+73.4229849277|62.0828756214
+<!-- more -->
 Experiment 108
 Testing the combined effects of kl_mult = 1e-4 and kl_extra_mult=20 on precomputed clarinet data with larger window
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0053 | 0.0031 | 2250.0600 | 100% | 100/100 | 35:31 | 00:00 | 21.32s/it
-
-Separation scores:
-
-samples|samples
-73.4229849277|62.0828756214
 
 ## **Sample batch**:
 _sample 1_:

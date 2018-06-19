@@ -3,18 +3,19 @@ layout: post
 title:  "Experiment 44"
 date:   2018-06-04 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores (reconstructed):
+
+sample|validation
+90.10375344817419|84.6988299938296
+<!-- more -->
 Experiment 44
 Based on experiment 34
 400 epochs, 10x kl mult and 50x kl extra mult.
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 nan | nan | 2000000000000.0000 | 100% | 400/400 | 2:03:01 | 00:00 | 18.45s/it
-
-Separation scores (reconstructed):
-
-sample|validation
-90.10375344817419|84.6988299938296
 
 ## **Sample batch**:
 _sample 1_:

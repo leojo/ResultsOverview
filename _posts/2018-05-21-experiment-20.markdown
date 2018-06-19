@@ -3,15 +3,16 @@ layout: post
 title:  "Experiment 20"
 date:   2018-05-21 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+
+<!-- more -->
 Experiment 20
 
 No description file found.
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0044 | 0.0030 | 4543.5106 | 100% | 400/400 | 1:09:48 | 00:00 | 10.47s/it
-
-
 
 ## **Sample batch**:
 _sample plots_:

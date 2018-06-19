@@ -3,17 +3,18 @@ layout: post
 title:  "Experiment 97"
 date:   2018-06-10 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores (reconstructed):
+
+sample|validation
+86.68100586620808|-
+<!-- more -->
 Experiment 97
 Trying out the new memmaps with improved output, configs are semi irrelivant byt they should be the same as for experiment 96
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0012 | 0.0005 | 63.4822 | 100% | 100/100 | 2:08:47 | 00:00 | 77.27s/it
-
-Separation scores (reconstructed):
-
-sample|validation
-86.68100586620808|-
 
 ## **Validation batch**:
 _validation 1_:

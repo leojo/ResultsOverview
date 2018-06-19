@@ -3,17 +3,18 @@ layout: post
 title:  "Experiment 39"
 date:   2018-06-03 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores (reconstructed):
+
+sample|validation
+45.78168364910265|42.225744242573
+<!-- more -->
 Experiment 39
 Chello only, 50% larger kl extra exponent (compared to exp 34)
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0003 | 0.0002 | 415.6412 | 100% | 100/100 | 33:51 | 00:00 | 20.31s/it
-
-Separation scores (reconstructed):
-
-sample|validation
-45.78168364910265|42.225744242573
 
 ## **Sample batch**:
 _sample 1_:

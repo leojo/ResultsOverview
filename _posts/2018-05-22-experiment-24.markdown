@@ -3,18 +3,19 @@ layout: post
 title:  "Experiment 24"
 date:   2018-05-22 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores (reconstructed):
+
+sample|validation
+45.55660095142724|44.04734187219632
+<!-- more -->
 Experiment 24
 
 No description file found.
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0019 | 0.0009 | 3214.6157 | 100% | 400/400 | 2:16:10 | 00:00 | 20.43s/it
-
-Separation scores (reconstructed):
-
-sample|validation
-45.55660095142724|44.04734187219632
 
 ## **Sample batch**:
 _sample 1_:

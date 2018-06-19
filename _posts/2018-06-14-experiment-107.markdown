@@ -3,17 +3,18 @@ layout: post
 title:  "Experiment 107"
 date:   2018-06-14 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores:
+
+samples|samples
+36.2856561929|38.5685238449
+<!-- more -->
 Experiment 107
 Testing precomputed combination memmap, filtersize increased by 2, kl_extra_mult=20
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0196 | 0.0145 | 505.5650 | 100% | 100/100 | 34:45 | 00:00 | 20.85s/it
-
-Separation scores:
-
-samples|samples
-36.2856561929|38.5685238449
 
 ## **Sample batch**:
 _sample 1_:

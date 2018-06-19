@@ -3,17 +3,18 @@ layout: post
 title:  "Experiment 106"
 date:   2018-06-13 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores:
+
+samples|samples
+38.533649269|48.1869316305
+<!-- more -->
 Experiment 106
 Testing precomputed combination memmap, filtersize increased by 2
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0059 | 0.0032 | 273.6196 | 100% | 100/100 | 38:00 | 00:00 | 22.80s/it
-
-Separation scores:
-
-samples|samples
-38.533649269|48.1869316305
 
 ## **Sample batch**:
 _sample 1_:

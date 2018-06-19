@@ -3,17 +3,18 @@ layout: post
 title:  "Experiment 134"
 date:   2018-06-17 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores:
+
+samples|validation
+92.4398624031|96.2135118759
+<!-- more -->
 Experiment 134
 exp 4 caused nan, trying with use_square = True and extra_mult = 20
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 20000000.0000 | 0.0717 | 2000000000000.0000 | 100% | 200/200 | 1:13:31 | 00:00 | 22.06s/it
-
-Separation scores:
-
-samples|validation
-92.4398624031|96.2135118759
 
 ## **Sample batch**:
 _sample 1_:

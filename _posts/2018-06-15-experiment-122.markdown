@@ -3,17 +3,18 @@ layout: post
 title:  "Experiment 122"
 date:   2018-06-15 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores:
+
+samples|validation
+55.9910535526|109.516918588
+<!-- more -->
 Experiment 122
 Turns out that while experiment 103 had very good separation of the sample data there was severe overfitting (probably due to few data samples). Experiment 106 on the other hand had very good validation since that used clarinet data, which is the most abundant I have at the moment. Now I will do a sanity test of reproducing the results of 106
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0060 | 0.0032 | 280.2168 | 100% | 100/100 | 35:02 | 00:00 | 21.03s/it
-
-Separation scores:
-
-samples|validation
-55.9910535526|109.516918588
 
 ## **Sample batch**:
 _sample 1_:

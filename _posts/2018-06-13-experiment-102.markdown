@@ -3,18 +3,19 @@ layout: post
 title:  "Experiment 102"
 date:   2018-06-13 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores (reconstructed):
+
+sample|validation
+94.81073421960158|37.73656601244814
+<!-- more -->
 Experiment 102
 Trying 100 latent dim with kl_extra_exponent = 2, learning_rate = 1e-3 and kl_multiplier = 1e-3 for cello data.
 Also trying bigger filters, increased filter size by 2 both for conv and deconv
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0014 | 0.0006 | 83.8243 | 100% | 100/100 | 2:19:19 | 00:00 | 83.59s/it
-
-Separation scores (reconstructed):
-
-sample|validation
-94.81073421960158|37.73656601244814
 
 ## **Sample batch**:
 _sample 1_:

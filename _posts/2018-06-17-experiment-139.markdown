@@ -3,17 +3,18 @@ layout: post
 title:  "Experiment 139"
 date:   2018-06-17 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores:
+
+samples|validation
+32.6584564243|102.286026778
+<!-- more -->
 Experiment 139
 Exp 4 and extra_mult 20 did not cause nan (but same config with extra mult 2 did - strange) so I am trying that again with the same extra_mult = 20
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0099 | 0.0078 | 213.3490 | 100% | 100/100 | 37:11 | 00:00 | 22.32s/it
-
-Separation scores:
-
-samples|validation
-32.6584564243|102.286026778
 
 ## **Sample batch**:
 _sample 1_:

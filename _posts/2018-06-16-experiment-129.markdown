@@ -3,7 +3,13 @@ layout: post
 title:  "Experiment 129"
 date:   2018-06-16 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores:
+
+samples|validation
+nan|nan
+<!-- more -->
 Experiment 129
 Experiment 127 had a slightly better sample score than 126 but worse validation.
 After looking over the results of both 126 and 127 it appears that a KL of around 1 for both AEs is the key to good separation.
@@ -11,11 +17,6 @@ For now I am trying kl_extra_mult = 200 and kl_extra_exp = 2 with kl_mult = 1e-8
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 nan | nan | 1510001550038.5479 | 0% | 0/200 | 00:20 | ? | ?it/s]Averag
-
-Separation scores:
-
-samples|validation
-nan|nan
 
 ## **Sample batch**:
 _sample 1_:

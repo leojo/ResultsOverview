@@ -3,17 +3,18 @@ layout: post
 title:  "Experiment 43"
 date:   2018-06-03 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores (reconstructed):
+
+sample|validation
+102.14305027531961|100.67929702314959
+<!-- more -->
 Experiment 43
 Rerunning experiment 33 with clarinet instead of flute, because flute causes nan (need to investigate why)
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 nan | nan | 2000000000000.0000 | 100% | 100/100 | 29:42 | 00:00 | 17.83s/it
-
-Separation scores (reconstructed):
-
-sample|validation
-102.14305027531961|100.67929702314959
 
 ## **Sample batch**:
 _sample 1_:

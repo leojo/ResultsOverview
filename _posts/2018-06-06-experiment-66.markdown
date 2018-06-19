@@ -3,7 +3,13 @@ layout: post
 title:  "Experiment 66"
 date:   2018-06-06 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores (reconstructed):
+
+sample|validation
+108.04898233767582|111.08325597447347
+<!-- more -->
 Experiment 66
 This was run as part of a gridsearch endeavor to see if any combination of the searched parameters would give good results for latent space 100.
 For this run the parameters were as follows:
@@ -16,11 +22,6 @@ data_source = ["chello"]
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 20000.0226 | 0.0226 | 2000000000000.0000 | 100% | 100/100 | 34:49 | 00:00 | 20.90s/it
-
-Separation scores (reconstructed):
-
-sample|validation
-108.04898233767582|111.08325597447347
 
 ## **Sample batch**:
 _sample 1_:

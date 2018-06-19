@@ -3,17 +3,18 @@ layout: post
 title:  "Experiment 125"
 date:   2018-06-15 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores:
+
+samples|validation
+nan|nan
+<!-- more -->
 Experiment 125
 Trying with kl_multiplier = 1e-3 and kl_extra_mult = 50
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 nan | nan | 1880001359599.3511 | 41% | 41/100 | 14:53 | 21:25 | 21.79s/it]Averag
-
-Separation scores:
-
-samples|validation
-nan|nan
 
 ## **Sample batch**:
 _sample 1_:

@@ -3,12 +3,13 @@ layout: post
 title:  "Experiment 22"
 date:   2018-05-21 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+
+<!-- more -->
 Experiment 22
 
 No description file found.
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 nan | nan | 2000000000000.0000 | 4% | 18/400 | 05:10 | 1:49:59 | 17.28s/it]Tensor("vae/decoder0/conv-final-decoder/BiasAdd:0"
-
-

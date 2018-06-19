@@ -3,17 +3,18 @@ layout: post
 title:  "Experiment 42"
 date:   2018-06-03 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores (reconstructed):
+
+sample|validation
+101.35365200952474|105.08673175963034
+<!-- more -->
 Experiment 42
 Rerunning experiment 41 with clarinet since flute caused NaN
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0069 | 0.0060 | 2843.4795 | 100% | 100/100 | 36:00 | 00:00 | 21.61s/it
-
-Separation scores (reconstructed):
-
-sample|validation
-101.35365200952474|105.08673175963034
 
 ## **Sample batch**:
 _sample 1_:

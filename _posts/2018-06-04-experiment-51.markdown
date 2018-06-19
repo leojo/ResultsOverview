@@ -3,17 +3,18 @@ layout: post
 title:  "Experiment 51"
 date:   2018-06-04 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores (reconstructed):
+
+sample|validation
+115.82008021543243|114.45459459847174
+<!-- more -->
 Experiment 51
 Flute data with linalg normalization of batches, 100 latent dim, standard kl constants, 2 second audio at 8000 samples per second.
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0000 | 0.0000 | 2.0000 | 100% | 100/100 | 34:09 | 00:00 | 20.50s/it
-
-Separation scores (reconstructed):
-
-sample|validation
-115.82008021543243|114.45459459847174
 
 ## **Sample batch**:
 _sample 1_:

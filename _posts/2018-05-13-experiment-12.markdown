@@ -3,15 +3,16 @@ layout: post
 title:  "Experiment 12"
 date:   2018-05-13 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+
+<!-- more -->
 Experiment 12
 
 No description file found.
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0380 | 0.0336 | 14717.1752 | 100% | 200/200 | 09:06 | 00:00 | 2.73s/it
-
-
 
 ## **Sample batch**:
 _sample plots_:

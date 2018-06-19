@@ -3,17 +3,18 @@ layout: post
 title:  "Experiment 32"
 date:   2018-06-03 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores (reconstructed):
+
+sample|validation
+37.467904208317215|74.95200254504526
+<!-- more -->
 Experiment 32
 Still only chello and latent dimension 100. Now with 10x kl multiplier.
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0004 | 0.0002 | 77.1439 | 100% | 400/400 | 2:18:51 | 00:00 | 20.83s/it
-
-Separation scores (reconstructed):
-
-sample|validation
-37.467904208317215|74.95200254504526
 
 ## **Sample batch**:
 _sample 1_:

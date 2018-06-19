@@ -3,18 +3,19 @@ layout: post
 title:  "Experiment 27"
 date:   2018-06-02 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores (reconstructed):
+
+sample|validation
+76.2673847642524|54.356865174491496
+<!-- more -->
 Experiment 27
 Testing the run specific configs.
 Should have 60 epochs
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0042 | 0.0032 | 3369.9882 | 100% | 60/60 | 20:53 | 00:00 | 20.89s/it
-
-Separation scores (reconstructed):
-
-sample|validation
-76.2673847642524|54.356865174491496
 
 ## **Sample batch**:
 _sample 1_:

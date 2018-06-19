@@ -3,17 +3,18 @@ layout: post
 title:  "Experiment 52"
 date:   2018-06-05 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores (reconstructed):
+
+sample|validation
+207.99825532262116|208.87740648285072
+<!-- more -->
 Experiment 52
 Standard parameters, latent dim 5, chello and flute data, proper normalization
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0000 | 0.0000 | 2.0000 | 100% | 100/100 | 34:44 | 00:00 | 20.84s/it
-
-Separation scores (reconstructed):
-
-sample|validation
-207.99825532262116|208.87740648285072
 
 ## **Sample batch**:
 _sample 1_:

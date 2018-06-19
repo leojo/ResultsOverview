@@ -3,17 +3,18 @@ layout: post
 title:  "Experiment 114"
 date:   2018-06-14 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores:
+
+samples|validation
+14.5011136164|81.8890564933
+<!-- more -->
 Experiment 114
 Trying cello and sax-baritone, with kl_extra_mult = 2, larger filter and quad core
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0010 | 0.0004 | 69.6917 | 100% | 100/100 | 38:02 | 00:00 | 22.83s/it
-
-Separation scores:
-
-samples|validation
-14.5011136164|81.8890564933
 
 ## **Sample batch**:
 _sample 1_:

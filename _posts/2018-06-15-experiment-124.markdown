@@ -3,17 +3,18 @@ layout: post
 title:  "Experiment 124"
 date:   2018-06-15 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores:
+
+samples|validation
+nan|nan
+<!-- more -->
 Experiment 124
 Trying to increase kl_extra_mult to 100 to see if that helps with the separation
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 nan | nan | 1320024026008.3962 | 48% | 48/100 | 17:18 | 18:44 | 21.63s/it]Averag
-
-Separation scores:
-
-samples|validation
-nan|nan
 
 ## **Sample batch**:
 _sample 1_:

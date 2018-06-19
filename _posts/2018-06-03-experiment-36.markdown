@@ -3,17 +3,18 @@ layout: post
 title:  "Experiment 36"
 date:   2018-06-03 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores (reconstructed):
+
+sample|validation
+62.92032612611441|50.135932391984326
+<!-- more -->
 Experiment 36
 Chello only, 100 epochs, 100x kl mult (compared to exp 34)
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0025 | 0.0012 | 45.8320 | 100% | 100/100 | 34:16 | 00:00 | 20.56s/it
-
-Separation scores (reconstructed):
-
-sample|validation
-62.92032612611441|50.135932391984326
 
 ## **Sample batch**:
 _sample 1_:

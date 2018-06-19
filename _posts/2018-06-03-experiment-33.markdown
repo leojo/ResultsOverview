@@ -3,12 +3,13 @@ layout: post
 title:  "Experiment 33"
 date:   2018-06-03 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+
+<!-- more -->
 Experiment 33
 Rerunning experiment 30 for 100 epochs with chello and flute.
 Accidentally had chello and chello in experiment 30.
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 nan | nan | 2000000000000.0000 | 35% | 35/100 | 10:09 | 18:52 | 17.42s/it]Tensor("vae/decoder0/conv-final-decoder/BiasAdd:0"
-
-

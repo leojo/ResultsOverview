@@ -3,7 +3,10 @@ layout: post
 title:  "Experiment 94"
 date:   2018-06-07 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+
+<!-- more -->
 Experiment 94
 This was run as part of a gridsearch endeavor to see if any combination of the searched parameters would give good results for latent space 100.
 For this run the parameters were as follows:
@@ -16,5 +19,3 @@ data_source = ["chello"]
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0010 | 0.0005 | 61.2306 | 100% | 100/100 | 35:37 | 00:00 | 21.37s/it
-
-

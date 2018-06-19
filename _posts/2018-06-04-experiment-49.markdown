@@ -3,17 +3,18 @@ layout: post
 title:  "Experiment 49"
 date:   2018-06-04 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores (reconstructed):
+
+sample|validation
+60.44118854660219|55.99686502619604
+<!-- more -->
 Experiment 49
 Rerunning experiment 44 with use_square = True and 100 epochs
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0057 | 0.0042 | 494.6903 | 100% | 100/100 | 34:48 | 00:00 | 20.88s/it
-
-Separation scores (reconstructed):
-
-sample|validation
-60.44118854660219|55.99686502619604
 
 ## **Sample batch**:
 _sample 1_:

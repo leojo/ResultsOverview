@@ -3,17 +3,18 @@ layout: post
 title:  "Experiment 120"
 date:   2018-06-15 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores:
+
+samples|validation
+28.4464924244|78.5795689076
+<!-- more -->
 Experiment 120
 Trying kl_mult=1e-4 and kl_extra_mult=50 on cello + sax-baritone data loaded in the more eficient manner
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0018 | 0.0008 | 954.5646 | 100% | 100/100 | 35:48 | 00:00 | 21.48s/it
-
-Separation scores:
-
-samples|validation
-28.4464924244|78.5795689076
 
 ## **Sample batch**:
 _sample 1_:

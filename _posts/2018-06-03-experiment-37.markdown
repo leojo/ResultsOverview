@@ -3,17 +3,18 @@ layout: post
 title:  "Experiment 37"
 date:   2018-06-03 +0200
 categories: result
+excerpt_separator: <!-- more -->
 ---
+Separation scores (reconstructed):
+
+sample|validation
+33.245748521129485|41.872547075882736
+<!-- more -->
 Experiment 37
 Chello only, 50% larger kl extra mult (compared to exp 34)
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0003 | 0.0002 | 545.2756 | 100% | 100/100 | 34:08 | 00:00 | 20.48s/it
-
-Separation scores (reconstructed):
-
-sample|validation
-33.245748521129485|41.872547075882736
 
 ## **Sample batch**:
 _sample 1_:
