@@ -11,6 +11,7 @@ sample|validation
 45.78411080105304|51.627212524626295<!-- more -->
 
 Experiment 45
+
 Same as experiment 44 but with kl extra exp = 4
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed

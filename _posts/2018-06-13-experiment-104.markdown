@@ -11,7 +11,9 @@ sample|validation
 263.07190613265436|268.2596562725388<!-- more -->
 
 Experiment 104
+
 Trying 100 latent dim with kl_extra_exponent = 2, learning_rate = 1e-3 and kl_multiplier = 1e-3 for cello and sax-baritone data.
+
 Now with really high kl_extra_mult, in addition to the larger filter
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed

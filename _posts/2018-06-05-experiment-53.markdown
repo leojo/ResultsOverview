@@ -11,6 +11,7 @@ sample|validation
 180.24805045153525|172.30125165965586<!-- more -->
 
 Experiment 53
+
 Flute data only with latent dim 5, proper normalization and recontruction_mult=16000
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed

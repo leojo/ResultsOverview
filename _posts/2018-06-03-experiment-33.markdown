@@ -8,7 +8,9 @@ excerpt_separator: <!-- more -->
 <!-- more -->
 
 Experiment 33
+
 Rerunning experiment 30 for 100 epochs with chello and flute.
+
 Accidentally had chello and chello in experiment 30.
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed

@@ -11,6 +11,7 @@ sample|validation
 38.10601289994007|57.27697732133298<!-- more -->
 
 Experiment 31
+
 Only chello but with latent dimension 100. No other changes
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed

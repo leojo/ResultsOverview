@@ -11,6 +11,7 @@ sample|validation
 266.9009686861365|267.94962622964965<!-- more -->
 
 Experiment 99
+
 Trying same configs as exp 98 except with latent dim 10 instead of 100
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed

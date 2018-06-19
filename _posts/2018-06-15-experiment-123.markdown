@@ -11,7 +11,9 @@ samples|validation
 41.8625288589|101.771893889<!-- more -->
 
 Experiment 123
+
 After some testing it has become clear that the good validation results of experiment 106 were in fact the result of improper validation set creation, the combinations were never used for training but the individual parts more than likely were.
+
 In light of this I am resuming my search for the correct parameters where I left of in experiment 121. To try and combat overfitting I will be using clarinet data and cello_bad data.
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed

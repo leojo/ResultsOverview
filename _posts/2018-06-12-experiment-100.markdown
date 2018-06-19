@@ -11,6 +11,7 @@ sample|validation
 97.07116754636922|29.671740626619318<!-- more -->
 
 Experiment 100
+
 Trying 10 latent dim with kl_extra_exponent = 2 and kl_multiplier = 1e-3 for cello data
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed

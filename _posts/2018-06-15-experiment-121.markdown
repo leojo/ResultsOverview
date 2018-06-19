@@ -11,6 +11,7 @@ samples|validation
 28.4789177967|79.3821652728<!-- more -->
 
 Experiment 121
+
 Trying kl_mult=5e-4 and kl_extra_mult=100 on cello + sax-baritone data loaded in the more eficient manner
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed

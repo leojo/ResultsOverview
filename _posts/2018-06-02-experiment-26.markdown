@@ -11,7 +11,9 @@ sample|validation
 52.0221511575416|61.245603256837875<!-- more -->
 
 Experiment 26
+
 Testing the run specific configs.
+
 Should have 50 epochs
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed

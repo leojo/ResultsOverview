@@ -11,6 +11,7 @@ sample|validation
 207.99825532262116|208.87740648285072<!-- more -->
 
 Experiment 52
+
 Standard parameters, latent dim 5, chello and flute data, proper normalization
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed

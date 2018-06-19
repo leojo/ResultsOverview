@@ -11,6 +11,7 @@ sample|validation
 85.07860793158227|46.66701202642458<!-- more -->
 
 Experiment 98
+
 Experiment 97 resulted in a low reconstruction loss but horrible plots, checking to see the result of the last training batch (as sample.png)
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed

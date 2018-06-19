@@ -11,6 +11,7 @@ sample|validation
 123.07078889957108|121.01831405074338<!-- more -->
 
 Experiment 50
+
 Rerunning 48 with more memory
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed

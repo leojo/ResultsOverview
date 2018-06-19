@@ -11,6 +11,7 @@ samples|validation
 14.5011136164|81.8890564933<!-- more -->
 
 Experiment 114
+
 Trying cello and sax-baritone, with kl_extra_mult = 2, larger filter and quad core
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed

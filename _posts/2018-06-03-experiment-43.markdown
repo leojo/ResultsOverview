@@ -11,6 +11,7 @@ sample|validation
 102.14305027531961|100.67929702314959<!-- more -->
 
 Experiment 43
+
 Rerunning experiment 33 with clarinet instead of flute, because flute causes nan (need to investigate why)
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed

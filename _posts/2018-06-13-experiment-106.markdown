@@ -11,6 +11,7 @@ samples|samples
 38.533649269|48.1869316305<!-- more -->
 
 Experiment 106
+
 Testing precomputed combination memmap, filtersize increased by 2
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed

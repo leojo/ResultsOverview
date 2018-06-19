@@ -11,6 +11,7 @@ sample|validation
 33.245748521129485|41.872547075882736<!-- more -->
 
 Experiment 37
+
 Chello only, 50% larger kl extra mult (compared to exp 34)
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed

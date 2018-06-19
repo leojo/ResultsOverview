@@ -11,6 +11,7 @@ sample|validation
 86.68100586620808|-<!-- more -->
 
 Experiment 97
+
 Trying out the new memmaps with improved output, configs are semi irrelivant byt they should be the same as for experiment 96
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed

@@ -11,6 +11,7 @@ sample|validation
 101.35365200952474|105.08673175963034<!-- more -->
 
 Experiment 42
+
 Rerunning experiment 41 with clarinet since flute caused NaN
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed

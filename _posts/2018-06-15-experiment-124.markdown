@@ -11,6 +11,7 @@ samples|validation
 nan|nan<!-- more -->
 
 Experiment 124
+
 Trying to increase kl_extra_mult to 100 to see if that helps with the separation
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed

@@ -11,6 +11,7 @@ samples|samples
 73.4229849277|62.0828756214<!-- more -->
 
 Experiment 108
+
 Testing the combined effects of kl_mult = 1e-4 and kl_extra_mult=20 on precomputed clarinet data with larger window
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed

@@ -11,8 +11,11 @@ samples|validation
 15.2949131674|95.6469074841<!-- more -->
 
 Experiment 130
+
 Experiment 127 had a slightly better sample score than 126 but worse validation.
+
 After looking over the results of both 126 and 127 it appears that a KL of around 1 for both AEs is the key to good separation.
+
 Trying much larger filters
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed

@@ -11,6 +11,7 @@ samples|validation
 92.4398624031|96.2135118759<!-- more -->
 
 Experiment 134
+
 exp 4 caused nan, trying with use_square = True and extra_mult = 20
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
