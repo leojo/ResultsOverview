@@ -54,6 +54,9 @@ categories: result
 excerpt_separator: <!-- more -->
 ---
 {}
+
+
+{}
 """
 
 exp_dirs = sorted(glob.glob("results/[0-9]*"))
@@ -67,7 +70,7 @@ post_path_template = "_posts/{}-experiment-{}.markdown"
 #	if exp_num not in posted_experiments:
 #		print "Experiment {}".format(exp_num)
 
-for exp_dir in exp_dirs:
+for exp_dir in exp_dirs[-1:]:
 	print "Creating markdown for {}".format(exp_dir)
 	overview = ""
 	exp_num = int(os.path.basename(exp_dir))
@@ -162,8 +165,10 @@ for exp_dir in exp_dirs:
 					audio_entry = "_"+audio_description.replace("_", " ")+"_:\n"+audio_entry
 					audios.append(audio_entry)
 				overview += "\n\n".join(audios)
-
+	with open(os.path.join(exp_dir,"config.py")) as o:
+		config = o.read()
+		config = "{% highlight python %}\n{% raw %}\n"+config+"\n{% endraw %}{% endhighlight %}\n"
 	with open(post_path_template.format(date_string, exp_num), "w") as post:
-		post.write(post_template.format(exp_num, date_string, overview))
+		post.write(post_template.format(exp_num, date_string, overview, config))
 
 os.system("git add -A && git commit -m \"Updating Overview\" && git pull origin master --no-edit && git push origin master")
