@@ -1,0 +1,2 @@
+Experiment 146
+Trying dropout only in fc_encoder, 100 latent dim, 10x reduced kl_multiplier and shallower conv networks (2 layers deep)

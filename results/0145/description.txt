@@ -1,0 +1,2 @@
+Experiment 145
+Trying to improve on experiment 130 with a different dropout layout, this time dropping from all sub-nets.

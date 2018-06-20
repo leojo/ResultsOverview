@@ -63,11 +63,14 @@ exp_dirs = sorted(glob.glob("results/[0-9]*"))
 post_files = glob.glob("_posts/*-experiment-*.markdown")
 post_path_template = "_posts/{}-experiment-{}.markdown"
 
-#posted_experiments = [int(x.split("-")[-1].split(".")[0]) for x in post_files]
+posted_experiments = [int(x.split("-")[-1].split(".")[0]) for x in post_files]
+skip_posted_experiments = True
 
 for exp_dir in exp_dirs:
 	overview = ""
 	exp_num = int(os.path.basename(exp_dir))
+	if skip_posted_experiments and exp_num in posted_experiments:
+		continue
 	print "Creating markdown for {}".format(exp_dir)
 	desciption_path = os.path.join(exp_dir, "description.txt")
 	if os.path.exists(desciption_path):
