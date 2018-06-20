@@ -59,7 +59,7 @@ excerpt_separator: <!-- more -->
 {}
 """
 
-bestof_list = [146, 131, 130, 119]
+bestof_list = [146, 131, 130, 119, 103, 23, 3]
 
 exp_dirs = sorted(glob.glob("results/[0-9]*"))
 post_files = glob.glob("_posts/*-experiment-*.markdown")
