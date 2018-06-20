@@ -59,7 +59,7 @@ excerpt_separator: <!-- more -->
 {}
 """
 
-bestof_list = [146, 131, 130, 119, 103, 23, 3]
+bestof_list = [146, 131, 130, 119, 103, 50, 23, 3]
 
 exp_dirs = sorted(glob.glob("results/[0-9]*"))
 post_files = glob.glob("_posts/*-experiment-*.markdown")
@@ -73,7 +73,7 @@ for exp_dir in exp_dirs:
 	exp_num = int(os.path.basename(exp_dir))
 	if skip_posted_experiments and exp_num in posted_experiments:
 		continue
-	bestof = " bestof" if exp_num in bestof_list else ""
+	bestof = "\ntags: bestof" if exp_num in bestof_list else ""
 	print "Creating markdown for {}".format(exp_dir)
 	desciption_path = os.path.join(exp_dir, "description.txt")
 	if os.path.exists(desciption_path):

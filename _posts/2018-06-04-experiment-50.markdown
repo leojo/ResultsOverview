@@ -3,6 +3,7 @@ layout: post
 title:  "Experiment 50"
 date:   2018-06-04 +0200
 categories: result
+tags: bestof
 excerpt_separator: <!-- more -->
 ---
 Separation scores (reconstructed):
