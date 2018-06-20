@@ -50,7 +50,7 @@ post_template = \
 layout: post
 title:  "Experiment {}"
 date:   {} +0200
-categories: result
+categories: result{}
 excerpt_separator: <!-- more -->
 ---
 {}
@@ -59,18 +59,21 @@ excerpt_separator: <!-- more -->
 {}
 """
 
+bestof_list = [146, 131, 130, 119]
+
 exp_dirs = sorted(glob.glob("results/[0-9]*"))
 post_files = glob.glob("_posts/*-experiment-*.markdown")
 post_path_template = "_posts/{}-experiment-{}.markdown"
 
 posted_experiments = [int(x.split("-")[-1].split(".")[0]) for x in post_files]
-skip_posted_experiments = True
+skip_posted_experiments = False
 
 for exp_dir in exp_dirs:
 	overview = ""
 	exp_num = int(os.path.basename(exp_dir))
 	if skip_posted_experiments and exp_num in posted_experiments:
 		continue
+	bestof = " bestof" if exp_num in bestof_list else ""
 	print "Creating markdown for {}".format(exp_dir)
 	desciption_path = os.path.join(exp_dir, "description.txt")
 	if os.path.exists(desciption_path):
@@ -166,6 +169,6 @@ for exp_dir in exp_dirs:
 			config = o.read()
 			config = "{% highlight python %}\n{% raw %}\n"+config+"\n{% endraw %}\n{% endhighlight %}"
 		with open(post_path_template.format(date_string, exp_num), "w") as post:
-			post.write(post_template.format(exp_num, date_string, overview, config))
+			post.write(post_template.format(exp_num, bestof, date_string, overview, config))
 
 os.system("git add -A && git commit -m \"Updating Overview\" && git pull origin master --no-edit && git push origin master")

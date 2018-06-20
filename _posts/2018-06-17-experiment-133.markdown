@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Experiment 133"
-date:   2018-06-17 +0200
-categories: result
+date:    +0200
+categories: result2018-06-17
 excerpt_separator: <!-- more -->
 ---
 Separation scores:

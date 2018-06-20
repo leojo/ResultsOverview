@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Experiment 2"
-date:   2018-05-06 +0200
-categories: result
+date:    +0200
+categories: result2018-05-06
 excerpt_separator: <!-- more -->
 ---
 <!-- more -->
