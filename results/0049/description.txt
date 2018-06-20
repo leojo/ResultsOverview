@@ -1,2 +1,0 @@
-Experiment 49
-Rerunning experiment 44 with use_square = True and 100 epochs

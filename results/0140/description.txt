@@ -1,2 +1,0 @@
-Experiment 140
-Exp 4 and extra_mult 20 did not cause nan (but same config with extra mult 2 did - strange) so I am trying that again with the same extra_mult = 20

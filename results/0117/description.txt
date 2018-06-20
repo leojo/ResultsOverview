@@ -1,2 +1,0 @@
-Experiment 117
-Trying to load model 0103 and plot some images again, last time all the images were called validation_x.png

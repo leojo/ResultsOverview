@@ -1,2 +1,0 @@
-Experiment 52
-Standard parameters, latent dim 5, chello and flute data, proper normalization

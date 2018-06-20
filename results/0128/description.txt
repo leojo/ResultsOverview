@@ -1,5 +1,0 @@
-Experiment 128
-Experiment 127 had a slightly better sample score than 126 but worse validation.
-After looking over the results of both 126 and 127 it appears that a KL of around 1 for both AEs is the key to good separation.
-For now I am trying kl_extra_mult = 20 and kl_extra_exp = 4 with kl_mult = 1e-4 (10x lower to prevent nan)
-If this doesn't work the next steps should be to introduce a kl_target (say kl_target = 1) and create a loss for how far away from that target each autoencoder performs.

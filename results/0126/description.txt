@@ -1,3 +1,0 @@
-Experiment 126
-Trying to recreate the results of 118 with more data to avoid overfitting.
-kl_extra_mult = 2, kl_loss_mult = 1e-3, learning_rate = 1e-3, filtersize+=2

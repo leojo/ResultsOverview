@@ -1,9 +1,0 @@
-Experiment 68
-This was run as part of a gridsearch endeavor to see if any combination of the searched parameters would give good results for latent space 100.
-For this run the parameters were as follows:
-learning_rate = 1e-3
-kl_loss_mult = 1e-4
-kl_extra_mult = 2
-kl_extra_exponent = 2
-use_square = True
-data_source = ["chello"]

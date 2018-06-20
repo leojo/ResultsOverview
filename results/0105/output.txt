@@ -1,52 +1,0 @@
-Sender: LSF System <lsfadmin@lo-s4-034>
-Subject: Job 450532: <python myMain.py results/0105> in cluster <leonhard> Done
-
-Job <python myMain.py results/0105> was submitted from host <lo-login-02> by user <leoj> in cluster <leonhard> at Wed Jun 13 22:45:58 2018
-Job was executed on host(s) <4*lo-s4-034>, in queue <gpu.4h>, as user <leoj> in cluster <leonhard> at Wed Jun 13 22:46:15 2018
-</cluster/home/leoj> was used as the home directory.
-</cluster/home/leoj/sandbox> was used as the working directory.
-Started at Wed Jun 13 22:46:15 2018
-Terminated at Wed Jun 13 22:49:11 2018
-Results reported at Wed Jun 13 22:49:11 2018
-
-Your job looked like:
-
-------------------------------------------------------------
-# LSBATCH: User input
-python myMain.py results/0105
-------------------------------------------------------------
-
-Successfully completed.
-
-Resource usage summary:
-
-    CPU time :                                   182.19 sec.
-    Max Memory :                                 6199 MB
-    Average Memory :                             3608.17 MB
-    Total Requested Memory :                     16000.00 MB
-    Delta Memory :                               9801.00 MB
-    Max Swap :                                   -
-    Max Processes :                              3
-    Max Threads :                                27
-    Run time :                                   181 sec.
-    Turnaround time :                            193 sec.
-
-The output (if any) follows:
-
-WARNING:tensorflow:From /cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
-Instructions for updating:
-Use the retry module or similar alternatives.
-WARNING:tensorflow:From /cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/python/util/deprecation.py:497: calling conv1d (from tensorflow.python.ops.nn_ops) with data_format=NHWC is deprecated and will be removed in a future version.
-Instructions for updating:
-`NHWC` for data_format is deprecated, use `NWC` instead
-2018-06-13 22:46:21.607831: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2018-06-13 22:46:22.131690: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1344] Found device 0 with properties: 
-name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
-pciBusID: 0000:04:00.0
-totalMemory: 10.91GiB freeMemory: 10.75GiB
-2018-06-13 22:46:22.131736: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0
-2018-06-13 22:46:22.528650: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
-2018-06-13 22:46:22.528994: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 
-2018-06-13 22:46:22.529008: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N 
-2018-06-13 22:46:22.529693: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:04:00.0, compute capability: 6.1)
-  0%|          | 0/10 [00:00<?, ?it/s]Loss: 0.1049, Reconstruction: 0.0567, KL: 4818.1592:   0%|          | 0/10 [00:08<?, ?it/s]Loss: 0.1049, Reconstruction: 0.0567, KL: 4818.1592:  10%|#         | 1/10 [00:08<01:13,  8.13s/it]Loss: 0.0562, Reconstruction: 0.0523, KL: 383.5802:  10%|#         | 1/10 [00:14<02:09, 14.39s/it] Loss: 0.0562, Reconstruction: 0.0523, KL: 383.5802:  20%|##        | 2/10 [00:14<00:57,  7.20s/it]Loss: 0.0549, Reconstruction: 0.0516, KL: 328.2843:  20%|##        | 2/10 [00:20<01:22, 10.33s/it]Loss: 0.0549, Reconstruction: 0.0516, KL: 328.2843:  30%|###       | 3/10 [00:20<00:48,  6.88s/it]Loss: 0.0538, Reconstruction: 0.0509, KL: 298.1456:  30%|###       | 3/10 [00:26<01:02,  8.98s/it]Loss: 0.0538, Reconstruction: 0.0509, KL: 298.1456:  40%|####      | 4/10 [00:26<00:40,  6.73s/it]Loss: 0.0535, Reconstruction: 0.0505, KL: 302.0470:  40%|####      | 4/10 [00:33<00:49,  8.30s/it]Loss: 0.0535, Reconstruction: 0.0505, KL: 302.0470:  50%|#####     | 5/10 [00:33<00:33,  6.64s/it]Loss: 0.0519, Reconstruction: 0.0488, KL: 306.5869:  50%|#####     | 5/10 [00:39<00:39,  7.89s/it]Loss: 0.0519, Reconstruction: 0.0488, KL: 306.5869:  60%|######    | 6/10 [00:39<00:26,  6.58s/it]Loss: 0.0506, Reconstruction: 0.0472, KL: 339.4438:  60%|######    | 6/10 [00:45<00:30,  7.62s/it]Loss: 0.0506, Reconstruction: 0.0472, KL: 339.4438:  70%|#######   | 7/10 [00:45<00:19,  6.53s/it]Loss: 0.0496, Reconstruction: 0.0457, KL: 386.1498:  70%|#######   | 7/10 [00:51<00:22,  7.43s/it]Loss: 0.0496, Reconstruction: 0.0457, KL: 386.1498:  80%|########  | 8/10 [00:51<00:12,  6.50s/it]Loss: 0.0477, Reconstruction: 0.0433, KL: 444.7291:  80%|########  | 8/10 [00:58<00:14,  7.28s/it]Loss: 0.0477, Reconstruction: 0.0433, KL: 444.7291:  90%|######### | 9/10 [00:58<00:06,  6.47s/it]Loss: 0.0447, Reconstruction: 0.0397, KL: 493.6621:  90%|######### | 9/10 [01:04<00:07,  7.17s/it]Loss: 0.0447, Reconstruction: 0.0397, KL: 493.6621: 100%|##########| 10/10 [01:04<00:00,  6.45s/it]

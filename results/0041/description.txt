@@ -1,3 +1,0 @@
-Experiment 41
-Rerunning experiment 29 except with 100 epochs and flute data.
-Experiment 33 which is comparable to this one but with both chello and flute got a nan immediately.
