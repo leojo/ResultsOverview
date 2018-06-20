@@ -1,0 +1,2 @@
+Experiment 107
+Testing precomputed combination memmap, filtersize increased by 2, kl_extra_mult=20

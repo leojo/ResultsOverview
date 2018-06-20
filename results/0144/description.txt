@@ -1,0 +1,2 @@
+Experiment 144
+Now trying the improved dropout scheme for 2x epochs

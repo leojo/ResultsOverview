@@ -5,7 +5,7 @@ import glob
 from datetime import datetime
 import locale
 print("Synchronizing results directories. This may take a while...")
-os.system("rsync -avz --delete ../sandbox/results .")
+os.system("rsync -arvz -e ssh leoj@login.leonhard.ethz.ch:~/sandbox/results .")
 print("Updating markdowns")
 
 def process(string):
@@ -86,6 +86,7 @@ for exp_dir in exp_dirs:
 	score_headers = []
 	date = None
 	if not os.path.exists(output_path):
+		print("Continuing...")
 		continue
 	with open(output_path) as o:
 		loss_line = None

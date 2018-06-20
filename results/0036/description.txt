@@ -1,0 +1,2 @@
+Experiment 36
+Chello only, 100 epochs, 100x kl mult (compared to exp 34)

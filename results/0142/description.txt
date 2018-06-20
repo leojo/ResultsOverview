@@ -1,0 +1,2 @@
+Experiment 142
+This experiment will try to recapture the results of experiment 130 with the addition of dropout and twice the number of epochs.

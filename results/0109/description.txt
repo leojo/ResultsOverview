@@ -1,0 +1,2 @@
+Experiment 109
+Testing the combined effects of kl_mult = 1e-4 and kl_extra_mult=200 on precomputed clarinet data with larger window

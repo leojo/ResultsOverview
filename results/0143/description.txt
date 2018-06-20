@@ -1,0 +1,2 @@
+Experiment 143
+this time I'm rerunning experiment 130 with a new dropout architecture

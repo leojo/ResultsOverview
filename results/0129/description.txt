@@ -1,0 +1,4 @@
+Experiment 129
+Experiment 127 had a slightly better sample score than 126 but worse validation.
+After looking over the results of both 126 and 127 it appears that a KL of around 1 for both AEs is the key to good separation.
+For now I am trying kl_extra_mult = 200 and kl_extra_exp = 2 with kl_mult = 1e-8 (10x lower to prevent nan)
