@@ -8,7 +8,7 @@ excerpt_separator: <!-- more -->
 Separation losses (reconstructed):
 
 sample|validation
-86.68100586620808|-<!-- more -->
+-|86.68100586620808<!-- more -->
 
 Experiment 97
 
