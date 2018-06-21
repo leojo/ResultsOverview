@@ -6,10 +6,10 @@ categories: result
 tags: bestof
 excerpt_separator: <!-- more -->
 ---
-Separation scores (reconstructed):
+Separation losses (reconstructed):
 
 sample|validation
-10.42803281947371|73.91803471070578<!-- more -->
+73.91803471070578|10.42803281947371<!-- more -->
 
 Experiment 103
 

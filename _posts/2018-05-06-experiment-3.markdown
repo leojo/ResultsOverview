@@ -10,7 +10,9 @@ excerpt_separator: <!-- more -->
 
 Experiment 3
 
-No description file found.
+First experiment successfully run on generated audio signal (pure sine wave).
+
+Latent dimension 3. KL loss multiplier 1e-5. No Validation set.
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0040 | 0.0017 | 7876.8561 | 100% | 400/400 | 18:06 | 00:00 | 2.72s/it

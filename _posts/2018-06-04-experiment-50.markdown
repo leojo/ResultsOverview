@@ -6,14 +6,16 @@ categories: result
 tags: bestof
 excerpt_separator: <!-- more -->
 ---
-Separation scores (reconstructed):
+Separation losses (reconstructed):
 
 sample|validation
 123.07078889957108|121.01831405074338<!-- more -->
 
 Experiment 50
 
-Rerunning 48 with more memory
+First experiment run with two distinct instruments, cello and clarinet.
+
+Latent dimension 5. KL loss multiplier 1e-5. Improper Validation set.
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0234 | 0.0232 | 710.4036 | 100% | 100/100 | 35:35 | 00:00 | 21.35s/it

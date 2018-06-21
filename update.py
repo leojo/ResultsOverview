@@ -59,14 +59,14 @@ excerpt_separator: <!-- more -->
 {}
 """
 
-bestof_list = [146, 145, 131, 130, 119, 106, 103, 50, 23, 3]
+bestof_list = [146, 145, 143, 131, 130, 103, 50, 23, 3]
 
 exp_dirs = sorted(glob.glob("results/[0-9]*"))
 post_files = glob.glob("_posts/*-experiment-*.markdown")
 post_path_template = "_posts/{}-experiment-{}.markdown"
 
 posted_experiments = [int(x.split("-")[-1].split(".")[0]) for x in post_files]
-skip_posted_experiments = True
+skip_posted_experiments = False
 
 for exp_dir in exp_dirs:
 	overview = ""
@@ -123,7 +123,7 @@ for exp_dir in exp_dirs:
 		date_string = date.strftime("%Y-%m-%d")
 		score_line = ""
 		if len(scores) > 0:
-			score_line = "Separation scores{}:\n\n".format(" (reconstructed)" if scores_from_wav else "")+"|".join(score_headers)+"\n"+"|".join(scores)
+			score_line = "Separation losses{}:\n\n".format(" (reconstructed)" if scores_from_wav else "")+"|".join(score_headers)+"\n"+"|".join(scores)
 		overview = "{}<!-- more -->\n\n{}\n\n{}".format(score_line, desciption, loss_line)
 		img_width = 1000
 		img_embed_template = "![$D]({{\"/$P\"| absolute_url}}){:width=\"$Wpx\"}"

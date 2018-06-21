@@ -6,14 +6,16 @@ categories: result
 tags: bestof
 excerpt_separator: <!-- more -->
 ---
-Separation scores (reconstructed):
+Separation losses (reconstructed):
 
 sample|validation
 48.01425864908538|48.81187641917704<!-- more -->
 
 Experiment 23
 
-No description file found.
+First experiment successfully run on real instrument recording, cello.
+
+Latent dimension 5. KL loss multiplier 1e-5. Improper Validation set.
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
 0.0017 | 0.0008 | 3011.5675 | 100% | 400/400 | 2:18:23 | 00:00 | 20.76s/it

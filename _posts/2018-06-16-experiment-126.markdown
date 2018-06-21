@@ -5,7 +5,7 @@ date:   2018-06-16 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation scores:
+Separation losses:
 
 samples|validation
 34.461131761|99.9447868466<!-- more -->

@@ -5,7 +5,7 @@ date:   2018-06-03 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation scores (reconstructed):
+Separation losses (reconstructed):
 
 sample|validation
 33.245748521129485|41.872547075882736<!-- more -->

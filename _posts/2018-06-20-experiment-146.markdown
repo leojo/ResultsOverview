@@ -6,7 +6,7 @@ categories: result
 tags: bestof
 excerpt_separator: <!-- more -->
 ---
-Separation scores:
+Separation losses:
 
 samples|validation
 9.48207809968|99.0758033234<!-- more -->

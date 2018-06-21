@@ -1,2 +1,3 @@
 Experiment 50
-Rerunning 48 with more memory
+First experiment run with two distinct instruments, cello and clarinet.
+Latent dimension 5. KL loss multiplier 1e-5. Improper Validation set.
