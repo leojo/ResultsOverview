@@ -1,0 +1,2 @@
+Experiment 151
+Training on clarinet data and validating on oboe with 1 AE and only 1 note. Using scaling learning rate (with reduced scaling rate, 3)
