@@ -1,0 +1,2 @@
+Experiment 152
+Training on clarinet data and validating on oboe with 3 AE and only 1 note. Using learning_rate_scaling_factor=2
