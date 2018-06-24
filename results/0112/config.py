@@ -7,7 +7,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 1
 	bsub_timeout = "4:00"
 	bsub_memory = 32000

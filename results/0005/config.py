@@ -1,6 +1,6 @@
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 
