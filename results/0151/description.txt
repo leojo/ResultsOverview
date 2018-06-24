@@ -1,2 +1,0 @@
-Experiment 151
-Testing training on cello and validating on trumpet, this time with 2 extra autoencoders that should remain unused
