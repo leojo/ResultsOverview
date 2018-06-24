@@ -123,7 +123,7 @@ for exp_dir in exp_dirs:
 		date_string = date.strftime("%Y-%m-%d")
 		score_line = ""
 		if len(scores) > 0:
-			score_line = "Separation losses{}:\n\n".format(" (reconstructed)" if scores_from_wav else "")+"|".join(score_headers)+"\n"+"|".join(scores)
+			score_line = "Separation losses{}:\n\n|".format(" (reconstructed)" if scores_from_wav else "")+"|".join(score_headers)+"\n|"+"|".join(scores)
 		overview = "{}<!-- more -->\n\n{}\n\n{}".format(score_line, desciption, loss_line)
 		img_width = 1000
 		img_embed_template = "![$D]({{\"/$P\"| absolute_url}}){:width=\"$Wpx\"}"

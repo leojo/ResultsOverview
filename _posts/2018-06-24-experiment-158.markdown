@@ -7,8 +7,8 @@ excerpt_separator: <!-- more -->
 ---
 Separation losses:
 
-samples
-8.05872454957<!-- more -->
+|samples
+|8.05872454957<!-- more -->
 
 Experiment 158
 
