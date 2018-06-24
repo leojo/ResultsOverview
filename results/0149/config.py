@@ -36,7 +36,7 @@ class config(object):
 	# Miscellaneous constants
 	sample_rate = 8000
 	reconstruction_mult = 1
-	learning_rate = 1e-3
+	learning_rate = 1e-4
 	kl_loss_mult = 1e-3
 	kl_extra_mult = 2
 	kl_extra_exponent = 2
@@ -81,7 +81,7 @@ class config(object):
 		originals = []
 		for _ in range(self.batch_size):
 			i = np.random.randint(len(self.data[1]))
-			wave1 = self.data[0][i]
+			wave1 = self.data[1][i]
 			samples.append(wave1)
 			originals.append([wave1])
 

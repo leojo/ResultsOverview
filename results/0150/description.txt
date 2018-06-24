@@ -1,2 +1,2 @@
 Experiment 150
-Testing training on cello and validating on trumpet
+Training on clarinet data and validating on oboe with 1 AE and only 1 note. Using scaling learning rate
