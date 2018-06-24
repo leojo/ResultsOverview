@@ -1,0 +1,108 @@
+import os
+
+import numpy as np
+import waveUtils
+
+
+class config(object):
+
+	def __init__(self):
+		self.prepare_data()
+
+	# Bsub arguments
+	bsub_mainfile = "main.py"
+	bsub_processors = 4
+	bsub_timeout = "4:00"
+	bsub_memory = 8000
+
+	# Epoch and batch config
+	batch_size = 128
+	latent_dim = 100
+	epochs = 100
+	epoch_updates = 100
+
+	# Network structure
+	input_s = 16000
+	n_ae = 1
+	n_conv_layers = 3
+	n_deconv_layers = 3
+	first_size = input_s // (2 ** n_deconv_layers)
+	final_decoder_filter_size = 3
+
+	# Model
+	load_model = False
+	model_path = os.path.join("models", "0103", "model")  # only used if load_model=True
+
+	# Miscellaneous constants
+	sample_rate = 8000
+	reconstruction_mult = 1
+	learning_rate = 1e-3
+	kl_loss_mult = 1e-3
+	kl_extra_mult = 2
+	kl_extra_exponent = 2
+	keep_prob = 1
+	use_square = False
+	data_sources = ["clarinet", "oboe"]
+	data = None
+
+	# Functions
+	def prepare_data(self):
+		self.load_data()
+
+	def load_and_prepare_audio(self, source):
+		duration = self.input_s / float(self.sample_rate)
+		data_dir = os.path.join("wav_files", source)
+		waves, original_sample_rate = waveUtils.loadAudioFiles(data_dir)
+		cut_data = waveUtils.extractHighestMeanIntensities(waves, sample_rate=original_sample_rate, duration=duration)
+		del waves
+		data = waveUtils.reduceQuality(cut_data, self.sample_rate, duration)
+		del cut_data
+		return data
+
+	def load_data(self):
+		if self.data is None:
+			self.data = [self.load_and_prepare_audio(source) for source in self.data_sources]
+
+	def get_training_batch(self):
+		samples = []
+		originals = []
+		for _ in range(self.batch_size):
+			i = np.random.randint(len(self.data[0]))
+			wave1 = self.data[0][i]
+			samples.append(wave1)
+			originals.append([wave1])
+
+		samples = np.asarray(samples)
+		originals = np.asarray(originals)
+		return samples, originals
+
+	def get_validation_batch(self):
+		samples = []
+		originals = []
+		for _ in range(self.batch_size):
+			i = np.random.randint(len(self.data[1]))
+			wave1 = self.data[0][i]
+			samples.append(wave1)
+			originals.append([wave1])
+
+		samples = np.asarray(samples)
+		originals = np.asarray(originals)
+		return samples, originals
+
+	def normalize_batch(self, batch):
+		x = batch.astype(np.float32)
+		return x / np.max(np.abs(x))
+
+	# return x / np.linalg.norm(x)
+
+	def deconv_filter_size(self, i):
+		return (2 * (i + 1)) + 1
+
+	def deconv_channel_num(self, i):
+		return 2 ** (config.n_deconv_layers + 3 - i)
+
+	def conv_filter_size(self, i):
+		return (2 * (config.n_conv_layers - i)) + 1
+
+	def conv_channel_num(self, i):
+		return 2 ** (i + 4)
