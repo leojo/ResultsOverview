@@ -8,14 +8,14 @@ excerpt_separator: <!-- more -->
 Separation losses:
 
 samples|validation
-5.84958070285|5.92454033562<!-- more -->
+10.7831634567|40.9220472575<!-- more -->
 
 Experiment 149
 
-Trying new validation method, different instruments but old notes i.e. notes that were used for training but played by another instrument
+Testing a new idea: training on clarinet and validating on oboe
 
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0041 | 0.0018 | 230.9417 | 100% | 100/100 | 28:30 | 00:00 | 17.10s/it
+0.0143 | 0.0067 | 760.8151 | 100% | 100/100 | 28:17 | 00:00 | 16.97s/it
 
 ## **Sample batch**:
 _sample 1_:
@@ -140,7 +140,7 @@ class config(object):
 	# Miscellaneous constants
 	sample_rate = 8000
 	reconstruction_mult = 1
-	learning_rate = 1e-3
+	learning_rate = 1e-4
 	kl_loss_mult = 1e-3
 	kl_extra_mult = 2
 	kl_extra_exponent = 2
@@ -185,7 +185,7 @@ class config(object):
 		originals = []
 		for _ in range(self.batch_size):
 			i = np.random.randint(len(self.data[1]))
-			wave1 = self.data[0][i]
+			wave1 = self.data[1][i]
 			samples.append(wave1)
 			originals.append([wave1])
 
