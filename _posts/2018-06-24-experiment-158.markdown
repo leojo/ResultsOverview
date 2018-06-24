@@ -1,0 +1,169 @@
+---
+layout: post
+title:  "Experiment 158"
+date:   2018-06-24 +0200
+categories: result
+excerpt_separator: <!-- more -->
+---
+Separation losses:
+
+samples
+8.05872454957<!-- more -->
+
+Experiment 158
+
+No longer averaging the sounds. Training on clarinet+cello_bad data (no validation) with 3 AE. Using learning_rate_scaling_factor=3
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0086 | 0.0045 | 404.7541 | 100% | 100/100 | 56:28 | 00:00 | 33.88s/it
+
+## **Sample batch**:
+_sample 1_:
+<audio src="/ResultsOverview/results/0158/sample_1.wav" controls preload></audio>
+![sample_1]({{"/results/0158/sample_1.png"| absolute_url}}){:width="1000px"}
+
+_sample 2_:
+<audio src="/ResultsOverview/results/0158/sample_2.wav" controls preload></audio>
+![sample_2]({{"/results/0158/sample_2.png"| absolute_url}}){:width="1000px"}
+
+_sample 3_:
+<audio src="/ResultsOverview/results/0158/sample_3.wav" controls preload></audio>
+![sample_3]({{"/results/0158/sample_3.png"| absolute_url}}){:width="1000px"}
+
+_sample 4_:
+<audio src="/ResultsOverview/results/0158/sample_4.wav" controls preload></audio>
+![sample_4]({{"/results/0158/sample_4.png"| absolute_url}}){:width="1000px"}
+
+_sample 5_:
+<audio src="/ResultsOverview/results/0158/sample_5.wav" controls preload></audio>
+![sample_5]({{"/results/0158/sample_5.png"| absolute_url}}){:width="1000px"}
+
+_sample 6_:
+<audio src="/ResultsOverview/results/0158/sample_6.wav" controls preload></audio>
+![sample_6]({{"/results/0158/sample_6.png"| absolute_url}}){:width="1000px"}
+
+_sample 7_:
+<audio src="/ResultsOverview/results/0158/sample_7.wav" controls preload></audio>
+![sample_7]({{"/results/0158/sample_7.png"| absolute_url}}){:width="1000px"}
+
+_sample 8_:
+<audio src="/ResultsOverview/results/0158/sample_8.wav" controls preload></audio>
+![sample_8]({{"/results/0158/sample_8.png"| absolute_url}}){:width="1000px"}
+
+_sample 9_:
+<audio src="/ResultsOverview/results/0158/sample_9.wav" controls preload></audio>
+![sample_9]({{"/results/0158/sample_9.png"| absolute_url}}){:width="1000px"}
+
+_sample 10_:
+<audio src="/ResultsOverview/results/0158/sample_10.wav" controls preload></audio>
+![sample_10]({{"/results/0158/sample_10.png"| absolute_url}}){:width="1000px"}
+
+
+{% highlight python %}
+{% raw %}
+import os
+
+import numpy as np
+import waveUtils
+
+
+class config(object):
+
+	def __init__(self):
+		self.prepare_data()
+
+	# Bsub arguments
+	bsub_mainfile = "main.py"
+	bsub_processors = 4
+	bsub_timeout = "4:00"
+	bsub_memory = 8000
+
+	# Epoch and batch config
+	batch_size = 128
+	latent_dim = 100
+	epochs = 100
+	epoch_updates = 100
+
+	# Network structure
+	input_s = 16000
+	n_ae = 3
+	n_conv_layers = 3
+	n_deconv_layers = 3
+	first_size = input_s // (2 ** n_deconv_layers)
+	final_decoder_filter_size = 3
+
+	# Model
+	load_model = False
+	model_path = os.path.join("models", "0103", "model")  # only used if load_model=True
+
+	# Miscellaneous constants
+	sample_rate = 8000
+	reconstruction_mult = 1
+	learning_rate_min = 1e-4
+	learning_rate_max = 1e-3
+        learning_rate_scaling_factor = -3
+	learning_rate = 1e-3  # legacy
+	kl_loss_mult = 1e-3
+	kl_extra_mult = 2
+	kl_extra_exponent = 2
+	keep_prob = 1
+	use_square = False
+	data_sources = ["clarinet", "cello_bad"]
+	data = None
+
+	# Functions
+	def prepare_data(self):
+		self.load_data()
+
+	def load_and_prepare_audio(self, source):
+		duration = self.input_s / float(self.sample_rate)
+		data_dir = os.path.join("wav_files", source)
+		waves, original_sample_rate = waveUtils.loadAudioFiles(data_dir)
+		cut_data = waveUtils.extractHighestMeanIntensities(waves, sample_rate=original_sample_rate, duration=duration)
+		del waves
+		data = waveUtils.reduceQuality(cut_data, self.sample_rate, duration)
+		del cut_data
+		return data
+
+	def load_data(self):
+		if self.data is None:
+			self.data = [self.load_and_prepare_audio(source) for source in self.data_sources]
+
+	def get_training_batch(self):
+		samples = []
+		originals = []
+		for _ in range(self.batch_size):
+			i = np.random.randint(len(self.data[0]))
+			j = np.random.randint(len(self.data[1]))
+			wave1 = self.data[0][i]/2
+			wave2 = self.data[1][j]/2
+			samples.append(wave1+wave2)
+			originals.append([wave1, wave2])
+
+		samples = np.asarray(samples)
+		originals = np.asarray(originals)
+		return samples, originals
+
+	def get_validation_batch(self):
+		return self.get_training_batch()
+
+	def normalize_batch(self, batch):
+		x = batch.astype(np.float32)
+		return x / np.max(np.abs(x))
+
+	# return x / np.linalg.norm(x)
+
+	def deconv_filter_size(self, i):
+		return (2 * (i + 1)) + 1
+
+	def deconv_channel_num(self, i):
+		return 2 ** (config.n_deconv_layers + 3 - i)
+
+	def conv_filter_size(self, i):
+		return (2 * (config.n_conv_layers - i)) + 1
+
+	def conv_channel_num(self, i):
+		return 2 ** (i + 4)
+
+{% endraw %}
+{% endhighlight %}

@@ -1,0 +1,2 @@
+Experiment 157
+No longer averaging the sounds. Training on clarinet data (no validation) with 3 AE and only 1 note. Using learning_rate_scaling_factor=3
