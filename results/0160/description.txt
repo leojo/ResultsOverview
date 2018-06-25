@@ -1,0 +1,2 @@
+Experiment 160
+Trying 3 instruments, 5 auto-encoders and kl_extra_mult 20
