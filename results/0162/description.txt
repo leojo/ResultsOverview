@@ -1,0 +1,2 @@
+Experiment 162
+Trying 2 instruments, 3 auto-encoders and kl_extra_mult 2 with learning_rate_scaling_factor = -5
