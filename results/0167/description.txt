@@ -1,0 +1,2 @@
+Experiment 167
+Rerunning exp 164, now with averaging over factors since that is the only way the separation loss is comparable across different numbers of autoencoders and combined sounds.

@@ -1,0 +1,2 @@
+Experiment 166
+Rerunning exp 164 with the original hardcoded network structure to see if that fixes the oom error
