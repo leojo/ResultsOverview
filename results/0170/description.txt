@@ -1,0 +1,2 @@
+Experiment 170
+Experimenting with different architecture, with kl_mult 1e-4
