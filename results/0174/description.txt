@@ -1,0 +1,2 @@
+Experiment 174
+Experimenting with different architecture, kl_mult 1e-3, 2 sounds 4 ae
