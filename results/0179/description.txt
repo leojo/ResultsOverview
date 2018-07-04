@@ -1,0 +1,2 @@
+Experiment 179
+Trying new version of the latest network structure again, this time with 64 batch and 10 autoencoders

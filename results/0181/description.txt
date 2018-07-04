@@ -1,0 +1,2 @@
+Experiment 181
+Trying new version of the latest network structure again, this time with 128 4 batch and 10 autoencoders, 4 data sources
