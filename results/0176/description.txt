@@ -1,0 +1,2 @@
+Experiment 176
+Trying new version of the latest network structure, hope this requires less memory on the GPU

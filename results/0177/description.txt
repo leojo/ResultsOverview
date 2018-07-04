@@ -1,0 +1,2 @@
+Experiment 177
+Trying new version of the latest network structure again, this time with smaller batch size (128 -> 64)
