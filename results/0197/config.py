@@ -39,7 +39,7 @@ class config(object):
 	learning_rate_max = 1e-3
 	learning_rate_scaling_factor = 0  # controlls the shape of the scaling curve from max to min learning rate
 	learning_rate = 1e-3  # legacy
-	kl_loss_mult = 1e-6
+	kl_loss_mult = 1e-11
 	kl_extra_mult = 2
 	kl_extra_exponent = 2
 	keep_prob = 1

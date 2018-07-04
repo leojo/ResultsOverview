@@ -1,3 +1,66 @@
+---
+layout: post
+title:  "Experiment 192"
+date:   2018-07-04 +0200
+categories: result
+excerpt_separator: <!-- more -->
+---
+Separation losses:
+
+|samples
+|7.11624772978<!-- more -->
+
+Experiment 192
+
+Trying new version of the latest network structure again, this time with 128 batch and 5 autoencoders, 2 data sources, learning rate 1e-3, kl loss 1e-6
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0002 | 0.0001 | 7313.9898 | 100% | 100/100 | 17:05 | 00:00 | 10.26s/it
+
+## **Sample batch**:
+_sample 1_:
+<audio src="/ResultsOverview/results/0192/sample_1.wav" controls preload></audio>
+![sample_1]({{"/results/0192/sample_1.png"| absolute_url}}){:width="1000px"}
+
+_sample 2_:
+<audio src="/ResultsOverview/results/0192/sample_2.wav" controls preload></audio>
+![sample_2]({{"/results/0192/sample_2.png"| absolute_url}}){:width="1000px"}
+
+_sample 3_:
+<audio src="/ResultsOverview/results/0192/sample_3.wav" controls preload></audio>
+![sample_3]({{"/results/0192/sample_3.png"| absolute_url}}){:width="1000px"}
+
+_sample 4_:
+<audio src="/ResultsOverview/results/0192/sample_4.wav" controls preload></audio>
+![sample_4]({{"/results/0192/sample_4.png"| absolute_url}}){:width="1000px"}
+
+_sample 5_:
+<audio src="/ResultsOverview/results/0192/sample_5.wav" controls preload></audio>
+![sample_5]({{"/results/0192/sample_5.png"| absolute_url}}){:width="1000px"}
+
+_sample 6_:
+<audio src="/ResultsOverview/results/0192/sample_6.wav" controls preload></audio>
+![sample_6]({{"/results/0192/sample_6.png"| absolute_url}}){:width="1000px"}
+
+_sample 7_:
+<audio src="/ResultsOverview/results/0192/sample_7.wav" controls preload></audio>
+![sample_7]({{"/results/0192/sample_7.png"| absolute_url}}){:width="1000px"}
+
+_sample 8_:
+<audio src="/ResultsOverview/results/0192/sample_8.wav" controls preload></audio>
+![sample_8]({{"/results/0192/sample_8.png"| absolute_url}}){:width="1000px"}
+
+_sample 9_:
+<audio src="/ResultsOverview/results/0192/sample_9.wav" controls preload></audio>
+![sample_9]({{"/results/0192/sample_9.png"| absolute_url}}){:width="1000px"}
+
+_sample 10_:
+<audio src="/ResultsOverview/results/0192/sample_10.wav" controls preload></audio>
+![sample_10]({{"/results/0192/sample_10.png"| absolute_url}}){:width="1000px"}
+
+
+{% highlight python %}
+{% raw %}
 import os
 import numpy as np
 import waveUtils
@@ -90,3 +153,6 @@ class config(object):
 		x = batch.astype(np.float32)
 		return x / np.max(np.abs(x))
 
+
+{% endraw %}
+{% endhighlight %}

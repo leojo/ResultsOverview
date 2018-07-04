@@ -1,0 +1,61 @@
+Sender: LSF System <lsfadmin@lo-s4-013>
+Subject: Job 480139: <python main.py results/0195> in cluster <leonhard> Exited
+
+Job <python main.py results/0195> was submitted from host <lo-login-01> by user <leoj> in cluster <leonhard> at Wed Jul  4 15:20:09 2018
+Job was executed on host(s) <4*lo-s4-013>, in queue <gpu.4h>, as user <leoj> in cluster <leonhard> at Wed Jul  4 15:20:29 2018
+</cluster/home/leoj> was used as the home directory.
+</cluster/home/leoj/sandbox> was used as the working directory.
+Started at Wed Jul  4 15:20:29 2018
+Terminated at Wed Jul  4 15:23:01 2018
+Results reported at Wed Jul  4 15:23:01 2018
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python main.py results/0195
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   163.04 sec.
+    Max Memory :                                 2865 MB
+    Average Memory :                             1481.20 MB
+    Total Requested Memory :                     32000.00 MB
+    Delta Memory :                               29135.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                27
+    Run time :                                   174 sec.
+    Turnaround time :                            172 sec.
+
+The output (if any) follows:
+
+WARNING:tensorflow:From /cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+WARNING:tensorflow:From /cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/python/util/deprecation.py:497: calling conv1d (from tensorflow.python.ops.nn_ops) with data_format=NHWC is deprecated and will be removed in a future version.
+Instructions for updating:
+`NHWC` for data_format is deprecated, use `NWC` instead
+2018-07-04 15:20:49.154410: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-07-04 15:20:49.684415: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1344] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:0c:00.0
+totalMemory: 10.91GiB freeMemory: 10.75GiB
+2018-07-04 15:20:49.684450: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0
+2018-07-04 15:20:49.955329: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-07-04 15:20:49.955371: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 
+2018-07-04 15:20:49.955378: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N 
+2018-07-04 15:20:49.956021: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10409 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0c:00.0, compute capability: 6.1)
+  0%|          | 0/100 [00:00<?, ?it/s]Loss: 0.0221, Reconstruction: 0.0221, KL: 417706.2619:   0%|          | 0/100 [00:12<?, ?it/s]Loss: 0.0221, Reconstruction: 0.0221, KL: 417706.2619:   1%|1         | 1/100 [00:12<20:42, 12.56s/it]Loss: 0.0022, Reconstruction: 0.0022, KL: 786114.5381:   1%|1         | 1/100 [00:22<37:43, 22.86s/it]Loss: 0.0022, Reconstruction: 0.0022, KL: 786114.5381:   2%|2         | 2/100 [00:22<18:40, 11.43s/it]Loss: 0.0009, Reconstruction: 0.0009, KL: 982068.9487:   2%|2         | 2/100 [00:33<27:03, 16.56s/it]Loss: 0.0009, Reconstruction: 0.0009, KL: 982068.9487:   3%|3         | 3/100 [00:33<17:51, 11.04s/it]Loss: 0.0005, Reconstruction: 0.0005, KL: 1110194.1875:   3%|3         | 3/100 [00:43<23:22, 14.46s/it]Loss: 0.0005, Reconstruction: 0.0005, KL: 1110194.1875:   4%|4         | 4/100 [00:43<17:20, 10.84s/it]Loss: 0.0004, Reconstruction: 0.0004, KL: 1184507.2822:   4%|4         | 4/100 [00:53<21:28, 13.42s/it]Loss: 0.0004, Reconstruction: 0.0004, KL: 1184507.2822:   5%|5         | 5/100 [00:53<16:59, 10.74s/it]Loss: 0.0003, Reconstruction: 0.0003, KL: 1226745.9912:   5%|5         | 5/100 [01:03<20:15, 12.80s/it]Loss: 0.0003, Reconstruction: 0.0003, KL: 1226745.9912:   6%|6         | 6/100 [01:03<16:42, 10.67s/it]Loss: 0.0002, Reconstruction: 0.0002, KL: 1308493.1309:   6%|6         | 6/100 [01:14<19:26, 12.41s/it]Loss: 0.0002, Reconstruction: 0.0002, KL: 1308493.1309:   7%|7         | 7/100 [01:14<16:29, 10.64s/it]Loss: 0.0002, Reconstruction: 0.0002, KL: 1272183.2217:   7%|7         | 7/100 [01:24<18:46, 12.12s/it]Loss: 0.0002, Reconstruction: 0.0002, KL: 1272183.2217:   8%|8         | 8/100 [01:24<16:15, 10.60s/it]Loss: 0.0002, Reconstruction: 0.0002, KL: 1234756.1924:   8%|8         | 8/100 [01:35<18:14, 11.90s/it]Loss: 0.0002, Reconstruction: 0.0002, KL: 1234756.1924:   9%|9         | 9/100 [01:35<16:02, 10.58s/it]Loss: 0.0002, Reconstruction: 0.0002, KL: 1221522.1084:   9%|9         | 9/100 [01:45<17:48, 11.74s/it]Loss: 0.0002, Reconstruction: 0.0002, KL: 1221522.1084:  10%|#         | 10/100 [01:45<15:50, 10.56s/it]Loss: 0.0002, Reconstruction: 0.0002, KL: 1148256.0928:  10%|#         | 10/100 [01:56<17:24, 11.60s/it]Loss: 0.0002, Reconstruction: 0.0002, KL: 1148256.0928:  11%|#1        | 11/100 [01:56<15:38, 10.55s/it]Loss: nan, Reconstruction: nan, KL: 2850000424188.0078:  11%|#1        | 11/100 [02:06<17:02, 11.49s/it]/cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/numpy/core/_methods.py:26: RuntimeWarning: invalid value encountered in reduce
+  return umr_maximum(a, axis, None, out, keepdims)
+Traceback (most recent call last):
+  File "main.py", line 33, in <module>
+    num_tests=num_tests, basename="sample", ylim=1.1)
+  File "/cluster/home/leoj/sandbox/plot.py", line 23, in plot
+    cur_factors, score = waveUtils.matchWaves(cur_orgs, cur_factors)
+  File "/cluster/home/leoj/sandbox/waveUtils.py", line 148, in matchWaves
+    assert loss < placeholder
+AssertionError

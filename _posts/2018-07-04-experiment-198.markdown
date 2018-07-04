@@ -1,3 +1,22 @@
+---
+layout: post
+title:  "Experiment 198"
+date:   2018-07-04 +0200
+categories: result
+excerpt_separator: <!-- more -->
+---
+<!-- more -->
+
+Experiment 198
+
+Trying new version of the latest network structure again, this time with 128 batch and 5 autoencoders, 2 data sources, learning rate 1e-3, kl loss 1e-12
+
+Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
+nan | nan | 3350000938610.9785 | 46% | 46/100 | 08:04 | 09:29 | 10.54s/it]/cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/numpy/core/_methods.py:26
+
+
+{% highlight python %}
+{% raw %}
 import os
 import numpy as np
 import waveUtils
@@ -39,7 +58,7 @@ class config(object):
 	learning_rate_max = 1e-3
 	learning_rate_scaling_factor = 0  # controlls the shape of the scaling curve from max to min learning rate
 	learning_rate = 1e-3  # legacy
-	kl_loss_mult = 1e-6
+	kl_loss_mult = 1e-12
 	kl_extra_mult = 2
 	kl_extra_exponent = 2
 	keep_prob = 1
@@ -90,3 +109,6 @@ class config(object):
 		x = batch.astype(np.float32)
 		return x / np.max(np.abs(x))
 
+
+{% endraw %}
+{% endhighlight %}
