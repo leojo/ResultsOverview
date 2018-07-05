@@ -1,0 +1,2 @@
+Experiment 200
+Trying the new code with better graphs, kl_mult 1e-4, 3 sounds 5 AE's non-scaling lr = 1e-3
