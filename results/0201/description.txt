@@ -1,0 +1,2 @@
+Experiment 201
+Testing new parameter to reorder plots, training on 3 data sources, 5 AEs with kl mult 1e-4 and fixed lr 1e-3
