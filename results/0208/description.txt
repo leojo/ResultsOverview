@@ -1,0 +1,2 @@
+Experiment 208
+Testing separation of speech and music with 2 ae's, kl mult 1e-4 and learning rate 1e-3
