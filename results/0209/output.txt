@@ -1,0 +1,40 @@
+Sender: LSF System <lsfadmin@lo-s4-033>
+Subject: Job 483193: <python main.py results/0209> in cluster <leonhard> Exited
+
+Job <python main.py results/0209> was submitted from host <lo-login-02> by user <leoj> in cluster <leonhard> at Fri Jul  6 23:19:50 2018
+Job was executed on host(s) <4*lo-s4-033>, in queue <gpu.4h>, as user <leoj> in cluster <leonhard> at Fri Jul  6 23:20:12 2018
+</cluster/home/leoj> was used as the home directory.
+</cluster/home/leoj/sandbox> was used as the working directory.
+Started at Fri Jul  6 23:20:12 2018
+Terminated at Fri Jul  6 23:38:42 2018
+Results reported at Fri Jul  6 23:38:42 2018
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python main.py results/0209
+------------------------------------------------------------
+
+TERM_MEMLIMIT: job killed after reaching LSF memory usage limit.
+Exited with exit code 137.
+
+Resource usage summary:
+
+    CPU time :                                   1107.83 sec.
+    Max Memory :                                 128000 MB
+    Average Memory :                             80843.53 MB
+    Total Requested Memory :                     128000.00 MB
+    Delta Memory :                               0.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   1130 sec.
+    Turnaround time :                            1132 sec.
+
+The output (if any) follows:
+
+WARNING:tensorflow:From /cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+/cluster/shadow/.lsbatch/1530911990.483193: line 8: 33636 Killed                  python main.py results/0209
