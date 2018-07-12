@@ -1,0 +1,2 @@
+Experiment 223
+Testing variational with l2 loss and 3 aes, sax-baritone and cello
