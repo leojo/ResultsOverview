@@ -1,0 +1,153 @@
+---
+layout: post
+title:  "Experiment 214"
+date:   2018-07-11 +0200
+categories: result
+excerpt_separator: <!-- more -->
+---
+Separation losses:
+
+|samples
+|8.84123268517<!-- more -->
+
+Experiment 214
+
+Rerunning config that should yield good results with some debug printing for comparison with Andrea's project
+
+Loss | L2-loss | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0002 | 0.0001 | 0.7936 | 100% | 100/100 | 43:02 | 00:00 | 25.82s/it
+
+## **Sample batch**:
+_sample 1_:
+<audio src="/ResultsOverview/results/0214/sample_1.wav" controls preload></audio>
+![sample_1]({{"/results/0214/sample_1.png"| absolute_url}}){:width="1000px"}
+
+_sample 2_:
+<audio src="/ResultsOverview/results/0214/sample_2.wav" controls preload></audio>
+![sample_2]({{"/results/0214/sample_2.png"| absolute_url}}){:width="1000px"}
+
+_sample 3_:
+<audio src="/ResultsOverview/results/0214/sample_3.wav" controls preload></audio>
+![sample_3]({{"/results/0214/sample_3.png"| absolute_url}}){:width="1000px"}
+
+_sample 4_:
+<audio src="/ResultsOverview/results/0214/sample_4.wav" controls preload></audio>
+![sample_4]({{"/results/0214/sample_4.png"| absolute_url}}){:width="1000px"}
+
+_sample 5_:
+<audio src="/ResultsOverview/results/0214/sample_5.wav" controls preload></audio>
+![sample_5]({{"/results/0214/sample_5.png"| absolute_url}}){:width="1000px"}
+
+_sample 6_:
+<audio src="/ResultsOverview/results/0214/sample_6.wav" controls preload></audio>
+![sample_6]({{"/results/0214/sample_6.png"| absolute_url}}){:width="1000px"}
+
+_sample 7_:
+<audio src="/ResultsOverview/results/0214/sample_7.wav" controls preload></audio>
+![sample_7]({{"/results/0214/sample_7.png"| absolute_url}}){:width="1000px"}
+
+_sample 8_:
+<audio src="/ResultsOverview/results/0214/sample_8.wav" controls preload></audio>
+![sample_8]({{"/results/0214/sample_8.png"| absolute_url}}){:width="1000px"}
+
+_sample 9_:
+<audio src="/ResultsOverview/results/0214/sample_9.wav" controls preload></audio>
+![sample_9]({{"/results/0214/sample_9.png"| absolute_url}}){:width="1000px"}
+
+_sample 10_:
+<audio src="/ResultsOverview/results/0214/sample_10.wav" controls preload></audio>
+![sample_10]({{"/results/0214/sample_10.png"| absolute_url}}){:width="1000px"}
+
+
+{% highlight python %}
+{% raw %}
+import os
+import numpy as np
+import waveUtils
+
+
+class config(object):
+
+	def __init__(self):
+		self.prepare_data()
+
+	# Bsub arguments
+	bsub_mainfile = "main.py"
+	bsub_processors = 4
+	bsub_timeout = "4:00"
+	bsub_memory = 16000
+
+	# Epoch and batch config
+	batch_size = 128
+	latent_dim = 1000
+	epochs = 100
+	epoch_updates = 100
+
+	# Network structure
+	input_s = 16000
+	n_ae = 5
+
+	# Model
+	load_model = False
+	model_path = os.path.join("models", "0201", "model")  # only used if load_model=True
+
+	# Miscellaneous constants
+	sample_rate = 8000
+	#learning_rate_min = 1e-4
+	#learning_rate_max = 1e-3
+	#learning_rate_scaling_factor = -3  # controlls the shape of the scaling curve from max to min learning rate
+	learning_rate = 1e-3  # Only works if either of learning_rate_min and learning_rate_max are unspecified
+	kl_loss_mult = 1e-4
+	kl_extra_mult = 2
+	kl_extra_exponent = 2
+	useLogProba = False
+	useMixtureProba = False
+	reorder_outputs = True
+	data_sources = ["sax-baritone","violin","double-bass"]
+	data = None
+
+	# Functions
+	def prepare_data(self):
+		self.load_data()
+
+	def load_and_prepare_audio(self, source):
+		duration = self.input_s / float(self.sample_rate)
+		data_dir = os.path.join("wav_files", source)
+		waves, original_sample_rate = waveUtils.loadAudioFiles(data_dir)
+		cut_data = waveUtils.extractHighestMeanIntensities(waves, sample_rate=original_sample_rate, duration=duration)
+		del waves
+		data = waveUtils.reduceQuality(cut_data, self.sample_rate, duration)
+		del cut_data
+		return data
+
+	def load_data(self):
+		if self.data is None:
+			self.data = [self.load_and_prepare_audio(source) for source in self.data_sources]
+
+	def get_training_batch(self):
+		samples = []
+		originals = []
+		num_sources = len(self.data_sources)
+		sample_shape = self.data[0][0].shape
+		for _ in range(self.batch_size):
+			waves = []
+			sample = np.zeros(sample_shape)
+			for s in range(num_sources):
+				i = np.random.randint(len(self.data[s]))
+				wave = self.data[s][i]
+				waves.append(wave)
+				sample += wave
+			sample = sample/num_sources
+			samples.append(sample)
+			originals.append(waves)
+
+		samples = np.asarray(samples)
+		originals = np.asarray(originals)
+		return samples, originals
+
+	def normalize_batch(self, batch):
+		x = batch.astype(np.float32)
+		return x / np.max(np.abs(x))
+
+{% endraw %}
+{% endhighlight %}

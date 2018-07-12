@@ -1,0 +1,2 @@
+Experiment 214
+Rerunning config that should yield good results with some debug printing for comparison with Andrea's project

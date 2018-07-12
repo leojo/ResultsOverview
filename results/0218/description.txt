@@ -1,0 +1,2 @@
+Experiment 218
+Testing log-proba , with  mixture, with square instead of relu for variance

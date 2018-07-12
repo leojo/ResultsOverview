@@ -1,0 +1,2 @@
+Experiment 220
+Testing deterministic with log-proba, no-mixture loss and single ae, only sax-baritone

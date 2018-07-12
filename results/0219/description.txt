@@ -1,0 +1,2 @@
+Experiment 219
+Testing deterministic with l2 loss and single ae, only sax-baritone
