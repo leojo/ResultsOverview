@@ -1,0 +1,2 @@
+Experiment 224
+Testing log proba with mixture, 1 ae and 1 source. Using relu to ensure non-negativity of variance
