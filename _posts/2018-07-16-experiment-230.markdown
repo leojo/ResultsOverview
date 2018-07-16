@@ -1,3 +1,66 @@
+---
+layout: post
+title:  "Experiment 230"
+date:   2018-07-16 +0200
+categories: result
+excerpt_separator: <!-- more -->
+---
+Separation losses:
+
+|samples
+|8.18232177487<!-- more -->
+
+Experiment 230
+
+Testing speech from music separation with c.a. 2000-3000 samples of both. kl loss mult 1e-4, learning_rate 1e-4, 4 second samples at 8000 HZ with latent dim 1000 and max music intensity at 0.5. 600 epochs, with speech_wav and music_wav as validation data
+
+Loss | L2-loss | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0022 | 0.0017 | 4.7776 | 100% | 600/600 | 3:10:53 | 00:00 | 19.09s/it
+
+## **Sample batch**:
+_sample 1_:
+<audio src="/ResultsOverview/results/0230/sample_1.wav" controls preload></audio>
+![sample_1]({{"/results/0230/sample_1.png"| absolute_url}}){:width="1000px"}
+
+_sample 2_:
+<audio src="/ResultsOverview/results/0230/sample_2.wav" controls preload></audio>
+![sample_2]({{"/results/0230/sample_2.png"| absolute_url}}){:width="1000px"}
+
+_sample 3_:
+<audio src="/ResultsOverview/results/0230/sample_3.wav" controls preload></audio>
+![sample_3]({{"/results/0230/sample_3.png"| absolute_url}}){:width="1000px"}
+
+_sample 4_:
+<audio src="/ResultsOverview/results/0230/sample_4.wav" controls preload></audio>
+![sample_4]({{"/results/0230/sample_4.png"| absolute_url}}){:width="1000px"}
+
+_sample 5_:
+<audio src="/ResultsOverview/results/0230/sample_5.wav" controls preload></audio>
+![sample_5]({{"/results/0230/sample_5.png"| absolute_url}}){:width="1000px"}
+
+_sample 6_:
+<audio src="/ResultsOverview/results/0230/sample_6.wav" controls preload></audio>
+![sample_6]({{"/results/0230/sample_6.png"| absolute_url}}){:width="1000px"}
+
+_sample 7_:
+<audio src="/ResultsOverview/results/0230/sample_7.wav" controls preload></audio>
+![sample_7]({{"/results/0230/sample_7.png"| absolute_url}}){:width="1000px"}
+
+_sample 8_:
+<audio src="/ResultsOverview/results/0230/sample_8.wav" controls preload></audio>
+![sample_8]({{"/results/0230/sample_8.png"| absolute_url}}){:width="1000px"}
+
+_sample 9_:
+<audio src="/ResultsOverview/results/0230/sample_9.wav" controls preload></audio>
+![sample_9]({{"/results/0230/sample_9.png"| absolute_url}}){:width="1000px"}
+
+_sample 10_:
+<audio src="/ResultsOverview/results/0230/sample_10.wav" controls preload></audio>
+![sample_10]({{"/results/0230/sample_10.png"| absolute_url}}){:width="1000px"}
+
+
+{% highlight python %}
+{% raw %}
 import os
 import numpy as np
 import waveUtils
@@ -120,3 +183,6 @@ class config(object):
 	def normalize_batch(self, batch):
 		x = batch.astype(np.float32)
 		return x / np.max(np.abs(x))
+
+{% endraw %}
+{% endhighlight %}
