@@ -1,0 +1,2 @@
+Experiment 232
+Testing with 2x data but no validation data other than a new training batch, no dropout, no random noise

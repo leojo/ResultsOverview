@@ -1,0 +1,2 @@
+Experiment 233
+Testing with 2x data but no validation data other than a new training batch, keep_prob 0.9, random noise stdev 0.1
