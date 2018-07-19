@@ -1,0 +1,2 @@
+Experiment 235
+Trying to get decent results using keep_prob 0.95 and noise stdev 0.05. Using freshly sampled data from the original data sources as validation data.
