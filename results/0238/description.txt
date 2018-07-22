@@ -1,0 +1,2 @@
+Experiment 238
+Testing larger network on more data for 2400 epochs. Learning rate 4e-4

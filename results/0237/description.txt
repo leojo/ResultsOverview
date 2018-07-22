@@ -1,0 +1,2 @@
+Experiment 237
+Testing larger network on more data for 1500 epochs. Should take 16-20 hours
