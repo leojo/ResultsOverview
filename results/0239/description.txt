@@ -1,0 +1,2 @@
+Experiment 239
+Testing the reverted smaller network for 600 epochs on a lot of data
