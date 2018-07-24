@@ -1,0 +1,2 @@
+Experiment 241
+Testing the reverted smaller network 2xlatent_dim->latent_mid->2xlatent_dim for 1200 epochs with 64 batch size instead of 128 on a lot of data
