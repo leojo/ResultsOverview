@@ -1,0 +1,2 @@
+Experiment 242
+Larger network 2xlatent_dim->latent_mid->2xlatent_dim for 1200 epochs on a lot of data, batch size 32

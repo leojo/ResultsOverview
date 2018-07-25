@@ -1,0 +1,53 @@
+Sender: LSF System <lsfadmin@lo-s4-032>
+Subject: Job 568003: <python main.py results/0243> in cluster <leonhard> Exited
+
+Job <python main.py results/0243> was submitted from host <lo-login-02> by user <leoj> in cluster <leonhard> at Wed Jul 25 10:38:34 2018
+Job was executed on host(s) <4*lo-s4-032>, in queue <gpu.24h>, as user <leoj> in cluster <leonhard> at Wed Jul 25 10:38:47 2018
+</cluster/home/leoj> was used as the home directory.
+</cluster/home/leoj/sandbox> was used as the working directory.
+Started at Wed Jul 25 10:38:47 2018
+Terminated at Wed Jul 25 10:49:42 2018
+Results reported at Wed Jul 25 10:49:42 2018
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python main.py results/0243
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   590.13 sec.
+    Max Memory :                                 53845 MB
+    Average Memory :                             24341.36 MB
+    Total Requested Memory :                     128000.00 MB
+    Delta Memory :                               74155.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   657 sec.
+    Turnaround time :                            668 sec.
+
+The output (if any) follows:
+
+WARNING:tensorflow:From /cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+WARNING:tensorflow:From /cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/python/util/deprecation.py:497: calling conv1d (from tensorflow.python.ops.nn_ops) with data_format=NHWC is deprecated and will be removed in a future version.
+Instructions for updating:
+`NHWC` for data_format is deprecated, use `NWC` instead
+Traceback (most recent call last):
+  File "main.py", line 9, in <module>
+    vae = VAE(latent_dim=config.latent_dim, batch_size=config.batch_size, config=config)
+  File "/cluster/home/leoj/sandbox/vae.py", line 23, in __init__
+    self._build_graph()
+  File "/cluster/home/leoj/sandbox/vae.py", line 125, in _build_graph
+    reconstruction_error = tf.losses.mean_squared_error(self.x, self.reconstructed)
+  File "/cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/python/ops/losses/losses_impl.py", line 624, in mean_squared_error
+    predictions.get_shape().assert_is_compatible_with(labels.get_shape())
+  File "/cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py", line 764, in assert_is_compatible_with
+    raise ValueError("Shapes %s and %s are incompatible" % (self, other))
+ValueError: Shapes (64, 128000, 1) and (?, 32000, 1) are incompatible
