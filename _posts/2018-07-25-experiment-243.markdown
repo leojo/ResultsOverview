@@ -5,13 +5,99 @@ date:   2018-07-25 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-<!-- more -->
+Separation losses:
+
+|samples|validation
+|15.8752136048|19.0999831331<!-- more -->
 
 Experiment 243
 
 Larger network 16-32-64-128-1000-500-1000-128-64-32-16, 500 latent dim, 64 batch size, 1200 epochs
 
-Failed to complete!
+Loss | L2-loss | KL | Completion | Epochs | Elapsed | Remaining | Speed
+0.0063 | 0.0054 | 8.3850 | 100% | 1200/1200 | 6:49:15 | 00:00 | 20.46s/it
+
+## **Sample batch**:
+_sample 1_:
+<audio src="/ResultsOverview/results/0243/sample_1.wav" controls preload></audio>
+![sample_1]({{"/results/0243/sample_1.png"| absolute_url}}){:width="1000px"}
+
+_sample 2_:
+<audio src="/ResultsOverview/results/0243/sample_2.wav" controls preload></audio>
+![sample_2]({{"/results/0243/sample_2.png"| absolute_url}}){:width="1000px"}
+
+_sample 3_:
+<audio src="/ResultsOverview/results/0243/sample_3.wav" controls preload></audio>
+![sample_3]({{"/results/0243/sample_3.png"| absolute_url}}){:width="1000px"}
+
+_sample 4_:
+<audio src="/ResultsOverview/results/0243/sample_4.wav" controls preload></audio>
+![sample_4]({{"/results/0243/sample_4.png"| absolute_url}}){:width="1000px"}
+
+_sample 5_:
+<audio src="/ResultsOverview/results/0243/sample_5.wav" controls preload></audio>
+![sample_5]({{"/results/0243/sample_5.png"| absolute_url}}){:width="1000px"}
+
+_sample 6_:
+<audio src="/ResultsOverview/results/0243/sample_6.wav" controls preload></audio>
+![sample_6]({{"/results/0243/sample_6.png"| absolute_url}}){:width="1000px"}
+
+_sample 7_:
+<audio src="/ResultsOverview/results/0243/sample_7.wav" controls preload></audio>
+![sample_7]({{"/results/0243/sample_7.png"| absolute_url}}){:width="1000px"}
+
+_sample 8_:
+<audio src="/ResultsOverview/results/0243/sample_8.wav" controls preload></audio>
+![sample_8]({{"/results/0243/sample_8.png"| absolute_url}}){:width="1000px"}
+
+_sample 9_:
+<audio src="/ResultsOverview/results/0243/sample_9.wav" controls preload></audio>
+![sample_9]({{"/results/0243/sample_9.png"| absolute_url}}){:width="1000px"}
+
+_sample 10_:
+<audio src="/ResultsOverview/results/0243/sample_10.wav" controls preload></audio>
+![sample_10]({{"/results/0243/sample_10.png"| absolute_url}}){:width="1000px"}
+
+## **Validation batch**:
+_validation 1_:
+<audio src="/ResultsOverview/results/0243/validation_1.wav" controls preload></audio>
+![validation_1]({{"/results/0243/validation_1.png"| absolute_url}}){:width="1000px"}
+
+_validation 2_:
+<audio src="/ResultsOverview/results/0243/validation_2.wav" controls preload></audio>
+![validation_2]({{"/results/0243/validation_2.png"| absolute_url}}){:width="1000px"}
+
+_validation 3_:
+<audio src="/ResultsOverview/results/0243/validation_3.wav" controls preload></audio>
+![validation_3]({{"/results/0243/validation_3.png"| absolute_url}}){:width="1000px"}
+
+_validation 4_:
+<audio src="/ResultsOverview/results/0243/validation_4.wav" controls preload></audio>
+![validation_4]({{"/results/0243/validation_4.png"| absolute_url}}){:width="1000px"}
+
+_validation 5_:
+<audio src="/ResultsOverview/results/0243/validation_5.wav" controls preload></audio>
+![validation_5]({{"/results/0243/validation_5.png"| absolute_url}}){:width="1000px"}
+
+_validation 6_:
+<audio src="/ResultsOverview/results/0243/validation_6.wav" controls preload></audio>
+![validation_6]({{"/results/0243/validation_6.png"| absolute_url}}){:width="1000px"}
+
+_validation 7_:
+<audio src="/ResultsOverview/results/0243/validation_7.wav" controls preload></audio>
+![validation_7]({{"/results/0243/validation_7.png"| absolute_url}}){:width="1000px"}
+
+_validation 8_:
+<audio src="/ResultsOverview/results/0243/validation_8.wav" controls preload></audio>
+![validation_8]({{"/results/0243/validation_8.png"| absolute_url}}){:width="1000px"}
+
+_validation 9_:
+<audio src="/ResultsOverview/results/0243/validation_9.wav" controls preload></audio>
+![validation_9]({{"/results/0243/validation_9.png"| absolute_url}}){:width="1000px"}
+
+_validation 10_:
+<audio src="/ResultsOverview/results/0243/validation_10.wav" controls preload></audio>
+![validation_10]({{"/results/0243/validation_10.png"| absolute_url}}){:width="1000px"}
 
 
 {% highlight python %}
