@@ -5,13 +5,13 @@ date:   2018-06-28 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-<!-- more -->
-
 Experiment 164
 
 Trying 2 instruments, 5 auto-encoders and kl_extra_mult 2 with learning_rate_scaling_factor = -5
 
-Failed to complete!
+
+
+Failed to complete!<!-- more -->
 
 
 {% highlight python %}

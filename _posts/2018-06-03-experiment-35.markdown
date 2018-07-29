@@ -5,17 +5,17 @@ date:   2018-06-03 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses (reconstructed):
-
-sample|validation
-48.1941183740103|29.973295513311086<!-- more -->
-
 Experiment 35
 
 Chello only, 100 epochs, 10x kl mult
 
+Separation losses (reconstructed):
+
+|sample|validation
+|48.1941183740103|29.973295513311086
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0007 | 0.0003 | 126.6624 | 100% | 100/100 | 34:51 | 00:00 | 20.92s/it
+0.0007 | 0.0003 | 126.6624 | 100% | 100/100 | 34:51 | 00:00 | 20.92s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:
@@ -108,7 +108,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 

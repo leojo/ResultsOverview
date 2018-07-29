@@ -5,17 +5,17 @@ date:   2018-07-12 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples
-|13.0722483425<!-- more -->
-
 Experiment 223
 
 Testing variational with l2 loss and 3 aes, sax-baritone and cello
 
+Separation losses:
+
+|samples
+|13.0722483425
+
 Loss | L2-loss | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0007 | 0.0004 | 3.3568 | 100% | 100/100 | 26:46 | 00:00 | 16.06s/it
+0.0007 | 0.0004 | 3.3568 | 100% | 100/100 | 26:46 | 00:00 | 16.06s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

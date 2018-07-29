@@ -5,20 +5,20 @@ date:   2018-05-06 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-<!-- more -->
-
 Experiment 1
 
 No description file found.
 
-Failed to complete!
+
+
+Failed to complete!<!-- more -->
 
 
 {% highlight python %}
 {% raw %}
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 

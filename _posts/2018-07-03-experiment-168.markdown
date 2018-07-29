@@ -5,17 +5,17 @@ date:   2018-07-03 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples
-|24.0668547408<!-- more -->
-
 Experiment 168
 
 Trying 4 sound sources and 10 autoencoders
 
+Separation losses:
+
+|samples
+|24.0668547408
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0077 | 0.0047 | 300.9611 | 100% | 100/100 | 1:07:08 | 00:00 | 40.29s/it
+0.0077 | 0.0047 | 300.9611 | 100% | 100/100 | 1:07:08 | 00:00 | 40.29s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

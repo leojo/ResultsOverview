@@ -5,17 +5,17 @@ date:   2018-07-04 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples
-|21.2181456278<!-- more -->
-
 Experiment 177
 
 Trying new version of the latest network structure again, this time with smaller batch size (128 -> 64)
 
+Separation losses:
+
+|samples
+|21.2181456278
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0073 | 0.0036 | 3710.8329 | 100% | 100/100 | 10:31 | 00:00 | 6.31s/it
+0.0073 | 0.0036 | 3710.8329 | 100% | 100/100 | 10:31 | 00:00 | 6.31s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

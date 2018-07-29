@@ -5,14 +5,14 @@ date:   2018-07-12 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-<!-- more -->
-
 Experiment 216
 
 Testing log-proba , with  mixture, with square instead of relu for variance
 
+
+
 Loss | Log-proba-loss | KL | Completion | Epochs | Elapsed | Remaining | Speed
-49.5310 | -13.2469 | 627778.7671 | 8% | 8/100 | 02:43 | 31:25 | 20.50s/it]2018-07-1
+49.5310 | -13.2469 | 627778.7671 | 8% | 8/100 | 02:43 | 31:25 | 20.50s/it]2018-07-1<!-- more -->
 
 
 {% highlight python %}

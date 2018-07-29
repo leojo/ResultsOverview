@@ -1,0 +1,2 @@
+Experiment 250
+Testing new learning rate reduction mechanic for loss that has stabilized, starting learning rate 1e-3, 0.01 threshold, 100 count, 600 epochs

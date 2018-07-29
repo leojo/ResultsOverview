@@ -5,17 +5,17 @@ date:   2018-06-20 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-samples|validation
-52.7280193286|105.730485787<!-- more -->
-
 Experiment 142
 
 This experiment will try to recapture the results of experiment 130 with the addition of dropout and twice the number of epochs.
 
+Separation losses:
+
+|samples|validation
+|52.7280193286|105.730485787
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0394 | 0.0356 | 379.6311 | 100% | 400/400 | 2:27:25 | 00:00 | 22.11s/it
+0.0394 | 0.0356 | 379.6311 | 100% | 400/400 | 2:27:25 | 00:00 | 22.11s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

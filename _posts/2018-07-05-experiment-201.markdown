@@ -5,14 +5,14 @@ date:   2018-07-05 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-<!-- more -->
-
 Experiment 201
 
 Testing new parameter to reorder plots, training on 3 data sources, 5 AEs with kl mult 1e-4 and fixed lr 1e-3
 
+
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0007 | 0.0003 | 362.3859 | 100% | 100/100 | 22:09 | 00:00 | 13.30s/it
+0.0007 | 0.0003 | 362.3859 | 100% | 100/100 | 22:09 | 00:00 | 13.30s/it<!-- more -->
 
 
 {% highlight python %}

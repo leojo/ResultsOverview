@@ -5,17 +5,17 @@ date:   2018-07-03 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples
-|38.6946813141<!-- more -->
-
 Experiment 169
 
 Experimenting with different architecture
 
+Separation losses:
+
+|samples
+|38.6946813141
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0897 | 0.0890 | 7066.3184 | 100% | 100/100 | 34:04 | 00:00 | 20.44s/it
+0.0897 | 0.0890 | 7066.3184 | 100% | 100/100 | 34:04 | 00:00 | 20.44s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

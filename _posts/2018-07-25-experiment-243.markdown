@@ -5,17 +5,17 @@ date:   2018-07-25 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples|validation
-|15.8752136048|19.0999831331<!-- more -->
-
 Experiment 243
 
 Larger network 16-32-64-128-1000-500-1000-128-64-32-16, 500 latent dim, 64 batch size, 1200 epochs
 
+Separation losses:
+
+|samples|validation
+|15.8752136048|19.0999831331
+
 Loss | L2-loss | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0063 | 0.0054 | 8.3850 | 100% | 1200/1200 | 6:49:15 | 00:00 | 20.46s/it
+0.0063 | 0.0054 | 8.3850 | 100% | 1200/1200 | 6:49:15 | 00:00 | 20.46s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

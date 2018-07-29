@@ -5,17 +5,17 @@ date:   2018-07-06 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples
-|14.1386567131<!-- more -->
-
 Experiment 208
 
 Testing separation of speech and music with 2 ae's, kl mult 1e-4 and learning rate 1e-3
 
+Separation losses:
+
+|samples
+|14.1386567131
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0036 | 0.0027 | 9.2834 | 100% | 100/100 | 30:01 | 00:00 | 18.02s/it
+0.0036 | 0.0027 | 9.2834 | 100% | 100/100 | 30:01 | 00:00 | 18.02s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

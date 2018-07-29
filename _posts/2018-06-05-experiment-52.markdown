@@ -5,17 +5,17 @@ date:   2018-06-05 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses (reconstructed):
-
-sample|validation
-207.99825532262116|208.87740648285072<!-- more -->
-
 Experiment 52
 
 Standard parameters, latent dim 5, chello and flute data, proper normalization
 
+Separation losses (reconstructed):
+
+|sample|validation
+|207.99825532262116|208.87740648285072
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0000 | 0.0000 | 2.0000 | 100% | 100/100 | 34:44 | 00:00 | 20.84s/it
+0.0000 | 0.0000 | 2.0000 | 100% | 100/100 | 34:44 | 00:00 | 20.84s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:
@@ -108,7 +108,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 	bsub_memory = 8000

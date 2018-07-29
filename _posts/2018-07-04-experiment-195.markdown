@@ -5,14 +5,14 @@ date:   2018-07-04 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-<!-- more -->
-
 Experiment 195
 
 Trying new version of the latest network structure again, this time with 128 batch and 5 autoencoders, 2 data sources, learning rate 1e-3, kl loss 1e-9
 
+
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-nan | nan | 2850000424188.0078 | 11% | 11/100 | 02:06 | 17:02 | 11.49s/it]/cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/numpy/core/_methods.py:26
+nan | nan | 2850000424188.0078 | 11% | 11/100 | 02:06 | 17:02 | 11.49s/it]/cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/numpy/core/_methods.py:26<!-- more -->
 
 
 {% highlight python %}

@@ -5,13 +5,13 @@ date:   2018-07-06 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-<!-- more -->
-
 Experiment 209
 
 Testing separation of speech and music with 2 ae's, kl mult 1e-4 and learning rate 1e-3, now with 100x as many random samples from each source
 
-Failed to complete!
+
+
+Failed to complete!<!-- more -->
 
 
 {% highlight python %}

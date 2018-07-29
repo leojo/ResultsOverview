@@ -5,17 +5,17 @@ date:   2018-06-11 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses (reconstructed):
-
-sample|validation
-266.9009686861365|267.94962622964965<!-- more -->
-
 Experiment 99
 
 Trying same configs as exp 98 except with latent dim 10 instead of 100
 
+Separation losses (reconstructed):
+
+|sample|validation
+|266.9009686861365|267.94962622964965
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-nan | nan | 2000000000000.0000 | 100% | 100/100 | 2:00:50 | 00:00 | 72.50s/it
+nan | nan | 2000000000000.0000 | 100% | 100/100 | 2:00:50 | 00:00 | 72.50s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:
@@ -112,7 +112,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 	bsub_memory = 8000

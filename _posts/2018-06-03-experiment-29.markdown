@@ -5,17 +5,17 @@ date:   2018-06-03 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses (reconstructed):
-
-sample|validation
-36.40491657703541|28.819875556132416<!-- more -->
-
 Experiment 29
 
 Rerunning experiment 25 after the automation changes as a sanity check after tests 26-28 confirmed the efficacy of the change.
 
+Separation losses (reconstructed):
+
+|sample|validation
+|36.40491657703541|28.819875556132416
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0018 | 0.0008 | 3210.3205 | 100% | 400/400 | 2:18:17 | 00:00 | 20.74s/it
+0.0018 | 0.0008 | 3210.3205 | 100% | 400/400 | 2:18:17 | 00:00 | 20.74s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:
@@ -108,7 +108,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 

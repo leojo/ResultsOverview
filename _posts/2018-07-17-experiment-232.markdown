@@ -5,17 +5,17 @@ date:   2018-07-17 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples|validation
-|17.5576148181|17.9663489314<!-- more -->
-
 Experiment 232
 
 Testing with 2x data but no validation data other than a new training batch, no dropout, no random noise
 
+Separation losses:
+
+|samples|validation
+|17.5576148181|17.9663489314
+
 Loss | L2-loss | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0061 | 0.0054 | 6.4436 | 100% | 100/100 | 46:02 | 00:00 | 27.62s/it
+0.0061 | 0.0054 | 6.4436 | 100% | 100/100 | 46:02 | 00:00 | 27.62s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

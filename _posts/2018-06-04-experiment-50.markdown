@@ -6,19 +6,19 @@ categories: result
 tags: bestof
 excerpt_separator: <!-- more -->
 ---
-Separation losses (reconstructed):
-
-sample|validation
-123.07078889957108|121.01831405074338<!-- more -->
-
 Experiment 50
 
 First experiment run with two distinct instruments, cello and clarinet.
 
 Latent dimension 5. KL loss multiplier 1e-5. Improper Validation set.
 
+Separation losses (reconstructed):
+
+|sample|validation
+|123.07078889957108|121.01831405074338
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0234 | 0.0232 | 710.4036 | 100% | 100/100 | 35:35 | 00:00 | 21.35s/it
+0.0234 | 0.0232 | 710.4036 | 100% | 100/100 | 35:35 | 00:00 | 21.35s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:
@@ -111,7 +111,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 

@@ -5,17 +5,17 @@ date:   2018-07-02 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples
-|19.7652062606<!-- more -->
-
 Experiment 167
 
 Rerunning exp 164, now with averaging over factors since that is the only way the separation loss is comparable across different numbers of autoencoders and combined sounds.
 
+Separation losses:
+
+|samples
+|19.7652062606
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0152 | 0.0108 | 440.6669 | 100% | 100/100 | 37:19 | 00:00 | 22.40s/it
+0.0152 | 0.0108 | 440.6669 | 100% | 100/100 | 37:19 | 00:00 | 22.40s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

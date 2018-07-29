@@ -5,17 +5,17 @@ date:   2018-07-23 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples|validation
-|12.7378811501|19.5896199683<!-- more -->
-
 Experiment 240
 
 Testing the reverted smaller network with one tweak for 600 epochs on a lot of data
 
+Separation losses:
+
+|samples|validation
+|12.7378811501|19.5896199683
+
 Loss | L2-loss | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0041 | 0.0033 | 7.7100 | 100% | 600/600 | 5:12:30 | 00:00 | 31.25s/it
+0.0041 | 0.0033 | 7.7100 | 100% | 600/600 | 5:12:30 | 00:00 | 31.25s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

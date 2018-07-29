@@ -5,17 +5,17 @@ date:   2018-05-22 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses (reconstructed):
-
-sample|validation
-45.55660095142724|44.04734187219632<!-- more -->
-
 Experiment 24
 
 No description file found.
 
+Separation losses (reconstructed):
+
+|sample|validation
+|45.55660095142724|44.04734187219632
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0019 | 0.0009 | 3214.6157 | 100% | 400/400 | 2:16:10 | 00:00 | 20.43s/it
+0.0019 | 0.0009 | 3214.6157 | 100% | 400/400 | 2:16:10 | 00:00 | 20.43s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:
@@ -108,7 +108,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 

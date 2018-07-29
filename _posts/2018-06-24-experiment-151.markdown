@@ -5,17 +5,17 @@ date:   2018-06-24 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-samples|validation
-5.64563355264|40.709075091<!-- more -->
-
 Experiment 151
 
 Training on clarinet data and validating on oboe with 1 AE and only 1 note. Using scaling learning rate (with reduced scaling rate, 3)
 
+Separation losses:
+
+|samples|validation
+|5.64563355264|40.709075091
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0040 | 0.0015 | 248.8678 | 100% | 100/100 | 26:53 | 00:00 | 16.13s/it
+0.0040 | 0.0015 | 248.8678 | 100% | 100/100 | 26:53 | 00:00 | 16.13s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

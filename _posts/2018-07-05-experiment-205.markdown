@@ -5,17 +5,17 @@ date:   2018-07-05 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples
-|25.3974823565<!-- more -->
-
 Experiment 205
 
 Trying longer samples
 
+Separation losses:
+
+|samples
+|25.3974823565
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0002 | 0.0001 | 87.0778 | 100% | 100/100 | 49:46 | 00:00 | 29.86s/it
+0.0002 | 0.0001 | 87.0778 | 100% | 100/100 | 49:46 | 00:00 | 29.86s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

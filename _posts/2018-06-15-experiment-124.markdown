@@ -5,17 +5,17 @@ date:   2018-06-15 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-samples|validation
-nan|nan<!-- more -->
-
 Experiment 124
 
 Trying to increase kl_extra_mult to 100 to see if that helps with the separation
 
+Separation losses:
+
+|samples|validation
+|nan|nan
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-nan | nan | 1320024026008.3962 | 48% | 48/100 | 17:18 | 18:44 | 21.63s/it]Averag
+nan | nan | 1320024026008.3962 | 48% | 48/100 | 17:18 | 18:44 | 21.63s/it]Averag<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:
@@ -112,7 +112,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 	bsub_memory = 8000

@@ -5,17 +5,17 @@ date:   2018-06-10 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses (reconstructed):
-
-sample|validation
--|86.68100586620808<!-- more -->
-
 Experiment 97
 
 Trying out the new memmaps with improved output, configs are semi irrelivant byt they should be the same as for experiment 96
 
+Separation losses (reconstructed):
+
+|sample|validation
+|86.68100586620808|-
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0012 | 0.0005 | 63.4822 | 100% | 100/100 | 2:08:47 | 00:00 | 77.27s/it
+0.0012 | 0.0005 | 63.4822 | 100% | 100/100 | 2:08:47 | 00:00 | 77.27s/it<!-- more -->
 
 ## **Validation batch**:
 _validation 1_:
@@ -71,7 +71,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 	bsub_memory = 8000

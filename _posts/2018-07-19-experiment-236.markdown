@@ -5,17 +5,17 @@ date:   2018-07-19 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples|validation
-|12.8219955888|19.1364811406<!-- more -->
-
 Experiment 236
 
 Testing larger network to see if that will improve reconstruction
 
+Separation losses:
+
+|samples|validation
+|12.8219955888|19.1364811406
+
 Loss | L2-loss | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0044 | 0.0038 | 5.8232 | 100% | 400/400 | 3:35:42 | 00:00 | 32.36s/it
+0.0044 | 0.0038 | 5.8232 | 100% | 400/400 | 3:35:42 | 00:00 | 32.36s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

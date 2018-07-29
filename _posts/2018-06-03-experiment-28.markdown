@@ -5,19 +5,19 @@ date:   2018-06-03 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses (reconstructed):
-
-sample|validation
-61.621361309605504|43.50008718479762<!-- more -->
-
 Experiment 28
 
 Testing the run specific configs.
 
 Should have 70 epochs
 
+Separation losses (reconstructed):
+
+|sample|validation
+|61.621361309605504|43.50008718479762
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0038 | 0.0028 | 3391.5964 | 100% | 70/70 | 24:16 | 00:00 | 20.81s/it
+0.0038 | 0.0028 | 3391.5964 | 100% | 70/70 | 24:16 | 00:00 | 20.81s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:
@@ -110,7 +110,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 

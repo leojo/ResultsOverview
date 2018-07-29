@@ -5,17 +5,17 @@ date:   2018-06-25 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples
-|9.12905184998<!-- more -->
-
 Experiment 159
 
 Trying 3 instruments, 3 auto-encoders and kl_extra_mult 20
 
+Separation losses:
+
+|samples
+|9.12905184998
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0192 | 0.0151 | 403.0142 | 100% | 100/100 | 1:02:20 | 00:00 | 37.40s/it
+0.0192 | 0.0151 | 403.0142 | 100% | 100/100 | 1:02:20 | 00:00 | 37.40s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

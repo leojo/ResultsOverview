@@ -5,14 +5,14 @@ date:   2018-05-09 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-<!-- more -->
-
 Experiment 4
 
 No description file found.
 
+
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0042 | 0.0018 | 7954.1497 | 100% | 400/400 | 18:38 | 00:00 | 2.80s/it
+0.0042 | 0.0018 | 7954.1497 | 100% | 400/400 | 18:38 | 00:00 | 2.80s/it<!-- more -->
 
 ## **Sample batch**:
 _sample plots_:
@@ -29,7 +29,7 @@ _validation plots_:
 {% raw %}
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 

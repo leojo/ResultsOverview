@@ -6,16 +6,16 @@ categories: result
 tags: bestof
 excerpt_separator: <!-- more -->
 ---
-<!-- more -->
-
 Experiment 3
 
 First experiment successfully run on generated audio signal (pure sine wave).
 
 Latent dimension 3. KL loss multiplier 1e-5. No Validation set.
 
+
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0040 | 0.0017 | 7876.8561 | 100% | 400/400 | 18:06 | 00:00 | 2.72s/it
+0.0040 | 0.0017 | 7876.8561 | 100% | 400/400 | 18:06 | 00:00 | 2.72s/it<!-- more -->
 
 ## **Sample batch**:
 _sample plots_:
@@ -27,7 +27,7 @@ _sample plots_:
 {% raw %}
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 

@@ -5,17 +5,17 @@ date:   2018-07-12 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples
-|64.9034866255<!-- more -->
-
 Experiment 217
 
 Testing log-proba , no mixture, with square instead of relu for variance
 
+Separation losses:
+
+|samples
+|64.9034866255
+
 Loss | Log-proba-loss | KL | Completion | Epochs | Elapsed | Remaining | Speed
--15.4571 | -15.4713 | 141.7823 | 100% | 100/100 | 35:07 | 00:00 | 21.07s/it
+-15.4571 | -15.4713 | 141.7823 | 100% | 100/100 | 35:07 | 00:00 | 21.07s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

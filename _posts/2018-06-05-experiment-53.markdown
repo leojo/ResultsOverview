@@ -5,17 +5,17 @@ date:   2018-06-05 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses (reconstructed):
-
-sample|validation
-180.24805045153525|172.30125165965586<!-- more -->
-
 Experiment 53
 
 Flute data only with latent dim 5, proper normalization and recontruction_mult=16000
 
+Separation losses (reconstructed):
+
+|sample|validation
+|180.24805045153525|172.30125165965586
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0062 | 0.0000 | 1431.9712 | 100% | 100/100 | 34:22 | 00:00 | 20.63s/it
+0.0062 | 0.0000 | 1431.9712 | 100% | 100/100 | 34:22 | 00:00 | 20.63s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:
@@ -108,7 +108,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 	bsub_memory = 8000

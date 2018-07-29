@@ -5,14 +5,14 @@ date:   2018-06-24 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-<!-- more -->
-
 Experiment 150
 
 Training on clarinet data and validating on oboe with 1 AE and only 1 note. Using scaling learning rate
 
+
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-nan | nan | 750000075501.4329 | 74% | 74/100 | 19:59 | 07:01 | 16.21s/it]Tracebac
+nan | nan | 750000075501.4329 | 74% | 74/100 | 19:59 | 07:01 | 16.21s/it]Tracebac<!-- more -->
 
 
 {% highlight python %}

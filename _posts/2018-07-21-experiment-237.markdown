@@ -5,17 +5,17 @@ date:   2018-07-21 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples|validation
-|14.5830925209|18.8800293068<!-- more -->
-
 Experiment 237
 
 Testing larger network on more data for 1500 epochs. Should take 16-20 hours
 
+Separation losses:
+
+|samples|validation
+|14.5830925209|18.8800293068
+
 Loss | L2-loss | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0044 | 0.0037 | 7.6498 | 100% | 1500/1500 | 13:10:08 | 00:00 | 31.61s/it
+0.0044 | 0.0037 | 7.6498 | 100% | 1500/1500 | 13:10:08 | 00:00 | 31.61s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

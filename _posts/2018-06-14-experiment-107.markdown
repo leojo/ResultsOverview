@@ -5,17 +5,17 @@ date:   2018-06-14 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-samples|samples
-36.2856561929|38.5685238449<!-- more -->
-
 Experiment 107
 
 Testing precomputed combination memmap, filtersize increased by 2, kl_extra_mult=20
 
+Separation losses:
+
+|samples|samples
+|36.2856561929|38.5685238449
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0196 | 0.0145 | 505.5650 | 100% | 100/100 | 34:45 | 00:00 | 20.85s/it
+0.0196 | 0.0145 | 505.5650 | 100% | 100/100 | 34:45 | 00:00 | 20.85s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:
@@ -111,7 +111,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 	bsub_memory = 4000

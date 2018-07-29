@@ -5,17 +5,17 @@ date:   2018-07-24 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples|validation
-|13.1444032473|14.3162334113<!-- more -->
-
 Experiment 242
 
 Larger network 2xlatent_dim->latent_mid->2xlatent_dim for 1200 epochs on a lot of data, batch size 32
 
+Separation losses:
+
+|samples|validation
+|13.1444032473|14.3162334113
+
 Loss | L2-loss | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0048 | 0.0038 | 10.5238 | 100% | 1200/1200 | 5:34:05 | 00:00 | 16.70s/it
+0.0048 | 0.0038 | 10.5238 | 100% | 1200/1200 | 5:34:05 | 00:00 | 16.70s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

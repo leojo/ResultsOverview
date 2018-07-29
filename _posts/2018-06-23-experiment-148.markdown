@@ -5,17 +5,17 @@ date:   2018-06-23 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-samples|validation
-5.3301281155|55.0861838685<!-- more -->
-
 Experiment 148
 
 Testing newly refactored code with 1 AE and only 1 source to see if validation set generation makes sense
 
+Separation losses:
+
+|samples|validation
+|5.3301281155|55.0861838685
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0030 | 0.0013 | 171.9807 | 100% | 100/100 | 26:36 | 00:00 | 15.97s/it
+0.0030 | 0.0013 | 171.9807 | 100% | 100/100 | 26:36 | 00:00 | 15.97s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

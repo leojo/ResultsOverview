@@ -5,11 +5,6 @@ date:   2018-06-05 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses (reconstructed):
-
-sample|validation
-40.3661904264959|47.29922041548021<!-- more -->
-
 Experiment 60
 
 This was run as part of a gridsearch endeavor to see if any combination of the searched parameters would give good results for latent space 100.
@@ -28,8 +23,13 @@ use_square = True
 
 data_source = ["chello"]
 
+Separation losses (reconstructed):
+
+|sample|validation
+|40.3661904264959|47.29922041548021
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0001 | 0.0001 | 3958.3716 | 100% | 100/100 | 33:17 | 00:00 | 19.98s/it
+0.0001 | 0.0001 | 3958.3716 | 100% | 100/100 | 33:17 | 00:00 | 19.98s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:
@@ -122,7 +122,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 	bsub_memory = 8000

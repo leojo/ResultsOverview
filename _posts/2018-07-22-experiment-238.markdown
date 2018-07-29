@@ -5,17 +5,17 @@ date:   2018-07-22 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples|validation
-|10.4563438825|19.7794308925<!-- more -->
-
 Experiment 238
 
 Testing larger network on more data for 2400 epochs. Learning rate 4e-4
 
+Separation losses:
+
+|samples|validation
+|10.4563438825|19.7794308925
+
 Loss | L2-loss | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0032 | 0.0026 | 6.1763 | 100% | 2400/2400 | 20:58:22 | 00:00 | 31.46s/it
+0.0032 | 0.0026 | 6.1763 | 100% | 2400/2400 | 20:58:22 | 00:00 | 31.46s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

@@ -5,17 +5,17 @@ date:   2018-07-17 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples|validation
-|14.7564334691|14.6362393294<!-- more -->
-
 Experiment 233
 
 Testing with 2x data but no validation data other than a new training batch, keep_prob 0.9, random noise stdev 0.1
 
+Separation losses:
+
+|samples|validation
+|14.7564334691|14.6362393294
+
 Loss | L2-loss | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0174 | 0.0171 | 3.1763 | 100% | 400/400 | 5:56:56 | 00:00 | 53.54s/it
+0.0174 | 0.0171 | 3.1763 | 100% | 400/400 | 5:56:56 | 00:00 | 53.54s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

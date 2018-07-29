@@ -5,17 +5,17 @@ date:   2018-07-14 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples
-|23.2287731255<!-- more -->
-
 Experiment 224
 
 Testing log proba with mixture, 1 ae and 1 source. Using relu to ensure non-negativity of variance
 
+Separation losses:
+
+|samples
+|23.2287731255
+
 Loss | Log-proba-loss | KL | Completion | Epochs | Elapsed | Remaining | Speed
--16906.2185 | -16906.2522 | 336.6765 | 100% | 100/100 | 17:02 | 00:00 | 10.22s/it
+-16906.2185 | -16906.2522 | 336.6765 | 100% | 100/100 | 17:02 | 00:00 | 10.22s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

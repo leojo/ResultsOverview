@@ -5,14 +5,14 @@ date:   2018-07-22 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-<!-- more -->
-
 Experiment 239
 
 Testing the reverted smaller network for 600 epochs on a lot of data
 
+
+
 Loss | L2-loss | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0041 | 0.0032 | 8.5666 | 85% | 508/600 | 5:17:58 | 57:35 | 37.56s/it]2018-07-2
+0.0041 | 0.0032 | 8.5666 | 85% | 508/600 | 5:17:58 | 57:35 | 37.56s/it]2018-07-2<!-- more -->
 
 
 {% highlight python %}

@@ -5,17 +5,17 @@ date:   2018-07-24 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples|validation
-|10.0956223101|19.7577848514<!-- more -->
-
 Experiment 241
 
 Testing the reverted smaller network 2xlatent_dim->latent_mid->2xlatent_dim for 1200 epochs with 64 batch size instead of 128 on a lot of data
 
+Separation losses:
+
+|samples|validation
+|10.0956223101|19.7577848514
+
 Loss | L2-loss | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0034 | 0.0026 | 8.0213 | 100% | 1200/1200 | 9:00:15 | 00:00 | 27.01s/it
+0.0034 | 0.0026 | 8.0213 | 100% | 1200/1200 | 9:00:15 | 00:00 | 27.01s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

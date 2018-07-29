@@ -6,19 +6,19 @@ categories: result
 tags: bestof
 excerpt_separator: <!-- more -->
 ---
-Separation losses (reconstructed):
-
-sample|validation
-10.42803281947371|73.91803471070578<!-- more -->
-
 Experiment 103
 
 Trying 100 latent dim with kl_extra_exponent = 2, learning_rate = 1e-3 and kl_multiplier = 1e-3 for cello and sax-baritone data.
 
 Also trying bigger filters, increased filter size by 2 both for conv and deconv
 
+Separation losses (reconstructed):
+
+|sample|validation
+|73.91803471070578|10.42803281947371
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0011 | 0.0004 | 71.1919 | 100% | 100/100 | 2:14:13 | 00:00 | 80.53s/it
+0.0011 | 0.0004 | 71.1919 | 100% | 100/100 | 2:14:13 | 00:00 | 80.53s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:
@@ -115,7 +115,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 	bsub_memory = 8000

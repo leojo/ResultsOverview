@@ -5,14 +5,14 @@ date:   2018-05-12 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-<!-- more -->
-
 Experiment 8
 
 No description file found.
 
+
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0690 | 0.0648 | 13992.3648 | 100% | 200/200 | 09:16 | 00:00 | 2.78s/it
+0.0690 | 0.0648 | 13992.3648 | 100% | 200/200 | 09:16 | 00:00 | 2.78s/it<!-- more -->
 
 ## **Sample batch**:
 _sample plots_:
@@ -28,7 +28,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 

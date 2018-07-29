@@ -5,17 +5,17 @@ date:   2018-06-20 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-samples|validation
-30.0698438608|95.713477816<!-- more -->
-
 Experiment 144
 
 Now trying the improved dropout scheme for 2x epochs
 
+Separation losses:
+
+|samples|validation
+|30.0698438608|95.713477816
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0043 | 0.0023 | 203.9770 | 100% | 400/400 | 2:16:53 | 00:00 | 20.53s/it
+0.0043 | 0.0023 | 203.9770 | 100% | 400/400 | 2:16:53 | 00:00 | 20.53s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

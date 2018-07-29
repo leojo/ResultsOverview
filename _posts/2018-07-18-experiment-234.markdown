@@ -5,17 +5,17 @@ date:   2018-07-18 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples|validation
-|13.9617619323|24.3568195157<!-- more -->
-
 Experiment 234
 
 Trying to get decent results using keep_prob 0.95 and noise stdev 0.05. Using actual validation data just for curiosities sake.
 
+Separation losses:
+
+|samples|validation
+|13.9617619323|24.3568195157
+
 Loss | L2-loss | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0094 | 0.0090 | 4.4244 | 100% | 400/400 | 5:46:24 | 00:00 | 51.96s/it
+0.0094 | 0.0090 | 4.4244 | 100% | 400/400 | 5:46:24 | 00:00 | 51.96s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

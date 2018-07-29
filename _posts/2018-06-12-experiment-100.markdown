@@ -5,17 +5,17 @@ date:   2018-06-12 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses (reconstructed):
-
-sample|validation
-97.07116754636922|29.671740626619318<!-- more -->
-
 Experiment 100
 
 Trying 10 latent dim with kl_extra_exponent = 2 and kl_multiplier = 1e-3 for cello data
 
+Separation losses (reconstructed):
+
+|sample|validation
+|97.07116754636922|29.671740626619318
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0110 | 0.0047 | 629.7574 | 100% | 100/100 | 2:07:54 | 00:00 | 76.74s/it
+0.0110 | 0.0047 | 629.7574 | 100% | 100/100 | 2:07:54 | 00:00 | 76.74s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:
@@ -112,7 +112,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 	bsub_memory = 8000

@@ -5,17 +5,17 @@ date:   2018-07-05 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples
-|11.2340082992<!-- more -->
-
 Experiment 207
 
 Trying 1 sek samples at 16KHz
 
+Separation losses:
+
+|samples
+|11.2340082992
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0006 | 0.0003 | 324.1315 | 100% | 100/100 | 22:51 | 00:00 | 13.72s/it
+0.0006 | 0.0003 | 324.1315 | 100% | 100/100 | 22:51 | 00:00 | 13.72s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

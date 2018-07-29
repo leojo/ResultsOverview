@@ -5,17 +5,17 @@ date:   2018-07-04 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples
-|33.4189502394<!-- more -->
-
 Experiment 187
 
 Trying new version of the latest network structure again, this time with 128 batch and 5 autoencoders, 2 data sources and learning rate 1e-3, kl loss 1e-1
 
+Separation losses:
+
+|samples
+|33.4189502394
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0455 | 0.0401 | 5.4031 | 100% | 100/100 | 15:26 | 00:00 | 9.27s/it
+0.0455 | 0.0401 | 5.4031 | 100% | 100/100 | 15:26 | 00:00 | 9.27s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

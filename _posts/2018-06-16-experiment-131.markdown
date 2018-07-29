@@ -6,11 +6,6 @@ categories: result
 tags: bestof
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-samples|validation
-20.3507914758|96.7984901862<!-- more -->
-
 Experiment 131
 
 Experiment 127 had a slightly better sample score than 126 but worse validation.
@@ -19,8 +14,13 @@ After looking over the results of both 126 and 127 it appears that a KL of aroun
 
 Trying +4 larger filters
 
+Separation losses:
+
+|samples|validation
+|20.3507914758|96.7984901862
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0039 | 0.0018 | 212.5225 | 100% | 200/200 | 1:16:26 | 00:00 | 22.93s/it
+0.0039 | 0.0018 | 212.5225 | 100% | 200/200 | 1:16:26 | 00:00 | 22.93s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:
@@ -117,7 +117,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 	bsub_memory = 8000

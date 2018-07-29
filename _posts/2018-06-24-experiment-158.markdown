@@ -5,17 +5,17 @@ date:   2018-06-24 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples
-|8.05872454957<!-- more -->
-
 Experiment 158
 
 No longer averaging the sounds. Training on clarinet+cello_bad data (no validation) with 3 AE. Using learning_rate_scaling_factor=3
 
+Separation losses:
+
+|samples
+|8.05872454957
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0086 | 0.0045 | 404.7541 | 100% | 100/100 | 56:28 | 00:00 | 33.88s/it
+0.0086 | 0.0045 | 404.7541 | 100% | 100/100 | 56:28 | 00:00 | 33.88s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

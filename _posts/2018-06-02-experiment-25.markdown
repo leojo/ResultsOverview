@@ -5,19 +5,19 @@ date:   2018-06-02 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses (reconstructed):
-
-sample|validation
-45.158609576276994|31.029060039146223<!-- more -->
-
 Experiment 25
 
 Rerunning experiment 24 to check if everything is ok after repository reset.
 
 Everything had broken during recent changes now stored on a separate branch and this is the first experiment to be run on the new master branch.
 
+Separation losses (reconstructed):
+
+|sample|validation
+|45.158609576276994|31.029060039146223
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0017 | 0.0007 | 3153.4493 | 100% | 400/400 | 2:18:23 | 00:00 | 20.76s/it
+0.0017 | 0.0007 | 3153.4493 | 100% | 400/400 | 2:18:23 | 00:00 | 20.76s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:
@@ -110,7 +110,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 

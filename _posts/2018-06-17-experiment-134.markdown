@@ -5,17 +5,17 @@ date:   2018-06-17 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-samples|validation
-92.4398624031|96.2135118759<!-- more -->
-
 Experiment 134
 
 exp 4 caused nan, trying with use_square = True and extra_mult = 20
 
+Separation losses:
+
+|samples|validation
+|92.4398624031|96.2135118759
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-20000000.0000 | 0.0717 | 2000000000000.0000 | 100% | 200/200 | 1:13:31 | 00:00 | 22.06s/it
+20000000.0000 | 0.0717 | 2000000000000.0000 | 100% | 200/200 | 1:13:31 | 00:00 | 22.06s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:
@@ -112,7 +112,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 	bsub_memory = 8000

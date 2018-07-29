@@ -5,16 +5,16 @@ date:   2018-06-15 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-samples|validation
-19.6883870455|14.2958871277<!-- more -->
-
 Experiment 117
 
 Trying to load model 0103 and plot some images again, last time all the images were called validation_x.png
 
-Failed to complete!
+Separation losses:
+
+|samples|validation
+|19.6883870455|14.2958871277
+
+Failed to complete!<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:
@@ -111,7 +111,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 	bsub_memory = 8000

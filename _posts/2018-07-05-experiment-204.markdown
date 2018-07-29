@@ -5,16 +5,16 @@ date:   2018-07-05 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples
-|13.079185127<!-- more -->
-
 Experiment 204
 
 Loading model 201 and testing it on only two of the original three sound sources
 
-Failed to complete!
+Separation losses:
+
+|samples
+|13.079185127
+
+Failed to complete!<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

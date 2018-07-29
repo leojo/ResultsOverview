@@ -5,14 +5,14 @@ date:   2018-07-04 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-<!-- more -->
-
 Experiment 197
 
 Trying new version of the latest network structure again, this time with 128 batch and 5 autoencoders, 2 data sources, learning rate 1e-3, kl loss 1e-11
 
+
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-nan | nan | 650003031549.7988 | 11% | 11/100 | 02:31 | 20:28 | 13.80s/it
+nan | nan | 650003031549.7988 | 11% | 11/100 | 02:31 | 20:28 | 13.80s/it<!-- more -->
 
 
 {% highlight python %}

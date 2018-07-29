@@ -5,17 +5,17 @@ date:   2018-07-15 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples|validation
-|17.2482737495|17.0229230483<!-- more -->
-
 Experiment 227
 
 Testing speech from music separation with c.a. 1000 samples of both. kl loss mult 1e-4, learning_rate 1e-4, 4 second samples at 8000 HZ with latent dim 1000
 
+Separation losses:
+
+|samples|validation
+|17.2482737495|17.0229230483
+
 Loss | L2-loss | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0021 | 0.0016 | 4.5785 | 100% | 100/100 | 34:04 | 00:00 | 20.45s/it
+0.0021 | 0.0016 | 4.5785 | 100% | 100/100 | 34:04 | 00:00 | 20.45s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

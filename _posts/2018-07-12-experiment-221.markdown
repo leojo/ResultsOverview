@@ -5,17 +5,17 @@ date:   2018-07-12 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples
-|85.8733576848<!-- more -->
-
 Experiment 221
 
 Testing deterministic with log-proba-mixture loss and single ae, only sax-baritone
 
+Separation losses:
+
+|samples
+|85.8733576848
+
 Loss | Log-proba-loss | KL | Completion | Epochs | Elapsed | Remaining | Speed
--13.7478 | -13.7492 | 13.9300 | 100% | 100/100 | 17:01 | 00:00 | 10.21s/it
+-13.7478 | -13.7492 | 13.9300 | 100% | 100/100 | 17:01 | 00:00 | 10.21s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

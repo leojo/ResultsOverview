@@ -5,17 +5,17 @@ date:   2018-06-04 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses (reconstructed):
-
-sample|validation
-45.78411080105304|51.627212524626295<!-- more -->
-
 Experiment 45
 
 Same as experiment 44 but with kl extra exp = 4
 
+Separation losses (reconstructed):
+
+|sample|validation
+|45.78411080105304|51.627212524626295
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0012 | 0.0007 | 150.6366 | 100% | 400/400 | 2:19:11 | 00:00 | 20.88s/it
+0.0012 | 0.0007 | 150.6366 | 100% | 400/400 | 2:19:11 | 00:00 | 20.88s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:
@@ -108,7 +108,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 

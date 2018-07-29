@@ -5,11 +5,6 @@ date:   2018-06-16 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-samples|validation
-nan|nan<!-- more -->
-
 Experiment 129
 
 Experiment 127 had a slightly better sample score than 126 but worse validation.
@@ -18,8 +13,13 @@ After looking over the results of both 126 and 127 it appears that a KL of aroun
 
 For now I am trying kl_extra_mult = 200 and kl_extra_exp = 2 with kl_mult = 1e-8 (10x lower to prevent nan)
 
+Separation losses:
+
+|samples|validation
+|nan|nan
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-nan | nan | 1510001550038.5479 | 0% | 0/200 | 00:20 | ? | ?it/s]Averag
+nan | nan | 1510001550038.5479 | 0% | 0/200 | 00:20 | ? | ?it/s]Averag<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:
@@ -116,7 +116,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 	bsub_memory = 8000

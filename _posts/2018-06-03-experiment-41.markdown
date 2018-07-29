@@ -5,16 +5,16 @@ date:   2018-06-03 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-<!-- more -->
-
 Experiment 41
 
 Rerunning experiment 29 except with 100 epochs and flute data.
 
 Experiment 33 which is comparable to this one but with both chello and flute got a nan immediately.
 
+
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-nan | nan | 2000000000000.0000 | 4% | 4/100 | 01:11 | 28:37 | 17.89s/it]Tensor("vae/decoder0/conv-final-decoder/BiasAdd:0"
+nan | nan | 2000000000000.0000 | 4% | 4/100 | 01:11 | 28:37 | 17.89s/it]Tensor("vae/decoder0/conv-final-decoder/BiasAdd:0"<!-- more -->
 
 
 {% highlight python %}
@@ -25,7 +25,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 

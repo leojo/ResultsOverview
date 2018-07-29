@@ -5,17 +5,17 @@ date:   2018-07-08 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples
-|30.7246749823<!-- more -->
-
 Experiment 213
 
 Testing separation of three music genres using 4 second samples with 5 ae's, kl mult 1e-4, 1000 latent dim and learning rate 1e-3
 
+Separation losses:
+
+|samples
+|30.7246749823
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0033 | 0.0022 | 10.4259 | 100% | 100/100 | 40:59 | 00:00 | 24.60s/it
+0.0033 | 0.0022 | 10.4259 | 100% | 100/100 | 40:59 | 00:00 | 24.60s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

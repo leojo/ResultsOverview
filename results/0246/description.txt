@@ -1,0 +1,2 @@
+Experiment 246
+Testing new learning rate reduction mechanic for loss that has stabilized, min_learning_rate 1e-8, threshold 0.01, count 150

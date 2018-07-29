@@ -5,17 +5,17 @@ date:   2018-06-27 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples
-|12.0505842274<!-- more -->
-
 Experiment 161
 
 Trying 2 instruments, 2 auto-encoders and kl_extra_mult 2 with learning_rate_scaling_factor = -5
 
+Separation losses:
+
+|samples
+|12.0505842274
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0121 | 0.0072 | 488.0713 | 100% | 100/100 | 45:01 | 00:00 | 27.02s/it
+0.0121 | 0.0072 | 488.0713 | 100% | 100/100 | 45:01 | 00:00 | 27.02s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

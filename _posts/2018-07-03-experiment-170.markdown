@@ -5,17 +5,17 @@ date:   2018-07-03 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples
-|8.65902342073<!-- more -->
-
 Experiment 170
 
 Experimenting with different architecture, with kl_mult 1e-4
 
+Separation losses:
+
+|samples
+|8.65902342073
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0079 | 0.0045 | 3321.4274 | 100% | 100/100 | 34:03 | 00:00 | 20.43s/it
+0.0079 | 0.0045 | 3321.4274 | 100% | 100/100 | 34:03 | 00:00 | 20.43s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

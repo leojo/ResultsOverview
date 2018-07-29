@@ -5,17 +5,17 @@ date:   2018-07-12 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples
-|20.922031296<!-- more -->
-
 Experiment 222
 
 Testing deterministic with l2 loss and 3 aes, sax-baritone and cello
 
+Separation losses:
+
+|samples
+|20.922031296
+
 Loss | L2-loss | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0000 | 0.0000 | 0.0759 | 100% | 100/100 | 27:03 | 00:00 | 16.24s/it
+0.0000 | 0.0000 | 0.0759 | 100% | 100/100 | 27:03 | 00:00 | 16.24s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

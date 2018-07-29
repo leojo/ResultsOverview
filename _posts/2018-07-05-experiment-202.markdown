@@ -5,17 +5,17 @@ date:   2018-07-05 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples
-|9.0116466031<!-- more -->
-
 Experiment 202
 
 Testing new parameter to reorder plots again, training on 3 data sources, 5 AEs with kl mult 1e-4 and fixed lr 1e-3
 
+Separation losses:
+
+|samples
+|9.0116466031
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0007 | 0.0003 | 380.4614 | 100% | 100/100 | 21:31 | 00:00 | 12.91s/it
+0.0007 | 0.0003 | 380.4614 | 100% | 100/100 | 21:31 | 00:00 | 12.91s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

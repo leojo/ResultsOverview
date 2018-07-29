@@ -5,17 +5,17 @@ date:   2018-06-20 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-samples|validation
-nan|nan<!-- more -->
-
 Experiment 141
 
 This experiment will try to recapture the results of experiment 130 with the addition of dropout to reduce overfitting.
 
+Separation losses:
+
+|samples|validation
+|nan|nan
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-nan | nan | 283296361254.3282 | 0% | 1/200 | 00:45 | 2:30:34 | 45.40s/it
+nan | nan | 283296361254.3282 | 0% | 1/200 | 00:45 | 2:30:34 | 45.40s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

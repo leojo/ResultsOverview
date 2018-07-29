@@ -6,17 +6,17 @@ categories: result
 tags: bestof
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-samples|validation
-81.1340935673|101.052041941<!-- more -->
-
 Experiment 145
 
 Trying to improve on experiment 130 with a different dropout layout, this time dropping from all sub-nets.
 
+Separation losses:
+
+|samples|validation
+|81.1340935673|101.052041941
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0669 | 0.0650 | 190.9468 | 100% | 400/400 | 2:48:19 | 00:00 | 25.25s/it
+0.0669 | 0.0650 | 190.9468 | 100% | 400/400 | 2:48:19 | 00:00 | 25.25s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

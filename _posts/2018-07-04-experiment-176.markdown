@@ -5,17 +5,17 @@ date:   2018-07-04 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples
-|14.9748351912<!-- more -->
-
 Experiment 176
 
 Trying new version of the latest network structure, hope this requires less memory on the GPU
 
+Separation losses:
+
+|samples
+|14.9748351912
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0051 | 0.0026 | 2475.8409 | 100% | 100/100 | 17:51 | 00:00 | 10.71s/it
+0.0051 | 0.0026 | 2475.8409 | 100% | 100/100 | 17:51 | 00:00 | 10.71s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

@@ -5,19 +5,19 @@ date:   2018-06-21 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-samples|validation
-71.220746066|96.9087195147<!-- more -->
-
 Experiment 147
 
 Trying again to improve on experiment 130 using the same strategy as in experiment 145, dropout from all layers in the network.
 
 Furthermore increased the weight of the reconstruction accuracy on the loss by a factor of 10 and redoubled the number of epochs (to 800).
 
+Separation losses:
+
+|samples|validation
+|71.220746066|96.9087195147
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.5629 | 0.0551 | 1167.8857 | 100% | 800/800 | 5:36:46 | 00:00 | 25.26s/it
+0.5629 | 0.0551 | 1167.8857 | 100% | 800/800 | 5:36:46 | 00:00 | 25.26s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

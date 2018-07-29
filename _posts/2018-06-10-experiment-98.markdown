@@ -5,17 +5,17 @@ date:   2018-06-10 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses (reconstructed):
-
-sample|validation
-85.07860793158227|46.66701202642458<!-- more -->
-
 Experiment 98
 
 Experiment 97 resulted in a low reconstruction loss but horrible plots, checking to see the result of the last training batch (as sample.png)
 
+Separation losses (reconstructed):
+
+|sample|validation
+|85.07860793158227|46.66701202642458
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0011 | 0.0005 | 60.1789 | 100% | 100/100 | 2:21:52 | 00:00 | 85.12s/it
+0.0011 | 0.0005 | 60.1789 | 100% | 100/100 | 2:21:52 | 00:00 | 85.12s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:
@@ -112,7 +112,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 	bsub_memory = 8000

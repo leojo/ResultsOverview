@@ -5,14 +5,14 @@ date:   2018-06-24 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-<!-- more -->
-
 Experiment 157
 
 No longer averaging the sounds. Training on clarinet data (no validation) with 3 AE and only 1 note. Using learning_rate_scaling_factor=3
 
+
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-nan | nan | 1690028806219.6428 | 0% | 0/100 | 00:32 | ? | ?it/s]Tracebac
+nan | nan | 1690028806219.6428 | 0% | 0/100 | 00:32 | ? | ?it/s]Tracebac<!-- more -->
 
 
 {% highlight python %}

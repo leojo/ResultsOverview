@@ -5,17 +5,17 @@ date:   2018-06-15 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-samples|validation
-28.4789177967|79.3821652728<!-- more -->
-
 Experiment 121
 
 Trying kl_mult=5e-4 and kl_extra_mult=100 on cello + sax-baritone data loaded in the more eficient manner
 
+Separation losses:
+
+|samples|validation
+|28.4789177967|79.3821652728
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0057 | 0.0026 | 619.9761 | 100% | 100/100 | 35:21 | 00:00 | 21.22s/it
+0.0057 | 0.0026 | 619.9761 | 100% | 100/100 | 35:21 | 00:00 | 21.22s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:
@@ -112,7 +112,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 	bsub_memory = 8000

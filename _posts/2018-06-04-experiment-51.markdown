@@ -5,17 +5,17 @@ date:   2018-06-04 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses (reconstructed):
-
-sample|validation
-115.82008021543243|114.45459459847174<!-- more -->
-
 Experiment 51
 
 Flute data with linalg normalization of batches, 100 latent dim, standard kl constants, 2 second audio at 8000 samples per second.
 
+Separation losses (reconstructed):
+
+|sample|validation
+|115.82008021543243|114.45459459847174
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0000 | 0.0000 | 2.0000 | 100% | 100/100 | 34:09 | 00:00 | 20.50s/it
+0.0000 | 0.0000 | 2.0000 | 100% | 100/100 | 34:09 | 00:00 | 20.50s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:
@@ -108,7 +108,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 	bsub_memory = 8000

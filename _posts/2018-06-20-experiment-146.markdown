@@ -6,17 +6,17 @@ categories: result
 tags: bestof
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-samples|validation
-9.48207809968|99.0758033234<!-- more -->
-
 Experiment 146
 
 Trying dropout only in fc_encoder, 100 latent dim, 10x reduced kl_multiplier and shallower conv networks (2 layers deep)
 
+Separation losses:
+
+|samples|validation
+|9.48207809968|99.0758033234
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0015 | 0.0008 | 745.3272 | 100% | 200/200 | 1:06:05 | 00:00 | 19.83s/it
+0.0015 | 0.0008 | 745.3272 | 100% | 200/200 | 1:06:05 | 00:00 | 19.83s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

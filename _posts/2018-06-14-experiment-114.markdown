@@ -5,17 +5,17 @@ date:   2018-06-14 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-samples|validation
-14.5011136164|81.8890564933<!-- more -->
-
 Experiment 114
 
 Trying cello and sax-baritone, with kl_extra_mult = 2, larger filter and quad core
 
+Separation losses:
+
+|samples|validation
+|14.5011136164|81.8890564933
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0010 | 0.0004 | 69.6917 | 100% | 100/100 | 38:02 | 00:00 | 22.83s/it
+0.0010 | 0.0004 | 69.6917 | 100% | 100/100 | 38:02 | 00:00 | 22.83s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:
@@ -111,7 +111,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 	bsub_memory = 8000

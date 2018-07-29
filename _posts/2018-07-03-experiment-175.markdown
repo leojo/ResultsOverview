@@ -5,13 +5,13 @@ date:   2018-07-03 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-<!-- more -->
-
 Experiment 175
 
 Experimenting with different architecture, kl_mult 1e-3, 2 sounds 5 ae
 
-Failed to complete!
+
+
+Failed to complete!<!-- more -->
 
 
 {% highlight python %}

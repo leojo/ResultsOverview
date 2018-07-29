@@ -5,11 +5,6 @@ date:   2018-06-16 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-samples|validation
-nan|nan<!-- more -->
-
 Experiment 128
 
 Experiment 127 had a slightly better sample score than 126 but worse validation.
@@ -20,8 +15,13 @@ For now I am trying kl_extra_mult = 20 and kl_extra_exp = 4 with kl_mult = 1e-4 
 
 If this doesn't work the next steps should be to introduce a kl_target (say kl_target = 1) and create a loss for how far away from that target each autoencoder performs.
 
+Separation losses:
+
+|samples|validation
+|nan|nan
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-nan | nan | 1530001160379.8237 | 0% | 0/200 | 00:20 | ? | ?it/s]Averag
+nan | nan | 1530001160379.8237 | 0% | 0/200 | 00:20 | ? | ?it/s]Averag<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:
@@ -118,7 +118,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 	bsub_memory = 8000

@@ -5,17 +5,17 @@ date:   2018-06-24 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-samples|validation
-10.7831634567|40.9220472575<!-- more -->
-
 Experiment 149
 
 Testing a new idea: training on clarinet and validating on oboe
 
+Separation losses:
+
+|samples|validation
+|10.7831634567|40.9220472575
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0143 | 0.0067 | 760.8151 | 100% | 100/100 | 28:17 | 00:00 | 16.97s/it
+0.0143 | 0.0067 | 760.8151 | 100% | 100/100 | 28:17 | 00:00 | 16.97s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

@@ -5,17 +5,17 @@ date:   2018-07-05 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-|samples
-|8.91009651042<!-- more -->
-
 Experiment 200
 
 Trying the new code with better graphs, kl_mult 1e-4, 3 sounds 5 AE's non-scaling lr = 1e-3
 
+Separation losses:
+
+|samples
+|8.91009651042
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0007 | 0.0003 | 360.5847 | 100% | 100/100 | 26:53 | 00:00 | 16.14s/it
+0.0007 | 0.0003 | 360.5847 | 100% | 100/100 | 26:53 | 00:00 | 16.14s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:

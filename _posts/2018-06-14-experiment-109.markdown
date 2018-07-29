@@ -5,17 +5,17 @@ date:   2018-06-14 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses:
-
-samples|samples
-nan|nan<!-- more -->
-
 Experiment 109
 
 Testing the combined effects of kl_mult = 1e-4 and kl_extra_mult=200 on precomputed clarinet data with larger window
 
+Separation losses:
+
+|samples|samples
+|nan|nan
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-nan | nan | 243647529406.1503 | 0% | 0/100 | 09:18 | ? | ?it/s]Averag
+nan | nan | 243647529406.1503 | 0% | 0/100 | 09:18 | ? | ?it/s]Averag<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:
@@ -111,7 +111,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 	bsub_memory = 4000

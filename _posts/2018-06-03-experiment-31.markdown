@@ -5,17 +5,17 @@ date:   2018-06-03 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Separation losses (reconstructed):
-
-sample|validation
-38.10601289994007|57.27697732133298<!-- more -->
-
 Experiment 31
 
 Only chello but with latent dimension 100. No other changes
 
+Separation losses (reconstructed):
+
+|sample|validation
+|38.10601289994007|57.27697732133298
+
 Loss | Reconstruction | KL | Completion | Epochs | Elapsed | Remaining | Speed
-0.0001 | 0.0001 | 219.1667 | 100% | 400/400 | 2:19:38 | 00:00 | 20.95s/it
+0.0001 | 0.0001 | 219.1667 | 100% | 400/400 | 2:19:38 | 00:00 | 20.95s/it<!-- more -->
 
 ## **Sample batch**:
 _sample 1_:
@@ -108,7 +108,7 @@ import waveUtils
 
 class config(object):
 	# Bsub arguments
-	bsub_mainfile = "myMain.py"
+	bsub_mainfile = "main.py"
 	bsub_processors = 4
 	bsub_timeout = "4:00"
 
