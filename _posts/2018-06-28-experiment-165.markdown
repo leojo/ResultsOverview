@@ -5,8 +5,6 @@ date:   2018-06-28 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 165
-
 Trying 2 instruments, 4 auto-encoders and kl_extra_mult 20 with learning_rate_scaling_factor = -5
 
 Separation losses:

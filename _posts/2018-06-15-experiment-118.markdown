@@ -5,8 +5,6 @@ date:   2018-06-15 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 118
-
 Experiments 116 and 117 loaded the model of experiment 103 which had really good results to make sure that was not just a fluke. They confirmed that the model is indeed quite good at separating the audios from cello and sax-baritone. Now the same configuration will be rerun on the same data with the only difference being that the model is retrained using better training data handling i.e. less bloat and less disk access at training time
 
 Separation losses:

@@ -5,8 +5,6 @@ date:   2018-07-15 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 226
-
 Testing speech from music separation with c.a. 1000 samples of both. kl loss mult 1e-4, learning_rate 1e-4, 2 second samples at 8000 HZ with latent dim 1000
 
 Separation losses:

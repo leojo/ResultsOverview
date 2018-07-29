@@ -5,8 +5,6 @@ date:   2018-07-12 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 218
-
 Testing log-proba , with  mixture, with square instead of relu for variance
 
 Separation losses:

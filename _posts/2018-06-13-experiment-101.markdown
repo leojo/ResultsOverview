@@ -5,8 +5,6 @@ date:   2018-06-13 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 101
-
 Trying 10 latent dim with kl_extra_exponent = 4, learning_rate = 1e-4 and kl_multiplier = 1e-3 for cello data
 
 Separation losses (reconstructed):

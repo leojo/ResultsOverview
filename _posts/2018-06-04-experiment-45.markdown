@@ -5,8 +5,6 @@ date:   2018-06-04 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 45
-
 Same as experiment 44 but with kl extra exp = 4
 
 Separation losses (reconstructed):

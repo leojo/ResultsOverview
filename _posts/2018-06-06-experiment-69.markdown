@@ -5,8 +5,6 @@ date:   2018-06-06 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 69
-
 This was run as part of a gridsearch endeavor to see if any combination of the searched parameters would give good results for latent space 100.
 
 For this run the parameters were as follows:

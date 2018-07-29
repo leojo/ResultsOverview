@@ -5,8 +5,6 @@ date:   2018-07-25 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 243
-
 Larger network 16-32-64-128-1000-500-1000-128-64-32-16, 500 latent dim, 64 batch size, 1200 epochs
 
 Separation losses:

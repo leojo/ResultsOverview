@@ -5,8 +5,6 @@ date:   2018-06-10 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 98
-
 Experiment 97 resulted in a low reconstruction loss but horrible plots, checking to see the result of the last training batch (as sample.png)
 
 Separation losses (reconstructed):

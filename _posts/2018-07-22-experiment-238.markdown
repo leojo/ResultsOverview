@@ -5,8 +5,6 @@ date:   2018-07-22 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 238
-
 Testing larger network on more data for 2400 epochs. Learning rate 4e-4
 
 Separation losses:

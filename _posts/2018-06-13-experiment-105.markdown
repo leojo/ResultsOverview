@@ -5,8 +5,6 @@ date:   2018-06-13 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 105
-
 Small test to see if new config works better
 
 Separation losses (reconstructed):

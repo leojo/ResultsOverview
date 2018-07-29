@@ -5,8 +5,6 @@ date:   2018-07-04 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 177
-
 Trying new version of the latest network structure again, this time with smaller batch size (128 -> 64)
 
 Separation losses:

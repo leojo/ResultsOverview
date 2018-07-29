@@ -5,8 +5,6 @@ date:   2018-06-14 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 113
-
 Trying cello and sax-baritone, with kl_extra_mult = 2, larger filter and single core
 
 (this should be a repeat of experiment 103, only difference being the single core and not loading the data from memmaps)

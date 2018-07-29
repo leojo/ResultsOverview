@@ -5,8 +5,6 @@ date:   2018-07-12 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 222
-
 Testing deterministic with l2 loss and 3 aes, sax-baritone and cello
 
 Separation losses:

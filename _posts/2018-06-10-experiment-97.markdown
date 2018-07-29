@@ -5,8 +5,6 @@ date:   2018-06-10 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 97
-
 Trying out the new memmaps with improved output, configs are semi irrelivant byt they should be the same as for experiment 96
 
 Separation losses (reconstructed):

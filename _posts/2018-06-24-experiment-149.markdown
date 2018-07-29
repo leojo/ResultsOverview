@@ -5,8 +5,6 @@ date:   2018-06-24 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 149
-
 Testing a new idea: training on clarinet and validating on oboe
 
 Separation losses:

@@ -6,8 +6,6 @@ categories: result
 tags: bestof
 excerpt_separator: <!-- more -->
 ---
-Experiment 131
-
 Experiment 127 had a slightly better sample score than 126 but worse validation.
 
 After looking over the results of both 126 and 127 it appears that a KL of around 1 for both AEs is the key to good separation.

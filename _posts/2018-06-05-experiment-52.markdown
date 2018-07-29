@@ -5,8 +5,6 @@ date:   2018-06-05 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 52
-
 Standard parameters, latent dim 5, chello and flute data, proper normalization
 
 Separation losses (reconstructed):

@@ -5,8 +5,6 @@ date:   2018-06-04 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 49
-
 Rerunning experiment 44 with use_square = True and 100 epochs
 
 Separation losses (reconstructed):

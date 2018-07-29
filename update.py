@@ -78,6 +78,7 @@ for exp_dir in exp_dirs:
 	desciption_path = os.path.join(exp_dir, "description.txt")
 	if os.path.exists(desciption_path):
 		with open(desciption_path) as o:
+			firstline = o.readline()
 			desciption = o.read().strip().replace("\n","\n\n")
 	else:
 		desciption = "Experiment {}\n\nNo description file found.".format(exp_num)

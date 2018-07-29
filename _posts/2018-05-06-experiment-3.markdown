@@ -6,8 +6,6 @@ categories: result
 tags: bestof
 excerpt_separator: <!-- more -->
 ---
-Experiment 3
-
 First experiment successfully run on generated audio signal (pure sine wave).
 
 Latent dimension 3. KL loss multiplier 1e-5. No Validation set.

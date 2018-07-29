@@ -5,8 +5,6 @@ date:   2018-06-13 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 104
-
 Trying 100 latent dim with kl_extra_exponent = 2, learning_rate = 1e-3 and kl_multiplier = 1e-3 for cello and sax-baritone data.
 
 Now with really high kl_extra_mult, in addition to the larger filter

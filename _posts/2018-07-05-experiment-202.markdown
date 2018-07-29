@@ -5,8 +5,6 @@ date:   2018-07-05 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 202
-
 Testing new parameter to reorder plots again, training on 3 data sources, 5 AEs with kl mult 1e-4 and fixed lr 1e-3
 
 Separation losses:

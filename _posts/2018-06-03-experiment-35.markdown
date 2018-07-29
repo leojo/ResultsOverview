@@ -5,8 +5,6 @@ date:   2018-06-03 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 35
-
 Chello only, 100 epochs, 10x kl mult
 
 Separation losses (reconstructed):

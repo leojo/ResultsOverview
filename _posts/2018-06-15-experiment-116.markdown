@@ -5,8 +5,6 @@ date:   2018-06-15 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 116
-
 Trying to load model 0103 and plot some images
 
 Separation losses:

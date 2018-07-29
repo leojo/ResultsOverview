@@ -5,8 +5,6 @@ date:   2018-06-24 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 158
-
 No longer averaging the sounds. Training on clarinet+cello_bad data (no validation) with 3 AE. Using learning_rate_scaling_factor=3
 
 Separation losses:

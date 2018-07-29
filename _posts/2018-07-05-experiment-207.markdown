@@ -5,8 +5,6 @@ date:   2018-07-05 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 207
-
 Trying 1 sek samples at 16KHz
 
 Separation losses:

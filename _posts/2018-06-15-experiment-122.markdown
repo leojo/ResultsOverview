@@ -5,8 +5,6 @@ date:   2018-06-15 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 122
-
 Turns out that while experiment 103 had very good separation of the sample data there was severe overfitting (probably due to few data samples). Experiment 106 on the other hand had very good validation since that used clarinet data, which is the most abundant I have at the moment. Now I will do a sanity test of reproducing the results of 106
 
 Separation losses:

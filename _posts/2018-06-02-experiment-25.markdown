@@ -5,8 +5,6 @@ date:   2018-06-02 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 25
-
 Rerunning experiment 24 to check if everything is ok after repository reset.
 
 Everything had broken during recent changes now stored on a separate branch and this is the first experiment to be run on the new master branch.

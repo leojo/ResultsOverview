@@ -5,8 +5,6 @@ date:   2018-06-03 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 32
-
 Still only chello and latent dimension 100. Now with 10x kl multiplier.
 
 Separation losses (reconstructed):

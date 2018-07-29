@@ -5,8 +5,6 @@ date:   2018-06-03 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 43
-
 Rerunning experiment 33 with clarinet instead of flute, because flute causes nan (need to investigate why)
 
 Separation losses (reconstructed):

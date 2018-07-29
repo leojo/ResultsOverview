@@ -5,8 +5,6 @@ date:   2018-06-04 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 51
-
 Flute data with linalg normalization of batches, 100 latent dim, standard kl constants, 2 second audio at 8000 samples per second.
 
 Separation losses (reconstructed):

@@ -5,8 +5,6 @@ date:   2018-07-11 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 214
-
 Rerunning config that should yield good results with some debug printing for comparison with Andrea's project
 
 Separation losses:

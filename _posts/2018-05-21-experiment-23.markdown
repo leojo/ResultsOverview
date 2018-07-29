@@ -6,8 +6,6 @@ categories: result
 tags: bestof
 excerpt_separator: <!-- more -->
 ---
-Experiment 23
-
 First experiment successfully run on real instrument recording, cello.
 
 Latent dimension 5. KL loss multiplier 1e-5. Improper Validation set.

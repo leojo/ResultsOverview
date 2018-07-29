@@ -5,8 +5,6 @@ date:   2018-07-02 +0200
 categories: result
 excerpt_separator: <!-- more -->
 ---
-Experiment 166
-
 Rerunning exp 164 with the original hardcoded network structure to see if that fixes the oom error
 
 Separation losses:
