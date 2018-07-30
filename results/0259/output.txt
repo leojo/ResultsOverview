@@ -1,0 +1,91 @@
+Sender: LSF System <lsfadmin@lo-s4-035>
+Subject: Job 587524: <python main.py results/0259> in cluster <leonhard> Exited
+
+Job <python main.py results/0259> was submitted from host <lo-login-01> by user <leoj> in cluster <leonhard> at Mon Jul 30 14:04:58 2018
+Job was executed on host(s) <4*lo-s4-035>, in queue <gpu.24h>, as user <leoj> in cluster <leonhard> at Mon Jul 30 14:05:07 2018
+</cluster/home/leoj> was used as the home directory.
+</cluster/home/leoj/sandbox> was used as the working directory.
+Started at Mon Jul 30 14:05:07 2018
+Terminated at Mon Jul 30 14:16:03 2018
+Results reported at Mon Jul 30 14:16:03 2018
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python main.py results/0259
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   609.09 sec.
+    Max Memory :                                 49364 MB
+    Average Memory :                             19314.50 MB
+    Total Requested Memory :                     128000.00 MB
+    Delta Memory :                               78636.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                27
+    Run time :                                   681 sec.
+    Turnaround time :                            665 sec.
+
+The output (if any) follows:
+
+WARNING:tensorflow:From /cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+WARNING:tensorflow:From /cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/python/util/deprecation.py:497: calling conv1d (from tensorflow.python.ops.nn_ops) with data_format=NHWC is deprecated and will be removed in a future version.
+Instructions for updating:
+`NHWC` for data_format is deprecated, use `NWC` instead
+2018-07-30 14:14:15.208723: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-07-30 14:14:15.581276: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1344] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:0c:00.0
+totalMemory: 10.92GiB freeMemory: 10.76GiB
+2018-07-30 14:14:15.581324: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0
+2018-07-30 14:14:16.641528: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-07-30 14:14:16.641578: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 
+2018-07-30 14:14:16.641588: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N 
+2018-07-30 14:14:16.641992: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10417 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0c:00.0, compute capability: 6.1)
+  0%|          | 0/600 [00:00<?, ?it/s]Loss: 0.0128, L2-loss: 0.0128, KL: 0.0213, Learning rate: 0.001:   0%|          | 0/600 [00:34<?, ?it/s]Loss: 0.0128, L2-loss: 0.0128, KL: 0.0213, Learning rate: 0.001:   0%|          | 1/600 [00:34<5:44:17, 34.49s/it]Loss: 0.0125, L2-loss: 0.0124, KL: 0.5676, Learning rate: 0.001:   0%|          | 1/600 [01:05<10:52:00, 65.31s/it]Loss: 0.0125, L2-loss: 0.0124, KL: 0.5676, Learning rate: 0.001:   0%|          | 2/600 [01:05<5:25:27, 32.66s/it] Loss: 0.0115, L2-loss: 0.0112, KL: 2.8078, Learning rate: 0.001:   0%|          | 2/600 [01:35<7:58:07, 47.97s/it]Loss: 0.0115, L2-loss: 0.0112, KL: 2.8078, Learning rate: 0.001:   0%|          | 3/600 [01:35<5:18:13, 31.98s/it]2018-07-30 14:16:02.512748: E tensorflow/core/kernels/check_numerics_op.cc:185] abnormal_detected_host @0x2b6821205600 = {1, 0} vae/shared_encoder/conv-01/biases/read:0
+Traceback (most recent call last):
+  File "main.py", line 21, in <module>
+    x, x_org, nan = vae.train()
+  File "/cluster/home/leoj/sandbox/vae.py", line 257, in train
+    loss, recon_loss, kl_loss, loss_labels = self.update(x, kl_loss_mult, learning_rate, keep_prob)
+  File "/cluster/home/leoj/sandbox/vae.py", line 222, in update
+    self._learning_rate: learning_rate, self.keep_prob: keep_prob})
+  File "/cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 905, in run
+    run_metadata_ptr)
+  File "/cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1140, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1321, in _do_run
+    run_metadata)
+  File "/cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1340, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: vae/shared_encoder/conv-01/biases/read:0 : Tensor had NaN values
+	 [[Node: vae/CheckNumerics_23 = CheckNumerics[T=DT_FLOAT, message="vae/shared_encoder/conv-01/biases/read:0", _device="/job:localhost/replica:0/task:0/device:GPU:0"](vae/shared_encoder/conv-01/biases/read, ^vae/CheckNumerics_20)]]
+
+Caused by op u'vae/CheckNumerics_23', defined at:
+  File "main.py", line 9, in <module>
+    vae = VAE(latent_dim=config.latent_dim, batch_size=config.batch_size, config=config)
+  File "/cluster/home/leoj/sandbox/vae.py", line 23, in __init__
+    self._build_graph()
+  File "/cluster/home/leoj/sandbox/vae.py", line 138, in _build_graph
+    self.check = tf.add_check_numerics_ops()
+  File "/cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/python/ops/numerics.py", line 99, in add_check_numerics_ops
+    check_op = [array_ops.check_numerics(output, message=message)]
+  File "/cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/python/ops/gen_array_ops.py", line 734, in check_numerics
+    "CheckNumerics", tensor=tensor, message=message, name=name)
+  File "/cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/python/framework/ops.py", line 3290, in create_op
+    op_def=op_def)
+  File "/cluster/home/leoj/.virtualenvs/mp/lib/python2.7/site-packages/tensorflow/python/framework/ops.py", line 1654, in __init__
+    self._traceback = self._graph._extract_stack()  # pylint: disable=protected-access
+
+InvalidArgumentError (see above for traceback): vae/shared_encoder/conv-01/biases/read:0 : Tensor had NaN values
+	 [[Node: vae/CheckNumerics_23 = CheckNumerics[T=DT_FLOAT, message="vae/shared_encoder/conv-01/biases/read:0", _device="/job:localhost/replica:0/task:0/device:GPU:0"](vae/shared_encoder/conv-01/biases/read, ^vae/CheckNumerics_20)]]
+

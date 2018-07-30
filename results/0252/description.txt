@@ -1,0 +1,2 @@
+Experiment 252
+Testing wider receptive field on c.a. 3000 training samples, speech vs music separation, latent dim 500 (almost identical config to exp 230 except for latent dim, but network structure is different now)
