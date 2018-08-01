@@ -1,0 +1,2 @@
+Experiment 261
+Testing wider receptive field on c.a. 3000 training samples, speech vs music separation, latent dim 1600 and input_s 16000 (i.e. 2 secs at 8KHz), learning rate 1e-4
